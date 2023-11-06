@@ -1,0 +1,18 @@
+:root {
+  font-size: 1.5vw;
+  --clr-standard: rgb(35,75,146);
+	--clr-light: rgb(69,154,216);
+  --clr-dark: rgb(14, 41, 99);
+  --clr-white: hsl(0, 0%, 100%);
+	--clr-black: hsl(0, 0%, 0%);
+}
+
+.header-nav-icon{
+  background-color: var(--clr-standard);
+  border: 1px solid white;
+}
+
+.header-nav-icon-selected{
+  background-color: var(--clr-light);
+  border: 1px solid white;
+}
