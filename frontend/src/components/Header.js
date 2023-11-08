@@ -59,7 +59,7 @@ const Header = () => {
             <div className="flex-column w-100" style={{ height: '35%', color: 'white' }}>
                 <div className="d-flex justify-content-around w-100 align-items-center" style={{ height: '26%', fontSize: '2rem' }}>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon" style={{ height: '100%', width: '100%' }}>
-                        <span>ABOUT OUR HOTEL</span>
+                        <span>FLIGHT FLIGHT FLIGHT</span>
                     </span>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon-selected" style={{ height: '100%', width: '100%' }}>
                         <span>TIME TIME TIME</span>

@@ -1,18 +1,68 @@
 :root {
   font-size: 1.5vw;
-  --clr-standard: rgb(35,75,146);
-	--clr-light: rgb(69,154,216);
+  --clr-standard: rgb(35, 75, 146);
+  --clr-light: rgb(69, 154, 216);
   --clr-dark: rgb(14, 41, 99);
   --clr-white: hsl(0, 0%, 100%);
-	--clr-black: hsl(0, 0%, 0%);
+  --clr-black: hsl(0, 0%, 0%);
 }
 
-.header-nav-icon{
+#root {
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header-nav-icon {
   background-color: var(--clr-standard);
   border: 1px solid white;
 }
 
-.header-nav-icon-selected{
+.header-nav-icon-selected {
   background-color: var(--clr-light);
   border: 1px solid white;
+}
+
+.main-content {
+  flex: 1;
+.video-player video {
+    width: 100%; /* Adjust as necessary */
+    display: block;
+}
+}
+
+footer {
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 32vw;
+    overflow: hidden;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 2s ease-in-out;
+    /* Apply an opacity transition */
+    opacity: 0;
+    /* By default, all slides are transparent */
+    pointer-events: none;
+    /* Ensure transparent slides don't receive clicks */
+  }
+
+  .slide.active {
+    opacity: 1;
+    /* The active slide is opaque */
+    pointer-events: all;
+    /* The active slide can receive clicks */
+  }
 }
