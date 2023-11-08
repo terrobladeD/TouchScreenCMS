@@ -44,7 +44,7 @@ const MainContent = () => {
         const playNextVideo = () => {
             setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videoSources.length);
         };
-        
+
         const videoElement = videoRef.current;
         if (!videoElement) return;
 
@@ -78,8 +78,11 @@ const MainContent = () => {
 
     return (
         <div className="main-content" >
+            <div className="header-nav-icon-selected align-items-center justify-content-center" style={{ overflow: 'hidden',height: '5.5vw',fontSize:'2rem',color:'white' }}>
+            NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS
+            </div>
             {/* Image Carousel */}
-            <div className="carousel" style={{ overflow: 'hidden', position: 'relative', height: '17vw' }}>
+            <div className="carousel" style={{ height: '17vw',overflow:'hidden' }}>
                 {imageSources.map((img, index) => (
                     <img key={index} style={getSlideStyles(index)}
                         src={`${process.env.PUBLIC_URL}/images/main/${img}`}
@@ -89,10 +92,9 @@ const MainContent = () => {
             </div>
 
             {/* Video Player */}
-            <div className="video-player">
+            <div className="video-player" >
                 <video
                     ref={videoRef}
-                    controls // Add controls so users can play/pause, adjust volume, etc.
                 >
                     <source
                         src={`${process.env.PUBLIC_URL}/videos/${videoSources[currentVideoIndex]}`}

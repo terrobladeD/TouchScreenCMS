@@ -19,20 +19,23 @@
 
 .header-nav-icon {
   background-color: var(--clr-standard);
-  border: 1px solid white;
+  border: 0.07rem solid white;
 }
 
 .header-nav-icon-selected {
   background-color: var(--clr-light);
-  border: 1px solid white;
+  border: 0.07rem solid white;
 }
 
 .main-content {
   flex: 1;
-.video-player video {
-    width: 100%; /* Adjust as necessary */
+  background-color: var(--clr-standard);
+
+  .video-player video {
+    width: 100%;
+    /* Adjust as necessary */
     display: block;
-}
+  }
 }
 
 footer {

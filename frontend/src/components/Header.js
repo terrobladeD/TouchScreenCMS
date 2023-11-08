@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Header = () => {
 
+    const [dateTime, setDateTime] = useState('');
     const [services, setServices] = useState([
         { name: 'SERVICES', icon: 'services_icon.png' },
         { name: 'MAPS', icon: 'maps_icon.png' },
@@ -48,6 +49,34 @@ const Header = () => {
         setSelectedService(null);
     }
 
+    useEffect(() => {
+        const updateDateTime = () => {
+            const now = new Date();
+            let hours = now.getHours();
+            const amPm = hours >= 12 ? 'PM' : 'AM';
+            // Convert 24h hour to 12h format
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            // Formatting the date as dd-MM-yyyy
+            const date = now.getDate().toString().padStart(2, '0');
+            // Array of month names
+            const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            // Get the month name from the array using the month number as an index
+            const month = monthNames[now.getMonth()];
+            const year = now.getFullYear();
+            const formattedDateTime = `${hours}:${minutes} ${amPm} | ${date}-${month}-${year}`;
+            setDateTime(formattedDateTime);
+        };
+
+        // Update the date and time now, and then every 5 seconds
+        updateDateTime();
+        const intervalId = setInterval(updateDateTime, 5000);
+
+        // Clean up the interval on unmount
+        return () => clearInterval(intervalId);
+    }, []);
+
     return (
         <header style={{ height: '66.7vw' }}>
             <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/touch_and_explore_banner.jpg)`, backgroundSize: 'cover', height: '21%' }}>
@@ -62,7 +91,7 @@ const Header = () => {
                         <span>FLIGHT FLIGHT FLIGHT</span>
                     </span>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon-selected" style={{ height: '100%', width: '100%' }}>
-                        <span>TIME TIME TIME</span>
+                        <span>{dateTime}</span>
                     </span>
                 </div>
                 <div className="d-flex justify-content-around w-100 align-items-center header-nav-icon" style={{ height: '74%' }}>
