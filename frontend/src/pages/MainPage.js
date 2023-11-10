@@ -5,7 +5,7 @@ import Footer from '../components/Footer.js';
 
 const MainPage = () => {
     return (
-        <div>
+        <div style={{height:'100%',display:'flex',flexDirection:'column'}}>
             <Header />
             <MainContent />
             <Footer />

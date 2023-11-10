@@ -1,25 +1,25 @@
 import React from 'react';
 import './App.css'; // Make sure to include your global styles as well
-import { Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import MainPage from './pages/MainPage.js'
-import NewsPage from './pages/NewsPage.js'
+import { AppProvider } from './context/AppContext';
+import MainPage from './pages/MainPage.js';
+import NewsPage from './pages/NewsPage.js';
+import FlightsPage from './pages/FlightsPage.js';
 
 function App() {
   return (
-    <main>
-    <Router>
+    <AppProvider>
+      <Router>
 
-      <Container>
         <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/news" element={<NewsPage />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/flights" element={<FlightsPage />} />
         </Routes>
-      </Container>
 
-    </Router>
-  </main>
+      </Router>
+    </AppProvider>
   );
 }
 

@@ -79,14 +79,12 @@ const Header = () => {
     }, []);
 
     return (
-        <header style={{ height: '66.7vw' }}>
-            <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/touch_and_explore_banner.jpg)`, backgroundSize: 'cover', height: '21%' }}>
-            </div>
+        <header style={{ height: '52.7vw' }}>
 
-            <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/hotel_logo.png)`, backgroundSize: 'cover', height: '44%' }}
+            <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/hotel_logo.png)`, backgroundSize: 'cover', height: '55.7%' }}
                 onClick={() => handleServiceReset()}>
             </div>
-            <div className="flex-column w-100" style={{ height: '35%', color: 'white' }}>
+            <div className="flex-column w-100" style={{ height: '44.3%', color: 'white' }}>
                 <div className="d-flex justify-content-around w-100 align-items-center" style={{ height: '26%', fontSize: '2rem' }}>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon" style={{ height: '100%', width: '100%' }}>
                         <span>FLIGHT FLIGHT FLIGHT</span>

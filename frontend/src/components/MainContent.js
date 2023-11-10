@@ -31,7 +31,7 @@ const MainContent = () => {
     useEffect(() => {
         const imageTimer = setTimeout(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageSources.length);
-        }, 3000); // Change image every 5 seconds
+        }, 5000); // Change image every 5 seconds
 
         return () => clearTimeout(imageTimer);
     }, [currentImageIndex, imageSources.length]);
