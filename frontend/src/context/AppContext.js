@@ -23,6 +23,25 @@ export const AppProvider = ({ children }) => {
     };
 
     useEffect(() => {
+        const updateData = () => {
+            const now = new Date();
+            if (flightsData !== null){
+                const updatedData = flightsData.filter(flight => {
+                    const departureTime = new Date(flight.departure.estimated);
+                    const arrivalTime = new Date(flight.arrival.estimated);
+                    return departureTime > now && arrivalTime > now && flight.flight.iata !== null;
+                }).sort((a, b) => new Date(a.departure.estimated) - new Date(b.departure.estimated));
+    
+                setFlightsData(updatedData);
+            }
+        };
+        updateData();
+        const interval = setInterval(updateData, 300000);
+        return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    useEffect(() => {
 
         // Helper function to fetch data
         const fetchData = async (url, setter, type) => {
@@ -50,7 +69,7 @@ export const AppProvider = ({ children }) => {
     }, [lastUpdated,]); // Empty dependency array to run only once after mount
 
     return (
-        <AppContext.Provider value={{ flightsData, newsData, weatherData, hasHeader, setHasHeader, selectedService, setSelectedService}}>
+        <AppContext.Provider value={{ flightsData, newsData, weatherData, hasHeader, setHasHeader, selectedService, setSelectedService }}>
             {children}
         </AppContext.Provider>
     );

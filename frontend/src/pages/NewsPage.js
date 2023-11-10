@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import {Row, Col} from 'react-bootstrap';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
@@ -13,16 +14,15 @@ const NewsPage = () => {
             <Header />
             <div className='main-content' style={{ overflow: 'scroll' }}>
                 {newsData ? newsData.map((newsItem, index) => (
-                    <div key={index} style={{ display: 'flex', width: '100%', height: '25vw', borderBottom: '0.1rem solid white', padding: '1rem', color: 'white' }}>
-                        <div style={{ flex: 14 }}>
+                    <Row key={index} style={{width: '100%', height: '25vw', borderBottom: '0.1rem solid white', padding: '1rem', color: 'white' }}>
+                        <Col md={7}>
                             <h2 style={{ margin: '0 0 2rem 0' }}>{newsItem.header}</h2>
                             <p style={{ margin: '0' }}>{newsItem.text}</p>
-                        </div>
-                        <div style={{ flex: 1 }} > &nbsp;</div>
-                        <div style={{ flex: 10 }}>
+                        </Col>
+                        <Col md={5}>
                             <img src={newsItem.img} alt="News" style={{ width: '100%',maxHeight:'100%', objectFit: 'contain' }} />
-                        </div>
-                    </div>
+                        </Col>
+                    </Row>
                 )) : <p>Loading news...</p>}
             </div>
             <Footer />
