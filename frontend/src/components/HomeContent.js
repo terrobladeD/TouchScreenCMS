@@ -1,6 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useContext } from 'react';
+import AppContext from '../context/AppContext.js';
+import { useNavigate } from 'react-router-dom';
 
-const MainContent = () => {
+const HomeContent = () => {
     const imageSources = [
         "btn1.jpg",
         "btn2.jpg",
@@ -19,13 +21,15 @@ const MainContent = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+    const [currentNewsDisplay, setCurrentNewsDisplay] = useState("");
+    const { newsData } = useContext(AppContext);
     const liWidth = document.body.clientWidth;
+    const navigate = useNavigate();
 
     const videoRef = useRef(null);
-
-
-
-
+    useEffect(() => {
+        console.log(newsData)
+    }, [newsData])
 
     // Handle the image carousel
     useEffect(() => {
@@ -63,6 +67,19 @@ const MainContent = () => {
         };
     }, [currentVideoIndex, videoSources.length]);
 
+    useEffect(() => {
+        if (newsData && newsData.length) {
+            let currentIndex = 0;
+            const updateDisplay = () => {
+                setCurrentNewsDisplay(newsData[currentIndex].header);
+                currentIndex = (currentIndex + 1) % newsData.length;
+            }
+            updateDisplay();
+            const intervalId = setInterval(updateDisplay, 6000);
+            return () => clearInterval(intervalId);
+        }
+
+    }, [newsData])
 
 
     const getSlideStyles = (index) => ({
@@ -78,11 +95,11 @@ const MainContent = () => {
 
     return (
         <div className="main-content" >
-            <div className="header-nav-icon-selected align-items-center justify-content-center" style={{ overflow: 'hidden',height: '5.5vw',fontSize:'2rem',color:'white' }}>
-            NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS NEWS
+            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '5.5vw', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={()=>{navigate("/news")}}>
+            &nbsp;&nbsp;NEWS: {currentNewsDisplay}
             </div>
             {/* Image Carousel */}
-            <div className="carousel" style={{ height: '17vw',overflow:'hidden' }}>
+            <div className="carousel" style={{ height: '17vw', overflow: 'hidden' }}>
                 {imageSources.map((img, index) => (
                     <img key={index} style={getSlideStyles(index)}
                         src={`${process.env.PUBLIC_URL}/images/main/${img}`}
@@ -107,4 +124,4 @@ const MainContent = () => {
     );
 };
 
-export default MainContent;
+export default HomeContent;

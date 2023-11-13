@@ -33,7 +33,7 @@ const FlightsPage = () => {
     return (
         <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
             <Header />
-            <div className='main-content' style={{ overflow: 'scroll' }}>
+            <div className='main-content-light ' style={{ overflow: 'scroll' }}>
                 {flightsData ? flightsData.map((flight, index) => (
                     <Row key={index} style={{ width: '100%', fontSize: '1.5rem', borderBottom: '0.1rem solid white', padding: '1rem', color: 'white' }}>
                         <Col>

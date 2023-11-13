@@ -27,6 +27,26 @@
   border: 0.07rem solid white;
 }
 
+.flip-animation {
+  animation: flip 0.5s;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateX(0deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotateX(360deg);
+    opacity: 1;
+  }
+}
+.main-content-light{
+  flex: 1;
+  background-color: var(--clr-light);
+}
+
 .main-content {
   flex: 1;
   background-color: var(--clr-standard);

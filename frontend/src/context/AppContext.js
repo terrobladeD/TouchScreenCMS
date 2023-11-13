@@ -22,51 +22,78 @@ export const AppProvider = ({ children }) => {
         return now.getDate() !== last.getDate();
     };
 
+    // Fetch Flights Data
     useEffect(() => {
-        const updateData = () => {
-            const now = new Date();
-            if (flightsData !== null){
-                const updatedData = flightsData.filter(flight => {
-                    const departureTime = new Date(flight.departure.estimated);
-                    const arrivalTime = new Date(flight.arrival.estimated);
-                    return departureTime > now && arrivalTime > now && flight.flight.iata !== null;
-                }).sort((a, b) => new Date(a.departure.estimated) - new Date(b.departure.estimated));
+
+        // Fetch Flights Data
+        const fetchFlightsData = async () => {
+            // helper function to sort flights data
+            const updateData = (flightsDataRaw) => {
+                const now = new Date();
+                if (flightsDataRaw !== null){
+                    const updatedData = flightsDataRaw.filter(flight => {
+                        const departureTime = new Date(flight.departure.estimated);
+                        const arrivalTime = new Date(flight.arrival.estimated);
+                        return departureTime > now && arrivalTime > now && flight.flight.iata !== null;
+                    }).sort((a, b) => new Date(a.departure.estimated) - new Date(b.departure.estimated));
     
-                setFlightsData(updatedData);
-            }
-        };
-        updateData();
-        const interval = setInterval(updateData, 300000);
-        return () => clearInterval(interval);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
-
-    useEffect(() => {
-
-        // Helper function to fetch data
-        const fetchData = async (url, setter, type) => {
+                    setFlightsData(updatedData);
+                }
+            };
             try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error('Network response was not ok');
-                const data = await response.json();
-                setter(data);
-                setLastUpdated(prev => ({ ...prev, [type]: new Date() }));
+                const response = await fetch('http://127.0.0.1:5000/flights');
+                if (!response.ok) throw new Error('Network response was not ok for flights');
+                const flightsData = await response.json();
+                updateData(flightsData);
+                setLastUpdated(prev => ({ ...prev, flights: new Date() }));
+                // Add any specific handling for flights data here
             } catch (error) {
-                console.error('Fetch error:', error);
-                setTimeout(() => fetchData(url, setter, type), 60000); // Retry after 1 minute
+                console.error('Fetch error for flights:', error);
+                setTimeout(fetchFlightsData, 60000); // Retry after 1 minute
             }
         };
+
+        // Fetch News Data
+        const fetchNewsData = async () => {
+            try {
+                const response = await fetch('http://127.0.0.1:5000/news');
+                if (!response.ok) throw new Error('Network response was not ok for news');
+                const newsData = await response.json();
+                setNewsData(newsData);
+                setLastUpdated(prev => ({ ...prev, news: new Date() }));
+                // Add any specific handling for news data here
+            } catch (error) {
+                console.error('Fetch error for news:', error);
+                setTimeout(fetchNewsData, 60000); // Retry after 1 minute
+            }
+        };
+
+        // Fetch Weather Data
+        const fetchWeatherData = async () => {
+            try {
+                const response = await fetch('http://127.0.0.1:5000/weather');
+                if (!response.ok) throw new Error('Network response was not ok for weather');
+                const weatherData = await response.json();
+                setWeatherData(weatherData);
+                setLastUpdated(prev => ({ ...prev, weather: new Date() }));
+                // Add any specific handling for weather data here
+            } catch (error) {
+                console.error('Fetch error for weather:', error);
+                setTimeout(fetchWeatherData, 60000); // Retry after 1 minute
+            }
+        };
+
 
         if (needsUpdate(lastUpdated.flights)) {
-            fetchData('http://127.0.0.1:5000/flights', setFlightsData, 'flights');
+            fetchFlightsData();
         }
         if (needsUpdate(lastUpdated.news)) {
-            fetchData('http://127.0.0.1:5000/news', setNewsData, 'news');
+            fetchNewsData();
         }
         if (needsUpdate(lastUpdated.weather)) {
-            fetchData('http://127.0.0.1:5000/weather', setWeatherData, 'weather');
+            fetchWeatherData();
         }
-    }, [lastUpdated,]); // Empty dependency array to run only once after mount
+    }, [lastUpdated]);
 
     return (
         <AppContext.Provider value={{ flightsData, newsData, weatherData, hasHeader, setHasHeader, selectedService, setSelectedService }}>
