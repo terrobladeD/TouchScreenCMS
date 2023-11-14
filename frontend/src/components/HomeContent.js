@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
 import AppContext from '../context/AppContext.js';
-import { useNavigate } from 'react-router-dom';
 
 const HomeContent = () => {
     const imageSources = [
@@ -22,9 +21,8 @@ const HomeContent = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
     const [currentNewsDisplay, setCurrentNewsDisplay] = useState("");
-    const { newsData } = useContext(AppContext);
+    const { newsData, setSelectedService } = useContext(AppContext);
     const liWidth = document.body.clientWidth;
-    const navigate = useNavigate();
 
     const videoRef = useRef(null);
 
@@ -92,7 +90,7 @@ const HomeContent = () => {
 
     return (
         <div className="main-content" >
-            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '5.5vw', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={()=>{navigate("/news")}}>
+            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '5.5vw', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={()=>{setSelectedService("News")}}>
             &nbsp;&nbsp;NEWS: {currentNewsDisplay}
             </div>
             {/* Image Carousel */}

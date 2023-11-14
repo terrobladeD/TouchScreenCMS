@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
 import AppContext from '../context/AppContext.js';
 
 const Header = () => {
@@ -7,18 +6,17 @@ const Header = () => {
     const [dateTime, setDateTime] = useState('');
     const [weather, setWeather] = useState([]);
     const [services, setServices] = useState([
-        { name: 'SERVICES', icon: 'services_icon.png', page: '01000000' },
-        { name: 'MAPS', icon: 'maps_icon.png', page: '02000000' },
-        { name: 'ACTIVITIES', icon: 'activities_icon.png', page: '03000000' },
-        { name: 'DESTINATIONS', icon: 'destionations_icon.png', page: '04000000' },
-        { name: 'EVENTS', icon: 'events_icon.png', page: '05000000' },
-        { name: 'EATING OUT', icon: 'eating_out_icon.png', page: '06000000' },
-        { name: 'OUR HOTEL', icon: 'accomodation_icon.png', page: '07000000' }
+        { name: 'SERVICES', icon: 'services_icon.png', globalId: '01000000' },
+        { name: 'MAPS', icon: 'maps_icon.png', globalId: '02000000' },
+        { name: 'ACTIVITIES', icon: 'activities_icon.png', globalId: '03000000' },
+        { name: 'DESTINATIONS', icon: 'destionations_icon.png', globalId: '04000000' },
+        { name: 'EVENTS', icon: 'events_icon.png', globalId: '05000000' },
+        { name: 'EATING OUT', icon: 'eating_out_icon.png', globalId: '06000000' },
+        { name: 'OUR HOTEL', icon: 'accomodation_icon.png', globalId: '07000000' }
     ]);
     const [currentTimeDisplay, setCurrentTimeDisplay] = useState('dateTime');
     const [currentFlightDisplay, setCurrentFlightDisplay] = useState("");
     const { selectedService, setSelectedService, weatherData, flightsData } = useContext(AppContext);
-    const navigate = useNavigate();
 
     useEffect(() => {
         if (weatherData && weatherData.length) {
@@ -54,24 +52,21 @@ const Header = () => {
             setServices([...secondHalf, ...firstHalf]);
         }
         // If it's already in the middle, do nothing
-        // then do the navigation
-        navigate(`/page/${service.page}`)
     };
 
     const handleServiceReset = () => {
         setServices(
             [
-                { name: 'SERVICES', icon: 'services_icon.png', page: '01000000' },
-                { name: 'MAPS', icon: 'maps_icon.png', page: '02000000' },
-                { name: 'ACTIVITIES', icon: 'activities_icon.png', page: '03000000' },
-                { name: 'DESTINATIONS', icon: 'destionations_icon.png', page: '04000000' },
-                { name: 'EVENTS', icon: 'events_icon.png', page: '05000000' },
-                { name: 'EATING OUT', icon: 'eating_out_icon.png', page: '06000000' },
-                { name: 'OUR HOTEL', icon: 'accomodation_icon.png', page: '07000000' }
+                { name: 'SERVICES', icon: 'services_icon.png', globalId: '01000000' },
+                { name: 'MAPS', icon: 'maps_icon.png', globalId: '02000000' },
+                { name: 'ACTIVITIES', icon: 'activities_icon.png', globalId: '03000000' },
+                { name: 'DESTINATIONS', icon: 'destionations_icon.png', globalId: '04000000' },
+                { name: 'EVENTS', icon: 'events_icon.png', globalId: '05000000' },
+                { name: 'EATING OUT', icon: 'eating_out_icon.png', globalId: '06000000' },
+                { name: 'OUR HOTEL', icon: 'accomodation_icon.png', globalId: '07000000' }
             ]
         );
         setSelectedService(null);
-        navigate("/");
     }
 
     useEffect(() => {
@@ -160,7 +155,7 @@ const Header = () => {
             <div className="flex-column w-100" style={{ height: '23.3vw', color: 'white' }}>
                 <div className="d-flex justify-content-around w-100 align-items-center" style={{ height: '26%', fontSize: '2rem' }}>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon" style={{ height: '100%', width: '100%' }}
-                        onClick={() => { navigate("/flights"); setSelectedService(null) }}>
+                        onClick={() => {setSelectedService("Flights") }}>
                         {flightsData && flightsData.length !== 0 &&
                             <span key={currentFlightDisplay} className="flip-animation">
                                 {currentFlightDisplay}
