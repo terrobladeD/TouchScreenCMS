@@ -7,6 +7,7 @@
                 "global_id": "01010000",
                 "name": "essential services",
                 "image_url": "",
+                "icon_url":"",
                 "attributes": [
                     {
                         "global_id": "01010100",
@@ -71,12 +72,14 @@
                 "global_id": "01020000",
                 "name": "car hire & transport",
                 "image_url": "",
+                "icon_url":"",
                 "attributes": []
             },
             {
                 "global_id": "01030000",
                 "name": "mining & resources",
                 "image_url": "",
+                "icon_url":"",
                 "attributes": []
             }
         ]
@@ -89,6 +92,26 @@
     {
         "global_id": "03000000",
         "name": "activities",
+        "attributes":[]
+    },
+    {
+        "global_id": "04000000",
+        "name": "destinations",
+        "attributes":[]
+    },
+    {
+        "global_id": "05000000",
+        "name": "events",
+        "attributes":[]
+    },
+    {
+        "global_id": "06000000",
+        "name": "eating out",
+        "attributes":[]
+    },
+    {
+        "global_id": "07000000",
+        "name": "our hotel",
         "attributes":[]
     }
 ]

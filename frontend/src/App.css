@@ -58,6 +58,33 @@
   }
 }
 
+.left-sidebar{
+  width: 14.28%;
+  height: 100%;
+  background-color: var(--clr-light);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .sidebar-caption{
+    text-transform: uppercase;
+    color: var(--clr-white);
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    text-align: start;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin: 0 auto;
+  }
+}
+
+.right-sidebar{
+  width: 85.71%;
+  background-color: var(--clr-standard);
+}
+
+
 footer {
   .carousel {
     position: relative;

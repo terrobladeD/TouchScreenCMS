@@ -40,27 +40,46 @@ const HomeContent = () => {
 
     // Effect to handle the video 'ended' event
     useEffect(() => {
-        const playNextVideo = () => {
-            setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videoSources.length);
-        };
-
         const videoElement = videoRef.current;
-        if (!videoElement) return;
-
-        // Play the current video
-        videoElement.play();
-
-        // Event listener for when the video ends
-        const handleVideoEnd = () => playNextVideo();
-
-        // Attach the event listener
-        videoElement.addEventListener('ended', handleVideoEnd);
-
-        // Clean up
+    
+        let isCancelled = false; // A flag to track the mounting status of the component
+    
+        if (videoElement) {
+            // Attempt to play the video and catch any errors that may occur
+            const playPromise = videoElement.play();
+    
+            // Ensure playPromise is a Promise object (some browsers may not return a Promise)
+            if (playPromise instanceof Promise) {
+                playPromise.then(() => {
+                    // Video playback was successful
+                    if (isCancelled) {
+                        videoElement.pause(); // Pause immediately if the component has unmounted
+                    }
+                }).catch(error => {
+                    if (!isCancelled) {
+                        console.error('Error attempting to play video:', error);
+                    }
+                });
+            }
+        }
+    
+        const handleVideoEnd = () => {
+            if (!isCancelled) {
+                setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videoSources.length);
+            }
+        };
+    
+        // Add event listener
+        videoElement?.addEventListener('ended', handleVideoEnd);
+    
+        // Cleanup function
         return () => {
-            videoElement.removeEventListener('ended', handleVideoEnd);
+            isCancelled = true; // Set the cancellation flag
+            videoElement?.removeEventListener('ended', handleVideoEnd);
+            videoElement?.pause(); // Pause the video
         };
     }, [currentVideoIndex, videoSources.length]);
+    
 
     useEffect(() => {
         if (newsData && newsData.length) {
@@ -90,8 +109,8 @@ const HomeContent = () => {
 
     return (
         <div className="main-content" >
-            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '5.5vw', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={()=>{setSelectedService("News")}}>
-            &nbsp;&nbsp;NEWS: {currentNewsDisplay}
+            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '5.5vw', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={() => { setSelectedService("News") }}>
+                &nbsp;&nbsp;NEWS: {currentNewsDisplay}
             </div>
             {/* Image Carousel */}
             <div className="carousel" style={{ height: '17vw', overflow: 'hidden' }}>

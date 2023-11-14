@@ -31,9 +31,6 @@ const Header = () => {
         }
     }, [weatherData]);
 
-    useEffect(()=>{console.log("rendered")},[])
-
-
     const handleServiceClick = service => {
         setSelectedService(service.name);
 
