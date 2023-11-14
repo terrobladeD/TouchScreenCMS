@@ -27,9 +27,6 @@ const HomeContent = () => {
     const navigate = useNavigate();
 
     const videoRef = useRef(null);
-    useEffect(() => {
-        console.log(newsData)
-    }, [newsData])
 
     // Handle the image carousel
     useEffect(() => {

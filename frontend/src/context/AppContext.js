@@ -1,9 +1,7 @@
 import React, { createContext, useState, useEffect } from 'react';
-
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-    const [hasHeader, setHasHeader] = useState(true);
     const [selectedService, setSelectedService] = useState(null);
     const [flightsData, setFlightsData] = useState(null);
     const [newsData, setNewsData] = useState(null);
@@ -13,6 +11,20 @@ export const AppProvider = ({ children }) => {
         news: null,
         weather: null,
     });
+    const [generalData, setGeneralData] = useState(null);
+
+    useEffect(() => {
+        fetch(`${process.env.PUBLIC_URL}/datas/general.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                setGeneralData(data);
+            })
+    }, []);
 
     // Helper function to check if we need to update the data
     const needsUpdate = (lastUpdate) => {
@@ -30,13 +42,13 @@ export const AppProvider = ({ children }) => {
             // helper function to sort flights data
             const updateData = (flightsDataRaw) => {
                 const now = new Date();
-                if (flightsDataRaw !== null){
+                if (flightsDataRaw !== null) {
                     const updatedData = flightsDataRaw.filter(flight => {
                         const departureTime = new Date(flight.departure.estimated);
                         const arrivalTime = new Date(flight.arrival.estimated);
                         return departureTime > now && arrivalTime > now && flight.flight.iata !== null;
                     }).sort((a, b) => new Date(a.departure.estimated) - new Date(b.departure.estimated));
-    
+
                     setFlightsData(updatedData);
                 }
             };
@@ -96,7 +108,7 @@ export const AppProvider = ({ children }) => {
     }, [lastUpdated]);
 
     return (
-        <AppContext.Provider value={{ flightsData, newsData, weatherData, hasHeader, setHasHeader, selectedService, setSelectedService }}>
+        <AppContext.Provider value={{ generalData, flightsData, newsData, weatherData, selectedService, setSelectedService }}>
             {children}
         </AppContext.Provider>
     );

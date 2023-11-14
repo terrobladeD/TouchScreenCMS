@@ -6,6 +6,7 @@ import { AppProvider } from './context/AppContext';
 import MainPage from './pages/MainPage.js';
 import NewsPage from './pages/NewsPage.js';
 import FlightsPage from './pages/FlightsPage.js';
+import ContentPage from './pages/ContentPage.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/page/:globalId" element={<ContentPage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/flights" element={<FlightsPage />} />
         </Routes>
