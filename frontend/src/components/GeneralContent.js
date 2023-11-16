@@ -1,8 +1,7 @@
-// import React, { useState, useEffect, useRef, useContext } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import AppContext from '../context/AppContext.js';
 import ContentDetail from '../components/ContentDetail.js';
 import ContentIndex from '../components/ContentIndex.js';
-import { useContext, useEffect, useState } from 'react';
 
 const nameIdMap = [{ name: 'SERVICES', icon: 'services_icon.png', globalId: '01000000' },
 { name: 'MAPS', icon: 'maps_icon.png', globalId: '02000000' },
@@ -29,13 +28,15 @@ const GeneralContent = () => {
 
     return (
 
-        <div className="main-content">
+        <div className="main-content" style={{display:'flex'}}>
 
             {generalData && globalId && <div className='left-sidebar'>
                 <p className='sidebar-caption'>{leftSideBar}</p>
             </div>}
             <div className='right-sidebar'>
-                {globalId.substring(6, 8) === "00" ? <ContentDetail /> : <ContentIndex />}
+                {globalId.substring(6, 8) !== "00" ? 
+                <ContentDetail globalId={globalId} setGlobalId={setGlobalId}/> : 
+                <ContentIndex globalId={globalId} setGlobalId={setGlobalId}/>}
             </div>
 
         </div>

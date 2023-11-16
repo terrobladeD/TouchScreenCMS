@@ -3,8 +3,10 @@
   --clr-standard: rgb(35, 75, 146);
   --clr-light: rgb(69, 154, 216);
   --clr-dark: rgb(14, 41, 99);
-  --clr-white: hsl(0, 0%, 100%);
-  --clr-black: hsl(0, 0%, 0%);
+  --clr-standard-light: rgb(30, 119, 182);
+  --clr-dark-background: rgb(14, 41, 99,0.75);
+  --clr-white: rgb(255, 255, 255);
+  --clr-black: rgb(18, 18, 18);
 }
 
 #root {
@@ -14,7 +16,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
 }
 
 .header-nav-icon {
@@ -42,7 +44,8 @@
     opacity: 1;
   }
 }
-.main-content-light{
+
+.main-content-light {
   flex: 1;
   background-color: var(--clr-light);
 }
@@ -50,6 +53,7 @@
 .main-content {
   flex: 1;
   background-color: var(--clr-standard);
+  overflow: hidden;
 
   .video-player video {
     width: 100%;
@@ -58,16 +62,16 @@
   }
 }
 
-.left-sidebar{
+.left-sidebar {
   width: 14.28%;
   height: 100%;
-  background-color: var(--clr-light);
+  background-color: var(--clr-standard-light);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  .sidebar-caption{
+  .sidebar-caption {
     text-transform: uppercase;
     color: var(--clr-white);
     font-size: 3rem;
@@ -79,13 +83,87 @@
   }
 }
 
-.right-sidebar{
+.right-sidebar {
   width: 85.71%;
-  background-color: var(--clr-standard);
+  background-color: var(--clr-light);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .upper-caption {
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    height: 7rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .content-list{
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 1rem;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: var(--clr-light)
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: var(--clr-standard-light)
+    }
+  
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+
+  .index-caption {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--clr-dark-background);
+    padding: 1.5rem 0 1.5rem 0;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    color: var(--clr-white);
+
+  }
+
+  .sidebar-view {
+    width: 100%;
+    height: 13.8vw;
+    gap: 10vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--clr-white);
+  }
+
+  .sidebar-caption-large {
+    color: var(--clr-white);
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .sidebar-caption-small {
+    font-size: 1.2rem;
+    color: var(--clr-white);
+  }
+
+
 }
 
 
 footer {
+  height: 32vw;
   .carousel {
     position: relative;
     width: 100%;

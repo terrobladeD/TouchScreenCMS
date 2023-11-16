@@ -1,8 +1,9 @@
 
-const ContentDetail = () => {
+const ContentDetail = (globalId) => {
 
     return (
         <div>
+        
         contentdetail
         </div>
     )
