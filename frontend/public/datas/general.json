@@ -22,7 +22,7 @@
                                 "name": "bank of south pacific",
                                 "description": "Customer Service Centre 24/7",
                                 "brand_url": "01010101_0.jpg",
-                                "image_urls": [],
+                                "image_urls": ["placeholder1.jpg","placeholder2.jpg","placeholder3.jpg","placeholder4.jpg","placeholder5.jpg"],
                                 "map_urls": [
                                     {
                                         "name": null,

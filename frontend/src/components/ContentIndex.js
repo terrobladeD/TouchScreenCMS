@@ -8,9 +8,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
     const [displayHeanName, setDisplayHeadName] = useState(""); // the name shown onn top
     const { generalData } = useContext(AppContext);
 
-
     useEffect(() => {
-        console.log(generalData);
         // the first index
         if (globalId.substring(2, 8) === '000000') {
             const tempData = generalData.find(data => data.global_id === globalId.substring(0, 2) + '000000');
@@ -18,14 +16,14 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
             setDisplayType(tempData.attributes_inner);
             setDisplayHeadName(tempData.name);
         } else if (globalId.substring(4, 8) === '0000') {
-            const generalData1 = generalData.find(data => data.global_id === globalId.substring(0, 2) + '000000')
-            const tempData = generalData1.attributes.find(data => data.global_id === globalId.substring(0, 4) + '0000')
+            const generalData1 = generalData.find(data => data.global_id === globalId.substring(0, 2) + '000000');
+            const tempData = generalData1.attributes.find(data => data.global_id === globalId.substring(0, 4) + '0000');
             setDisplayList(tempData.attributes);
             setDisplayType(tempData.attributes_inner);
             setDisplayHeadName(tempData.name);
         } else if (globalId.substring(6, 8) === '00') {
             const generalData2 = generalData.find(data => data.global_id === globalId.substring(0, 2) + '000000').attributes.find(data => data.global_id === globalId.substring(0, 4) + '0000');
-            const tempData = generalData2.attributes.find(data => data.global_id === globalId.substring(0, 6) + '00')
+            const tempData = generalData2.attributes.find(data => data.global_id === globalId.substring(0, 6) + '00');
             setDisplayList(tempData.attributes);
             setDisplayType(tempData.attributes_inner);
             setDisplayHeadName(tempData.name);

@@ -23,7 +23,7 @@ const Header = () => {
             const formattedWeatherData = weatherData.map(item => {
                 const date = new Date(item.date);
                 const formattedDate = `${date.getDate()}-${date.toLocaleString('default', { month: 'short' })}`;
-                const weatherCondition = item.condition.text;
+                const weatherCondition = item.condition.text.split(' ').slice(0, 2).join(' ');
                 const tempRange = `${item.mintemp_c}\u2103 - ${item.maxtemp_c}\u2103`;
                 return `${formattedDate} ${weatherCondition} ${tempRange}`;
             });
