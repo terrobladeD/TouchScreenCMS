@@ -25,12 +25,16 @@
                                 "image_urls": ["placeholder1.jpg","placeholder2.jpg","placeholder3.jpg","placeholder4.jpg","placeholder5.jpg"],
                                 "map_urls": [
                                     {
-                                        "name": null,
-                                        "url": ""
+                                        "name": "place holder name",
+                                        "url": "mapholder.png"
+                                    },
+                                    {
+                                        "name": "",
+                                        "url": "mapholder.png"
                                     }
                                 ],
-                                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.",
-                                "right_descrption": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD",
+                                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.\n\n\n\n\n\n\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
+                                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
                                 "custom_actions": ""
                             },
                             {
@@ -46,7 +50,7 @@
                                     }
                                 ],
                                 "left_description": "Spanning 28 markets across the Asia Pacific, ANZ provides a range of banking solutions. Talk to ANZ about your banking needs today.",
-                                "right_descrption": "CALL TODAY: 675 321 1079\nWEB: www.anz.com/papuanewguinea/en/personal\nEMAIL: cshdpg@anz.com\nANZ Papua New Guinea\nPO Box 1152, Port Moreseby\nHarbour City, Poreporena Freeway",
+                                "right_description": "CALL TODAY: 675 321 1079\nWEB: www.anz.com/papuanewguinea/en/personal\nEMAIL: cshdpg@anz.com\nANZ Papua New Guinea\nPO Box 1152, Port Moreseby\nHarbour City, Poreporena Freeway",
                                 "custom_actions": ""
                             },
                             {
@@ -62,7 +66,7 @@
                                     }
                                 ],
                                 "left_description": "left place holder",
-                                "right_descrption": "right place holder",
+                                "right_description": "right place holder",
                                 "custom_actions": ""
                             },
                             {
