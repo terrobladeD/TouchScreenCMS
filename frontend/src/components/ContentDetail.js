@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import AppContext from '../context/AppContext.js';
 import { Carousel } from 'react-bootstrap';
 
-const ContentDetail = ({ globalId, setGlobalId }) => {
+const ContentDetail = ({ globalId}) => {
     const [content, setContent] = useState(null);
     const { generalData } = useContext(AppContext);
 
@@ -67,16 +67,6 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
         e.target.style.transform = 'none';
     };
 
-    const handleGlobalId = (action)=>{
-        if (action==="previous"){
-            setGlobalId("01010101");
-        }else if (action==="next"){
-            setGlobalId("01010102");
-        }
-        
-
-    }
-
     return (
         <>
             {content && (
@@ -96,36 +86,40 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
                                 ))}
                             </Carousel> :
                             <img
-                                className="d-block w-100"
+                                className="d-block w-100 single-image"
                                 src={`${process.env.PUBLIC_URL}/images/general/${content.image_urls[0]}`}
                                 alt={`${content.name}`}
                             />
                         }
                     </div>
-
-
                     <div className='content-title'>
-                        <div className='d-flex align-items-center' onClick={()=>{handleGlobalId("previous")}}>
-                            <div className="arrow arrow-left"></div>
-                            <div className="arrow arrow-left-cover"></div>
-                        </div>
-                        {content.name}
-                        <div className='d-flex align-items-center' onClick={()=>{handleGlobalId("next")}}>
-                            <div className="arrow arrow-right-cover"></div>
-                            <div className="arrow arrow-right"></div>
-                        </div>
+                        {content.brand_url && <span style={{height:0}}>
+                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', maxHeight: '15vw', borderRadius: '1rem',transform: "translateY(-7.5rem)",border:"0.5rem solid white" }} />
+                            
+                        </span>
+                            }
+                        <span style={{paddingLeft:"5vw"}}>{content.name}</span>
                     </div>
                     <div className='d-flex justify-content-between' style={{ overflowY: "scroll", height: '100%' }}>
                         <div className='content-content' style={{ borderRight: '1px solid' }}>
-                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={`${content.name}`} style={{ width: '70%', padding: '0 1rem 1rem 1rem' }} />
-                            <br />
-                            <span>{content.left_description}</span>
+                            <span>{content.left_description + "\n"}</span>
                         </div>
                         <div className='content-content'>
-                            <span> {content.right_description}</span>
+                            <span> {content.right_description + "\n"}</span>
                             {content.map_urls.length > 0 && content.map_urls.map((map, index) => (
                                 <button className='btn-map' onClick={() => handleMapClick(map.name ? map.name : content.name + " map", map.url)} key={index}> {map.name ? map.name : "See Map"}</button>
                             ))}
+                            {content.QR && <div>
+                                <br />
+                                <p>{content.QR.name}</p>
+                                <img
+                                    className="d-block w-50 "
+                                    src={`${process.env.PUBLIC_URL}/images/general/${content.QR.url}`}
+                                    alt={content.QR.name}
+                                    style={{ objectFit: 'cover' }}
+                                />
+                                <br />
+                            </div>}
                         </div>
                     </div>
                     {showMap && (
