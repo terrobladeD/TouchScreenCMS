@@ -161,12 +161,14 @@
     color: var(--clr-white);
   }
 
-  .content-image{
+  .content-image {
     width: 100%;
     height: 39.2vw;
   }
 
-  .carousel, .carousel-inner, .carousel-item{
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
     width: 100%;
     height: 100%;
   }
@@ -207,28 +209,30 @@
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 1.5rem solid transparent;
-    border-bottom: 1.5rem solid transparent;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
   }
 
-  .arrow-left{
-    border-right: 4rem solid var(--clr-dark); 
-  }
-  .arrow-left-cover{
-    border-right: 4rem solid var(--clr-light); 
-    transform: translateX(-3rem);
+  .arrow-left {
+    border-right: 3rem solid var(--clr-dark);
   }
 
-  .arrow-right{
-    border-left: 4rem solid var(--clr-dark); 
-    
-  }
-  .arrow-right-cover{
-    border-left: 4rem solid var(--clr-light); 
-    transform: translateX(3rem);
+  .arrow-left-cover {
+    border-right: 3rem solid var(--clr-light);
+    transform: translateX(-2rem);
   }
 
-  .content-content{
+  .arrow-right {
+    border-left: 3rem solid var(--clr-dark);
+
+  }
+
+  .arrow-right-cover {
+    border-left: 3rem solid var(--clr-light);
+    transform: translateX(2rem);
+  }
+
+  .content-content {
     width: 50%;
     padding: 2rem 1rem;
     color: var(--clr-white);
@@ -236,7 +240,7 @@
     flex-grow: 1;
   }
 
-  .btn-map{
+  .btn-map {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     font-size: 40px;
     color: var(--clr-white);
@@ -245,9 +249,37 @@
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
-    margin: 2rem 1rem 0 0;
+    margin: 1rem 1rem 0 0;
     padding: 1rem;
     width: 100%;
+  }
+
+  .map-header {
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-white);
+    font-size: 3rem;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 1.5rem 1.5rem;
+  }
+
+  /* .map-content {
+    width: 100vw;
+    height: 78.3vw;
+    max-height: 78.3vw;
+    overflow: 'hidden';
+  } */
+
+  .map-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
   }
 
 }

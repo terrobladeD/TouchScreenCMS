@@ -160,7 +160,7 @@ const Header = () => {
                     </span>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon-selected" style={{ height: '100%', width: '100%' }}>
                         {currentTimeDisplay === 'dateTime' && <span className="flip-animation">{dateTime}</span>}
-                        {typeof currentTimeDisplay === 'number' && <span className="flip-animation">{weather[currentTimeDisplay]}</span>}
+                        {typeof currentTimeDisplay === 'number' && <span className="flip-animation" style={{whiteSpace:"nowrap"}}>{weather[currentTimeDisplay]}</span>}
                     </span>
                 </div>
                 <div className="d-flex justify-content-around w-100 align-items-center header-nav-icon" style={{ height: '74%' }}>

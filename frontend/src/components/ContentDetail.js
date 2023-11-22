@@ -2,11 +2,12 @@ import React, { useState, useEffect, useContext } from 'react';
 import AppContext from '../context/AppContext.js';
 import { Carousel } from 'react-bootstrap';
 
-const ContentDetail = ({ globalId }) => {
+const ContentDetail = ({ globalId, setGlobalId }) => {
     const [content, setContent] = useState(null);
     const { generalData } = useContext(AppContext);
 
     const [showMap, setShowMap] = useState(false);
+    const [mapName, setMapName] = useState('');
     const [mapUrl, setMapUrl] = useState('');
 
     useEffect(() => {
@@ -28,8 +29,9 @@ const ContentDetail = ({ globalId }) => {
         }
     }, [globalId, generalData])
 
-    const handleMapClick = (url) => {
+    const handleMapClick = (name, url) => {
         setMapUrl(`${process.env.PUBLIC_URL}/images/general/${url}`);
+        setMapName(name)
         setShowMap(true);
     };
 
@@ -40,35 +42,40 @@ const ContentDetail = ({ globalId }) => {
     const handlePress = (e) => {
         let clientX, clientY;
         const imgElement = e.target;
-    
-        // 判断事件类型并获取坐标
-        if(e.type === 'mousedown') {
+
+        if (e.type === 'mousedown') {
             clientX = e.clientX;
             clientY = e.clientY;
-        } else if(e.type === 'touchstart') {
+        } else if (e.type === 'touchstart') {
             clientX = e.touches[0].clientX;
             clientY = e.touches[0].clientY;
         }
-    
-        // 获取图片的偏移量
+
         const rect = imgElement.getBoundingClientRect();
         const offsetX = clientX - rect.left;
         const offsetY = clientY - rect.top;
-    
-        // 计算transform-origin
+
         const originX = (offsetX / imgElement.clientWidth) * 100;
         const originY = (offsetY / imgElement.clientHeight) * 100;
-    
-        // 设置放大效果
-        imgElement.style.transform = 'scale(2.5)';
+
+        imgElement.style.transform = 'scale(3)';
         imgElement.style.transformOrigin = `${originX}% ${originY}%`;
     };
 
-    // 结束长按的处理函数
     const handlePressRelease = (e) => {
-        // 移除放大效果
+        // delete the zoom in process
         e.target.style.transform = 'none';
     };
+
+    const handleGlobalId = (action)=>{
+        if (action==="previous"){
+            setGlobalId("01010101");
+        }else if (action==="next"){
+            setGlobalId("01010102");
+        }
+        
+
+    }
 
     return (
         <>
@@ -98,12 +105,12 @@ const ContentDetail = ({ globalId }) => {
 
 
                     <div className='content-title'>
-                        <div className='d-flex align-items-center'>
+                        <div className='d-flex align-items-center' onClick={()=>{handleGlobalId("previous")}}>
                             <div className="arrow arrow-left"></div>
                             <div className="arrow arrow-left-cover"></div>
                         </div>
                         {content.name}
-                        <div className='d-flex align-items-center'>
+                        <div className='d-flex align-items-center' onClick={()=>{handleGlobalId("next")}}>
                             <div className="arrow arrow-right-cover"></div>
                             <div className="arrow arrow-right"></div>
                         </div>
@@ -116,8 +123,8 @@ const ContentDetail = ({ globalId }) => {
                         </div>
                         <div className='content-content'>
                             <span> {content.right_description}</span>
-                            {content.map_urls.length && content.map_urls.map((map, index) => (
-                                <button className='btn-map' onClick={() => handleMapClick(map.url)} key={index}> {map.name ? map.name : "See Map"}</button>
+                            {content.map_urls.length > 0 && content.map_urls.map((map, index) => (
+                                <button className='btn-map' onClick={() => handleMapClick(map.name ? map.name : content.name + " map", map.url)} key={index}> {map.name ? map.name : "See Map"}</button>
                             ))}
                         </div>
                     </div>
@@ -136,28 +143,37 @@ const ContentDetail = ({ globalId }) => {
                             }}
                             onClick={() => hideMap()}
                         >
-                            <div style={{
-                                overflow: 'hidden',
-                                width: '100vw',
-                                height: '100vw',
-                            }}>
-                                <img
-                                    src={mapUrl}
-                                    alt="Map"
-                                    style={{
-                                        width: '100vw',
-                                        height: '100vw',
-                                        maxHeight: '100vw',
-                                        margin: 'auto',
-                                        top: '0',
-                                        zIndex: 200,
-                                    }}
-                                    // onMouseDown={handlePress} // press to zoom in
-                                    // onMouseUp={handlePressRelease} // unpress to come back
-                                    onTouchStart={handlePress} // touchscreen press
-                                    onTouchEnd={handlePressRelease} // touchscreen back
-                                    onClick={(e) => e.stopPropagation()}
-                                />
+                            <div>
+                                <div className='map-header'>
+                                    <span>&nbsp;</span>
+                                    <span>{mapName}</span>
+                                    <span>X</span>
+                                </div>
+                                <div className='map-content' style={{
+                                    overflow: 'hidden',
+                                    width: '100vw',
+                                    height: '78.3vw',
+                                }}>
+                                    <img
+                                        src={mapUrl}
+                                        alt="Map"
+                                        style={{
+                                            width: '100vw',
+                                            height: '78.3vw',
+                                            maxHeight: '78.3vw',
+                                            margin: 'auto',
+                                            top: '0',
+                                            zIndex: 200,
+                                        }}
+                                        onTouchStart={handlePress} // touchscreen press
+                                        onTouchEnd={handlePressRelease} // touchscreen back
+                                        onClick={(e) => e.stopPropagation()}
+                                    />
+                                </div>
+                                <div className='map-footer'>
+                                    <span>Long Press the Map to Enlarge</span>
+                                    <span>Click Outside to Exit</span>
+                                </div>
                             </div>
 
                         </div>
