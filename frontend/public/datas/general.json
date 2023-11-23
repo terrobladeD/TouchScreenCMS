@@ -1,282 +1,316 @@
 [
-    {
-        "global_id": "01000000",
-        "name": "services",
+  {
+    "global_id": "01000000",
+    "name": "services",
+    "attributes_inner": "overlay",
+    "icon_url": "services_icon.png",
+    "attributes": [
+      {
+        "global_id": "01010000",
+        "name": "essential services",
+        "image_url": "01010000_1.jpg",
+        "icon_url": "menu_icon.png",
         "attributes_inner": "overlay",
         "attributes": [
-            {
-                "global_id": "01010000",
-                "name": "essential services",
-                "image_url": "01010000_1.jpg",
-                "icon_url": "",
-                "attributes_inner": "overlay",
-                "attributes": [
-                    {
-                        "global_id": "01010100",
-                        "name": "banks",
-                        "image_url": "placeholder.jpg",
-                        "attributes_inner": "sidebar",
-                        "attributes": [
-                            {
-                                "global_id": "01010101",
-                                "name": "bank of south pacific",
-                                "description": "Customer Service Centre 24/7",
-                                "brand_url": "01010101_0.jpg",
-                                "image_urls": [
-                                    "placeholder1.jpg",
-                                    "placeholder2.jpg",
-                                    "placeholder3.jpg",
-                                    "placeholder4.jpg",
-                                    "placeholder5.jpg"
-                                ],
-                                "map_urls": [
-                                    {
-                                        "name": "Customise Name Map",
-                                        "url": "mapholder.png"
-                                    },
-                                    {
-                                        "name": "",
-                                        "url": "mapholder.png"
-                                    }
-                                ],
-                                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.\n\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\n",
-                                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
-                                "QR": {
-                                    "name": "For more information:",
-                                    "url": "qr.jpg"
-                                },
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010102",
-                                "name": "ANZ bank",
-                                "description": "general enquires",
-                                "brand_url": "01010102_0.jpg",
-                                "image_urls": [
-                                    "placeholder1.jpg"
-                                ],
-                                "map_urls": [],
-                                "left_description": "Spanning 28 markets across the Asia Pacific, ANZ provides a range of banking solutions. Talk to ANZ about your banking needs today.",
-                                "right_description": "CALL TODAY: 675 321 1079\nWEB: www.anz.com/papuanewguinea/en/personal\nEMAIL: cshdpg@anz.com\nANZ Papua New Guinea\nPO Box 1152, Port Moreseby\nHarbour City, Poreporena Freeway",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010103",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_description": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010104",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010105",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010106",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010107",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010108",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010109",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010110",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            },
-                            {
-                                "global_id": "01010111",
-                                "name": "place holder bank",
-                                "description": "place holder bank",
-                                "brand_url": "placeholder.jpg",
-                                "image_urls": [],
-                                "map_urls": [
-                                    {
-                                        "name": null,
-                                        "url": ""
-                                    }
-                                ],
-                                "left_description": "left place holder",
-                                "right_descrption": "right place holder",
-                                "custom_actions": ""
-                            }
-                        ]
-                    },
-                    {
-                        "global_id": "01010200",
-                        "name": "embassies & high commisions",
-                        "image_url": "placeholder.jpg",
-                        "attributes": []
-                    },
-                    {
-                        "global_id": "01010300",
-                        "name": "medical services",
-                        "image_url": "placeholder.jpg",
-                        "attributes": []
-                    },
-                    {
-                        "global_id": "01010400",
-                        "name": "security",
-                        "image_url": "placeholder.jpg",
-                        "attributes": []
-                    }
-                ]
-            },
-            {
-                "global_id": "01020000",
-                "name": "car hire & transport",
-                "image_url": "01020000_1.jpg",
-                "icon_url": "",
-                "attributes": []
-            },
-            {
-                "global_id": "01030000",
-                "name": "mining & resources",
-                "image_url": "01030000_1.jpg",
-                "icon_url": "",
-                "attributes": []
-            },
-            {
-                "global_id": "01040000",
-                "name": "retail & services",
-                "image_url": "01040000_1.jpg",
-                "icon_url": "",
-                "attributes": []
-            }
+          {
+            "global_id": "01010100",
+            "name": "banks",
+            "image_url": "placeholder.jpg",
+            "icon_url": "menu_icon.png",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01010101",
+                "name": "bank of south pacific",
+                "description": "Customer Service Centre 24/7",
+                "brand_url": "01010101_0.jpg",
+                "image_urls": [
+                  "placeholder1.jpg",
+                  "placeholder2.jpg",
+                  "placeholder3.jpg",
+                  "placeholder4.jpg",
+                  "placeholder5.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "Customise Name Map",
+                    "url": "mapholder.png"
+                  },
+                  {
+                    "name": "",
+                    "url": "mapholder.png"
+                  }
+                ],
+                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.\n\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\n",
+                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
+                "QR": {
+                  "name": "For more information:",
+                  "url": "qr.jpg"
+                },
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010102",
+                "name": "ANZ bank",
+                "description": "general enquires",
+                "brand_url": "01010102_0.jpg",
+                "image_urls": [
+                  "placeholder1.jpg"
+                ],
+                "map_urls": [],
+                "left_description": "Spanning 28 markets across the Asia Pacific, ANZ provides a range of banking solutions. Talk to ANZ about your banking needs today.",
+                "right_description": "CALL TODAY: 675 321 1079\nWEB: www.anz.com/papuanewguinea/en/personal\nEMAIL: cshdpg@anz.com\nANZ Papua New Guinea\nPO Box 1152, Port Moreseby\nHarbour City, Poreporena Freeway",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010103",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_description": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010104",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010105",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010106",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010107",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010108",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010109",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010110",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010111",
+                "name": "place holder bank",
+                "description": "place holder bank",
+                "brand_url": "placeholder.jpg",
+                "image_urls": [],
+                "map_urls": [
+                  {
+                    "name": null,
+                    "url": ""
+                  }
+                ],
+                "left_description": "left place holder",
+                "right_descrption": "right place holder",
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01010200",
+            "name": "embassies & high commisions",
+            "image_url": "placeholder.jpg",
+            "icon_url": "menu_icon.png",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01010201",
+                "name": "China Embassy",
+                "brand_url": "01010101_0.jpg",
+                "image_urls": [
+                  "placeholder1.jpg",
+                  "placeholder2.jpg",
+                  "placeholder3.jpg",
+                  "placeholder4.jpg",
+                  "placeholder5.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "Customise Name Map",
+                    "url": "mapholder.png"
+                  },
+                  {
+                    "name": "",
+                    "url": "mapholder.png"
+                  }
+                ],
+                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.\n\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\n",
+                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
+                "QR": {
+                  "name": "For more information:",
+                  "url": "qr.jpg"
+                },
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01010300",
+            "name": "medical services",
+            "image_url": "placeholder.jpg",
+            "attributes": []
+          },
+          {
+            "global_id": "01010400",
+            "name": "security",
+            "image_url": "placeholder.jpg",
+            "attributes": []
+          }
         ]
-    },
-    {
-        "global_id": "02000000",
-        "name": "maps",
+      },
+      {
+        "global_id": "01020000",
+        "name": "car hire & transport",
+        "image_url": "01020000_1.jpg",
+        "icon_url": "",
         "attributes": []
-    },
-    {
-        "global_id": "03000000",
-        "name": "activities",
+      },
+      {
+        "global_id": "01030000",
+        "name": "mining & resources",
+        "image_url": "01030000_1.jpg",
+        "icon_url": "",
         "attributes": []
-    },
-    {
-        "global_id": "04000000",
-        "name": "destinations",
+      },
+      {
+        "global_id": "01040000",
+        "name": "retail & services",
+        "image_url": "01040000_1.jpg",
+        "icon_url": "",
         "attributes": []
-    },
-    {
-        "global_id": "05000000",
-        "name": "events",
-        "attributes": []
-    },
-    {
-        "global_id": "06000000",
-        "name": "eating out",
-        "attributes": []
-    },
-    {
-        "global_id": "07000000",
-        "name": "our hotel",
-        "attributes": []
-    }
+      }
+    ]
+  },
+  {
+    "global_id": "02000000",
+    "name": "maps",
+    "attributes": []
+  },
+  {
+    "global_id": "03000000",
+    "name": "activities",
+    "attributes": []
+  },
+  {
+    "global_id": "04000000",
+    "name": "destinations",
+    "attributes": []
+  },
+  {
+    "global_id": "05000000",
+    "name": "events",
+    "attributes": []
+  },
+  {
+    "global_id": "06000000",
+    "name": "eating out",
+    "attributes": []
+  },
+  {
+    "global_id": "07000000",
+    "name": "our hotel",
+    "attributes": []
+  }
 ]

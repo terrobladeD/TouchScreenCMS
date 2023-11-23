@@ -56,6 +56,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                     </div>
                 ))}
             </div>
+            <div className='content-wrapper'>&nbsp;</div>
 
 
         </>

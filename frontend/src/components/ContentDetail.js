@@ -94,13 +94,13 @@ const ContentDetail = ({ globalId}) => {
                     </div>
                     <div className='content-title'>
                         {content.brand_url && <span style={{height:0}}>
-                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', maxHeight: '15vw', borderRadius: '1rem',transform: "translateY(-7.5rem)",border:"0.5rem solid white" }} />
+                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', maxHeight: '15vw',transform: "translateY(-7.5rem)",border:"0.3rem solid white" }} />
                             
                         </span>
                             }
                         <span style={{paddingLeft:"5vw"}}>{content.name}</span>
                     </div>
-                    <div className='d-flex justify-content-between' style={{ overflowY: "scroll", height: '100%' }}>
+                    <div className='d-flex justify-content-between content-list'>
                         <div className='content-content' style={{ borderRight: '1px solid' }}>
                             <span>{content.left_description + "\n"}</span>
                         </div>
