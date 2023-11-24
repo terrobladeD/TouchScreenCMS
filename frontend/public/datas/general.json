@@ -9,7 +9,6 @@
         "global_id": "01010000",
         "name": "essential services",
         "image_url": "01010000_1.jpg",
-        "icon_url": "menu_icon.png",
         "attributes_inner": "overlay",
         "attributes": [
           {
@@ -25,28 +24,16 @@
                 "description": "Customer Service Centre 24/7",
                 "brand_url": "01010101_0.jpg",
                 "image_urls": [
-                  "placeholder1.jpg",
-                  "placeholder2.jpg",
-                  "placeholder3.jpg",
-                  "placeholder4.jpg",
-                  "placeholder5.jpg"
+                  "01010100_1.jpg"
                 ],
                 "map_urls": [
                   {
-                    "name": "Customise Name Map",
-                    "url": "mapholder.png"
-                  },
-                  {
                     "name": "",
-                    "url": "mapholder.png"
+                    "url": "01010101_m1.png"
                   }
                 ],
-                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.\n\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\n",
-                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
-                "QR": {
-                  "name": "For more information:",
-                  "url": "qr.jpg"
-                },
+                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\n\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\n\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.",
+                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD",
                 "custom_actions": ""
               },
               {
@@ -55,155 +42,34 @@
                 "description": "general enquires",
                 "brand_url": "01010102_0.jpg",
                 "image_urls": [
-                  "placeholder1.jpg"
+                  "01010100_1.jpg"
                 ],
-                "map_urls": [],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010102_m1.png"
+                  }
+                ],
                 "left_description": "Spanning 28 markets across the Asia Pacific, ANZ provides a range of banking solutions. Talk to ANZ about your banking needs today.",
                 "right_description": "CALL TODAY: 675 321 1079\nWEB: www.anz.com/papuanewguinea/en/personal\nEMAIL: cshdpg@anz.com\nANZ Papua New Guinea\nPO Box 1152, Port Moreseby\nHarbour City, Poreporena Freeway",
                 "custom_actions": ""
               },
               {
                 "global_id": "01010103",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
+                "name": "Westpac Bank",
+                "description": "general enquires & Telephone Banking",
+                "brand_url": "01010103_0.jpg",
+                "image_urls": [
+                  "01010100_1.jpg"
+                ],
                 "map_urls": [
                   {
-                    "name": null,
-                    "url": ""
+                    "name": "",
+                    "url": "01010103_m1.png"
                   }
                 ],
-                "left_description": "left place holder",
-                "right_description": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010104",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010105",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010106",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010107",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010108",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010109",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010110",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
-                "custom_actions": ""
-              },
-              {
-                "global_id": "01010111",
-                "name": "place holder bank",
-                "description": "place holder bank",
-                "brand_url": "placeholder.jpg",
-                "image_urls": [],
-                "map_urls": [
-                  {
-                    "name": null,
-                    "url": ""
-                  }
-                ],
-                "left_description": "left place holder",
-                "right_descrption": "right place holder",
+                "left_description": "Westpac Bank provides a range of banking solutions. Talk to Westpac Bank about your banking needs today.",
+                "right_description": "CALL TODAY: 675 322 0888\nWEB: https://www.westpac.com.pg\nPO Box 706 Port Moresby, NCD",
                 "custom_actions": ""
               }
             ]
@@ -212,36 +78,261 @@
             "global_id": "01010200",
             "name": "embassies & high commisions",
             "image_url": "placeholder.jpg",
-            "icon_url": "menu_icon.png",
             "attributes_inner": "sidebar",
             "attributes": [
               {
                 "global_id": "01010201",
-                "name": "China Embassy",
-                "brand_url": "01010101_0.jpg",
+                "name": "the embassy of the people's republic of china",
+                "brand_url": "01010201_0.png",
                 "image_urls": [
-                  "placeholder1.jpg",
-                  "placeholder2.jpg",
-                  "placeholder3.jpg",
-                  "placeholder4.jpg",
-                  "placeholder5.jpg"
+                  "01010200_1.jpg"
                 ],
                 "map_urls": [
                   {
-                    "name": "Customise Name Map",
-                    "url": "mapholder.png"
-                  },
-                  {
                     "name": "",
-                    "url": "mapholder.png"
+                    "url": "01010201_m1.png"
                   }
                 ],
-                "left_description": "BSP is the leading bank in Papua New Guinea and the Pacific region with branches also in Fiji, Solomon Islands, Samoa, Tonga, Cook Islands and Vanuatu.\nBSP PNG operates 42 full service branches, 13 Premium Service Centres, 42 sub branches, 239 Agencies, 301 ATM’s and over 9,700 EFTPOS terminals nationwide.\nBSP offers state-of-the-art mobile and internet banking services, providing access to business and personal banking anytime, anywhere – 24/7.\n\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\nCALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\nCALL TODAY: 675 320 1212\n",
-                "right_description": "CALL TODAY: 675 320 1212\nWEB: www.bsp.com.pg\nEMAIL: servicebsp@bsp.com.pg\nVarious Locations\nPO Box 78 Port Moresby NCD\n",
-                "QR": {
-                  "name": "For more information:",
-                  "url": "qr.jpg"
-                },
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 325 9827\nWEB: pg.china-embassy.org\nEMAIL: chineemb_pg@mfa.gov.cn\nSection 216, Lot 5 NCD \nSir John Guise Drive, Waigani\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010202",
+                "name": "French Embassy",
+                "brand_url": "01010202_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010202_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 321 5550\nWEB: www.ambafrance-pg.org\nEMAIL: cad.port-moresby-amba@diplomatie.gouv.fr\nDefens Haus - 6th Floor - Corner Champion Parade & Hunter Street",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010203",
+                "name": "Indonesian Embassy",
+                "brand_url": "01010203_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010203_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 325 3116\nWEB: www.kemlu.go.id/portmoresby\nEMAIL: kbripom@daltron.com.pg\nSir John Giuse Drive\nLot 1&2, Section 410, Kiroki Street\nGordons 5, NCD",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010204",
+                "name": "Japanese Embassy",
+                "brand_url": "01010204_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010204_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 321 1800\nWEB: www.png.emb-japan.go.jp\nEMAIL: sceoj@pm.mofa.go.jp; infeoj@pm.mofa.go.jp\n1st & 2nd Floor, Cuthbertson House, Cuthbertson St., Port Moresby, NCD, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010205",
+                "name": "United States Embassy",
+                "brand_url": "01010205_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010205_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 321 1455\nWEB: pg.usembassy.gov\nDouglas Street\nP. O. Box 1492\nPort Moresby\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010206",
+                "name": "Thai Honorary Consulate General",
+                "brand_url": "01010206_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010206_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 323 8330\nWEB: www.thaiconsulate.org.pg\nEMAIL: enquiries@thaiconsulate.org.pg\nSuites 1 & 2, IEPNG Haus\nSection 56, Allotment 10\nMabi Street, Gordon\nP. O. Box 1659\nPort Moresby\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010207",
+                "name": "Embassy of the Philippines",
+                "brand_url": "01010207_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010207_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 325 6577\nEMAIL: portmoresby.pe@dfa.gov.ph\nLot 1, Section 440\nIslander Village, Hohola\nP.O. Box 5916, Boroko\nPort Moresby\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010208",
+                "name": "South Korean Embassy",
+                "brand_url": "01010208_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010208_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 321 5822\nWEB: png.mofa.go.kr\nEMAIL: embpng@mofa.go.kr\nFourth Floor, Pacific MMI Building\nSection 21, Allotments 2 & 3, Champion Parade\nP.O. Box 381\nPort Moresby\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010209",
+                "name": "Australian High Commission",
+                "brand_url": "01010209_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010209_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 7090 0100 (24 Hours)\nWEB: www.png.embassy.gov.au\nEMAIL: consular.portmoresby@dfat.gov.au\nGodwit Road (Waigani)\nPort Moresby NCD\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010210",
+                "name": "British High Commission",
+                "brand_url": "01010210_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010210_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 303 7600\nWEB: ukinpng.fco.gov.uk\nEMAIL: uk.inpng@fco.gov.uk\nSec 411 Lot 1 & 2\nKiroki Street, Waigani\nPort Moresby",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010211",
+                "name": "Fijian High Commission",
+                "brand_url": "01010211_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010211_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 321 1914\nWEB: png.foreignaffairs.gov.fj\nEMAIL: rakaie@fijihighcom.org.pg\nDefence House, Champion Parade, Boroko, Port Moresby",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010212",
+                "name": "New Zealand High Commission",
+                "brand_url": "01010212_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010212_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 325 9444\nWEB: www.nzembassy.com/papua-new-guinea\nEMAIL: nzhcpmy@mfat.govt.nz\nMagani Crescent\nP. O. Box 1051\nWaigani, NCD\nPort Moresby\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010213",
+                "name": "Solomon Islands High Commission",
+                "brand_url": "01010213_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010213_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 323 4333\nEMAIL: sihicomm@daltron.com.pg\nUnit 1, GB House\nPoreporena Freeway\nP. O. Box 8922, Boroko\nPort Moresby\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010214",
+                "name": "High Commission of India",
+                "brand_url": "01010214_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010214_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 321 4291\nWEB: http://www.hcipom.in/\nEMAIL: hc.pmoresby@mea.gov.in\nLot 30, Sec 7, Lawes Road, Granville, NCD, Port Moresby",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010215",
+                "name": "Malaysian High Commission",
+                "brand_url": "01010215_0.png",
+                "image_urls": [
+                  "01010200_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010215_m1.png"
+                  }
+                ],
+                "left_description": "Call or visit your embassy if you experience any travel issues.",
+                "right_description": "CALL TODAY: 675 325 2076\nWEB: www.kln.gov.my/web/png_port-moresby/\nEMAIL: mwportmoresby@kln.gov.my\nLot 16, Section 531\nRosewood Executive Residence Savannah Heights\nP.O. Box 1400\nPort Moresby\nPapua New Guinea",
                 "custom_actions": ""
               }
             ]
@@ -250,13 +341,112 @@
             "global_id": "01010300",
             "name": "medical services",
             "image_url": "placeholder.jpg",
-            "attributes": []
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01010301",
+                "name": "Medevac Pacific",
+                "description": "Medivac Service",
+                "brand_url": "01010301_0.png",
+                "image_urls": [
+                  "01010300_1.jpg"
+                ],
+                "left_description": "Medevac Pacific Services offers first-rate medical evacuation and medical assistance. The organisation also offers aero-medical services throughout the PNG region.",
+                "right_description": "CALL TODAY: 675 323 5626\nWEB: www.medevac.com.pg\nEMAIL: operations@medevac.com.au\nP O Box 4997 Boroko, NCD.",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010302",
+                "name": "EMS Assist",
+                "description": "Medivac Service",
+                "brand_url": "01010302_0.png",
+                "image_urls": [
+                  "01010300_1.jpg"
+                ],
+                "left_description": "EMS Assist delivers specialised pre-hospital care in a mobile environment. It has 3 core focus areas in its medical care program are: Emergency care in the community, Emergency care during transportation, Emergency care on arrival at the health care facility.",
+                "right_description": "CALL TODAY: 675 1567\nWEB: www.emspng.com\nEMAIL: emspng@emspng.com\nCnr Lawes & Le Hunt St, Ela Beach Road",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010303",
+                "name": "PNG Chiropractic",
+                "brand_url": "01010303_0.png",
+                "image_urls": [
+                  "01010300_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010303_m1.png"
+                  }
+                ],
+                "left_description": "Located in Port Moresby, PNG Chiropractic is there to help with any chiropractic needs.",
+                "right_description": "CALL TODAY: 675 325 8466\nRuta Pl, Port Moresby, Papua New Guinea",
+                "custom_actions": ""
+              }
+            ]
           },
           {
             "global_id": "01010400",
             "name": "security",
             "image_url": "placeholder.jpg",
-            "attributes": []
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01010401",
+                "name": "The Corps Security",
+                "description": "Security Service",
+                "brand_url": "01010401_0.png",
+                "image_urls": [
+                  "01010400_1.jpg"
+                ],
+                "left_description": "Corps Security has been providing security solutions in PNG since 1996 to some of the most high profile entities in the country. Corps Security has successfully provided its services to a range of sectors including finance, construction, diplomatic, commercial, retail and industrial.",
+                "right_description": "CALL TODAY: 675 323 4473\nWEB: www.the-corps.com.pg\nEMAIL: coachofficemanager@gdsspng.com",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010402",
+                "name": "Guard Dog Security",
+                "description": "Security Service",
+                "brand_url": "01010402_0.png",
+                "image_urls": [
+                  "01010400_1.jpg"
+                ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010402_m1.png"
+                  }
+                ],
+                "left_description": "Guard Dog Security offers services including executive personal protection/body guard, V.I.P. executive car available, armed security personnel, air-conditioning, drop off to your home or hotel, guaranteed pick up no matter how late your flight is delayed, and tours by arrangement.",
+                "right_description": "CALL TODAY: 675 323 1811\nWEB: guarddogpng.com\nEMAIL: enquires@gdsspng.com\nPO Box 648 Port Moresby, NCD",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010403",
+                "name": "G4S Secure Solutions PNG",
+                "description": "Security Service",
+                "brand_url": "01010403_0.png",
+                "image_urls": [
+                  "01010400_1.jpg"
+                ],
+                "left_description": "G4S is an international security solutions organisation which offers a range of security services and systems.",
+                "right_description": "CALL TODAY: 675 305 8300\nWEB: www.g4s.com.pg\nEMAIL: ENQUIRIES@PG.G4S.COM",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01010404",
+                "name": "Black Swan Security",
+                "description": "Security Service",
+                "brand_url": "01010404_0.png",
+                "image_urls": [
+                  "01010400_1.jpg"
+                ],
+                "left_description": "Black Swan VIP Services transports travellers in and around PNG safely, in comfort, and on time. Download the app or call us directly to secure your transport or book in advance and your VIP car will be waiting for you when you arrive.",
+                "right_description": "CALL TODAY: 675 752 00200\nWEB: www.blackswanss.com\nEMAIL: bookings@blackswanss.com\nKanage Street, 6 Mile, Port Moresby",
+                "custom_actions": ""
+              }
+            ]
           }
         ]
       },
@@ -264,15 +454,452 @@
         "global_id": "01020000",
         "name": "car hire & transport",
         "image_url": "01020000_1.jpg",
-        "icon_url": "",
-        "attributes": []
+        "attributes_inner": "overlay",
+        "attributes": [
+          {
+            "global_id": "01020100",
+            "name": "Air Transport Services (Passenger)",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01020101",
+                "name": "Air Niugini",
+                "brand_url": "01020101_0.png",
+                "image_urls": [
+                  "01020100_1.jpg"
+                ],
+                "left_description": "Air Niugini offers daily services to Cairns and Brisbane, twice weekly services to Sydney and direct services to Singapore, Hong Kong, Manila, Cebu, Bali, Tokyo, Honiara and Fiji.",
+                "right_description": "CALL TODAY: 675 327 3444\nWEB: airniugini.com.pg\nEMAIL: telephonesales@airniugini.com.pg\nANG Haus 7 Mile PO BOX 7186 Boroko, NCD",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020102",
+                "name": "Airlines PNG",
+                "brand_url": "01020102_0.png",
+                "image_urls": [
+                  "01020100_1.jpg"
+                ],
+                "left_description": "Airlines PNG proudly connects people throughout PNG with its air service. Everything Airlines PNG does, is for your security and comfort.",
+                "right_description": "CALL TODAY: 675 7373 7100\nWEB: www.pngair.com.pg\nEMAIL: pngair@pngair.com.pg\nJacksons Airport, PO 170 Boroko, NCD",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020103",
+                "name": "Helifix",
+                "brand_url": "01020103_0.png",
+                "image_urls": [
+                  "01020100_1.jpg"
+                ],
+                "left_description": "Helifix is an aviation operator that provides helicopter and aircraft charters along with maintenance services throughout PNG.",
+                "right_description": "CALL TODAY: 675 323 3968\nWEB: www.helifix.com.pg\nEMAIL: info@helifix.com.pg",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020104",
+                "name": "HeliScope",
+                "brand_url": "01020104_0.png",
+                "image_urls": [
+                  "01020100_1.jpg"
+                ],
+                "left_description": "HeliScope is a reliable and safe helicopter charter operator which specialises in construction, gas and oil exploration, and aeromedical and passenger services.",
+                "right_description": "CALL TODAY: 675 323 0662\nWEB: heliscope.net\nEMAIL: info@heliscope.net\nHeliScope Terminal Portion 2437\nJacksons Parade\nPOM Airport",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020105",
+                "name": "Mission Aviation Fellowship",
+                "brand_url": "01020105_0.png",
+                "image_urls": [
+                  "01020100_1.jpg"
+                ],
+                "left_description": "The Mission Aviation Fellowship provides vital aeromedical and charter services for much of PNG's remote, rural regions.",
+                "right_description": "CALL TODAY: 675 545 1477\nWEB: https://maf.org.au/countries/png/\nEMAIL: MAF-PapuaNewGuinea@maf.org\nKagamuga Airport, Mt Hagen, WHP, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020106",
+                "name": "Tropicair",
+                "brand_url": "01020106_0.png",
+                "image_urls": [
+                  "01020100_1.jpg"
+                ],
+                "left_description": "Tropicair is a safe and reliable charter operator offering an efficient, affordable charter service with modern safe aircrafts for private and commercial use.",
+                "right_description": "CALL TODAY: 675 311 2673\nWEB: http://www.tropicair.com.pg\nEMAIL: info@tropicair.com.pg\nBoroko NCD Papua New Guinea",
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01020200",
+            "name": "Freight Services",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01020201",
+                "name": "DHL",
+                "brand_url": "01020201_0.png",
+                "image_urls": [
+                  "01020200_1.jpg"
+                ],
+                "left_description": "DHL offers domestic and international freight services as well as logistical and facilitation services for e-commerce businesses. Open Monday to Friday 8am-5pm, and Saturday 8am-12pm.",
+                "right_description": "CALL TODAY: 675 302 6555\nWEB: www.dhl.com\nKitty Hawk Street\nSix Mile, N.C.D\nPort Moresby",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020202",
+                "name": "GFS Limited",
+                "brand_url": "01020202_0.png",
+                "image_urls": [
+                  "01020200_1.jpg"
+                ],
+                "left_description": "GFS offers transport and logistics services to the gas and petroleum industry in PNG. Professional, efficient and expedient.",
+                "right_description": "CALL TODAY: 675 320 1040\nWEB: www.gfspng.com\nP.O Box 2091 Port Moresby\nKabua Cres\nPapua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020203",
+                "name": "IPI Group",
+                "brand_url": "01020203_0.png",
+                "image_urls": [
+                  "01020200_1.jpg"
+                ],
+                "left_description": "The iPi Group offers tailor-made logistics solutions for transport, warehousing and catering. With its many clients in mind, it provides services designed to meet the diverse needs of the PNG market.",
+                "right_description": "CALL TODAY: 675 475 1400\nWEB: www.ipigroup.com.pg\nEMAIL: IPIGROUP@ipigroup.com.pg\nPO Box 795, Lae, Morobe Province, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020204",
+                "name": "PNG Air Freight",
+                "brand_url": "01020204_0.png",
+                "image_urls": [
+                  "01020200_1.jpg"
+                ],
+                "left_description": "TNT Air Cargo offers PNG businesses express delivery services both domestically and internationally. It covers a comprehensive network of domestic routes across PNG.",
+                "right_description": "CALL TODAY: 675 325 2411\nWEB: www.tnt.kenmore.com.pg\nEMAIL: sales@pngaf.com.pg\nHead Office:\nPort Moresby Jackson’s Parade\nSaraga, PO Box 6645, Boroko",
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01020300",
+            "name": "Vehicle Hire",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01020301",
+                "name": "AVIS - Nationwide Rent-A-Car",
+                "brand_url": "01020301_0.png",
+                "image_urls": [
+                  "01020300_1.jpg"
+                ],
+                "left_description": "Avis makes travelling in PNG an easy and pleasurable experience. Offering the latest Toyota models, Avis offers great customer service and competitive rates. After hours emergency service also available.",
+                "right_description": "CALL TODAY: 675 324 9400\nWEB: www.avis.com.pg\nEMAIL: reservations@avis.com.pg\nHeadoffice: P.O Box 1533\nPort Moresby, 111 NCD, Papua New Guinea\nJacksons Parade 7 Mile, NCD",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020302",
+                "name": "Budget Rent A Car",
+                "brand_url": "01020302_0.png",
+                "image_urls": [
+                  "01020300_1.jpg"
+                ],
+                "left_description": "Regardless of whether you're in PNG for leisure or business, Budget has all your car rental needs covered. ‘New Cars ... Old Fashioned Service.’",
+                "right_description": "CALL TODAY: 675 323 6244\nWEB: www.budget.com.pg\nEMAIL: reservations@budget.com.pg\nLocations: Port Moresby, Lae, Goroka, Mt. Hagen and Tabubil",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020303",
+                "name": "Europcar",
+                "brand_url": "01020303_0.png",
+                "image_urls": [
+                  "01020300_1.jpg"
+                ],
+                "left_description": "Europcar offers affordable and reliable car rentals for visitors to PNG. Explore more of the incredible landscapes and culture of this fascinating nation with Europcar.",
+                "right_description": "CALL TODAY: 675 342 2273\nWEB: www.europcar.com.au/places/papua-new-guinea\nPort Moresby Jacksons Intl Airport, Arrival Hall, 7 Mile Jacksons Road, Port Moresby, Papua New Guinea.",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020304",
+                "name": "Hertz",
+                "description": "Port Moresby Airport",
+                "brand_url": "01020304_0.png",
+                "image_urls": [
+                  "01020300_1.jpg"
+                ],
+                "left_description": "Enjoy a day trip to the beautiful Variata National Park or a week-long getaway to explore more of this wonderful nation. Whatever your transport needs, Hertz car rentals has you covered.",
+                "right_description": "CALL TODAY: 675 7363 0995\nWEB: www.hertz.com.au/p/hire-a-car/papua-new-guinea\nSection 37, Lot 10, Jackson Rd",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01020305",
+                "name": "Travellers Rent-a-Car",
+                "brand_url": "01020305_0.png",
+                "image_urls": [
+                  "01020300_1.jpg"
+                ],
+                "left_description": "Travellers Rent-a-Car is a locally owned car rental company offering transport services to both leisure and executive travellers. Delivering the best rentals for PNG's road and climate conditions.",
+                "right_description": "CALL TODAY: 675 422 3412\nWEB: travellersrentacar.com\nEMAIL: travellersrentacar@reservations.com\nLocations: Madang, Lae & Port Moresby",
+                "custom_actions": ""
+              }
+            ]
+          }
+        ]
       },
       {
         "global_id": "01030000",
         "name": "mining & resources",
         "image_url": "01030000_1.jpg",
+        "attributes_inner": "overlay",
         "icon_url": "",
-        "attributes": []
+        "attributes": [
+          {
+            "global_id": "01030100",
+            "name": "Mining",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01030101",
+                "name": "Newcrest Mining",
+                "brand_url": "01030101_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Located within the New Ireland Province, Newcrest's Lihir operation has produced over 10 million ounces of gold since its inception back in 1997. It remains one of the most prolific gold mines in PNG today.",
+                "right_description": "CALL TODAY: 675 321 7711\nWEB: www.newcrest.com.au\nEMAIL: corporateaffairs@newcrest.com.au\nLevel 4, Port Tower Building, Hunter Street, Port Moresby, NCD, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030102",
+                "name": "St Barbara Ltd",
+                "description": "Simberi Operations",
+                "brand_url": "01030102_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Simberi Gold Company Limited is located in the New Ireland Province on an island within the Tabar Group. The mining operations currently centre around the eastern part of the island which extends 2,560 hectares in total.",
+                "right_description": "CALL TODAY: 675 276 2010\nWEB: www.stbarbara.com.au\nEMAIL: info@stbarbara.com.au\nSimberi Island, New Ireland Province, PNG, PO Box 624, Kavieng NIP PNG",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030103",
+                "name": "Porgera Joint Venture",
+                "brand_url": "01030103_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Located in the Enga Province, approximately 130 kilometres from the township of Mount Hagen, the Porgera Joint Venture is an operational gold mine 95% owned by Barrick (Niugini) Limited.",
+                "right_description": "CALL TODAY: 675 547 9500\nWEB: www.barrick.com\nPO box 484 Mt Hagen, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030104",
+                "name": "OK Tedi Mining Ltd",
+                "brand_url": "01030104_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Ok Tedi Mining Limited is one of the most proliferate copper, gold and silver mines in PNG. Located in the Star Mountains in the Western Province, the company ships ore from the township of Kiunga down the Fly River to the coast.",
+                "right_description": "CALL TODAY: 675 321 3522\nWEB: www.oktedi.com\nEMAIL: enquiry.tabubil@oktedi.com\nOk Tedi Mining Limited PO Box 1\n1 Dakon Road, Tabubil, Western Province, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030105",
+                "name": "Morobe Mining Joint Ventures",
+                "description": "Hidden Valley",
+                "brand_url": "01030105_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Morobe Mining Joint Ventures was established back in 2008 and operates in the Morobe Province.",
+                "right_description": "CALL TODAY: 675 478 5000\nWEB: www.morobejv.com\nEMAIL: mmj.media@morobejv.com\nPO Box 40165 Morobe Province, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030106",
+                "name": "MCC Ramu Nico Ltd (RAMU)",
+                "brand_url": "01030106_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Established back in 2005, Ramu NiCo Management oversees the Ramu Nickel Joint Venture which focuses on nickel mining in the Madang Province.",
+                "right_description": "CALL TODAY: 675 422 2888\nWEB: www.ramunico.com\nEMAIL: info@mccgrd.com\nPort Moresby Office: Level 3, Pacific Place, Port Moresby, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030107",
+                "name": "Kula Gold",
+                "description": "Woodlark Island Gold Project",
+                "brand_url": "01030107_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Woodlark Island Gold Project is a gold mine located on Woodlark Island located in the Milne Bay Province.",
+                "right_description": "CALL TODAY: 61 8 6144 0588\nWEB: www.kulagold.com.au\nEMAIL: info@kulagold.com.au\nWoodlark Island, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030108",
+                "name": "K92 Mining Inc.",
+                "brand_url": "01030108_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "K92 Mining is a gold mine operation located in the Eastern Highlands Province of PNG.",
+                "right_description": "CALL TODAY: 675 7100 2451\nWEB: www.k92mining.com\nEMAIL: site@k92mining.com\nPO Box 1290 Morobe Province, Papua new Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030109",
+                "name": "Crater Gold Mining",
+                "brand_url": "01030109_0.png",
+                "image_urls": [
+                  "01030100_1.jpg"
+                ],
+                "left_description": "Crater Gold Mining manages two gold mining projects in PNG, one at Fergusson Island and the other at Crater Mountain.",
+                "right_description": "CALL TODAY: 61 2 9241 4224\nWEB: www.cratergold.com.au\nEMAIL: info@cratergold.com.au\nCrater Mountain, East highlands, Papua New Guinea",
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01030200",
+            "name": "Official Departments",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01030201",
+                "name": "Papua New Guinea Chamber of Trade & Industry (PNGCTI)",
+                "brand_url": "01030201_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "The Papua New Guinea Chamber of Commerce and Industry Inc. (PNGCCI) is a government body that is committed to the development of trade and commerce in PNG.",
+                "right_description": "CALL TODAY: 675 321 3057\nWEB: www.pngcci.org.pg",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030202",
+                "name": "Department of Labour & Industrial Relations",
+                "brand_url": "01030202_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "Department of Labour and Industrial Relations is a PNG body that strives to create positive industrial relations and support work opportunities throughout the region.",
+                "right_description": "CALL TODAY: 675 321 2817\nWEB: www.facebook.com/pg/PngDepartmentOfLabourIndustrialRelation\nADDRESS: P.O Box 5644, Boroko, National Capital District, Port Moresby, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030203",
+                "name": "Department of Mineral Policy & Geohazards Management",
+                "brand_url": "01030203_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "The Department of Mineral Policy and Geohazards Management is a government body that oversees mining legislation and the management of geohazards.",
+                "right_description": "CALL TODAY: 675 322 7664\nPrivate Mail Bag of Port Moresby, NCD Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030204",
+                "name": "Mineral Resources Authority",
+                "brand_url": "01030204_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "The Mineral Resources Authority is a government body formed to assist and approve exploration applications for the benefit of PNG and business operators undertaking exploration.",
+                "right_description": "CALL TODAY: 675 321 3511\nWEB: www.mra.gov.pg\nEMAIL: info@mra.gov.pg\nADDRESS: PO Box 1906 Port Moresby, NCD Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030205",
+                "name": "Investment Promotion Authority",
+                "brand_url": "01030205_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "The Investment Promotion Authority is a government body that incentivises exploration in PNG. The organisation also oversees the Intellectual Property Office, Securities Commission and Companies Office.",
+                "right_description": "CALL TODAY: 675 321 7311\nWEB: www.ipa.gov.pg\nEMAIL: ispd@ipa.gov.pg/clarence@ipa.gov.pg\nADDRESS: First Floor, IPA Haus, Munidubu Street, Lawes Road, Konedobu",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030206",
+                "name": "PNG Chamber of Mines and Petroleum",
+                "brand_url": "01030206_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "The PNG Chamber of Mines and Petroleum is an official body overseeing the interests of those within the mining and petroleum sector.",
+                "right_description": "CALL TODAY: 675 321 2988\nWEB: www.pngchamberminpet.com.pg\nEMAIL: info@pngchamberminpet.com.pg\nADDRESS: The Lodge, First Floor, Brampton St, Port Moresby, Papua New Guinea",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030207",
+                "name": "Department of Petroleum and Energy",
+                "brand_url": "01030207_0.png",
+                "image_urls": [
+                  "01030200_1.jpg"
+                ],
+                "left_description": "The Department of Petroleum is a government body that provides current information about the petroleum and energy industries in PNG as well as conducts research and sets policies to manage activities.",
+                "right_description": "CALL TODAY: 675 322 4200\nWEB: www.petroleum.gov.pg\nADDRESS: Po Box 1993 Port Moresby, NCD Papua New Guinea",
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01030300",
+            "name": "Petroleum & Gas",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01030301",
+                "name": "Oil Search Ltd",
+                "brand_url": "01030301_0.png",
+                "image_urls": [
+                  "01030300_1.jpg"
+                ],
+                "left_description": "Oil Search was established back in 1929 and manages the operation of all of PNG’s established oil fields.",
+                "right_description": "CALL TODAY: 675 322 5599\nWEB: www.oilsearch.com\nADDRESS: PNG Registered Office, Oil Search (PNG) Limited, Ground Floor, Harbourside East Building, Stanley Esplanade, Port Moresby, Papua New Guinea, PO Box 842, Port Moresby, NCD 121",
+                "custom_actions": ""
+              },
+              {
+                "global_id": "01030302",
+                "name": "Esso Highlands Ltd (Subsidiary of ExxonMobil)",
+                "brand_url": "01030302_0.png",
+                "image_urls": [
+                  "01030300_1.jpg"
+                ],
+                "left_description": "ExxonMobile PNG manages the PNG LNG project which is developing a commercial industry for gas resources in the region.",
+                "right_description": "CALL TODAY: 675 309 711\nWEB: pnglng.com\nADDRESS: GPO Box 118 Port Moresby, NCD Papua New Guinea",
+                "custom_actions": ""
+              }
+            ]
+          },
+          {
+            "global_id": "01030400",
+            "name": "Agriculture",
+            "image_url": "placeholder.jpg",
+            "attributes_inner": "sidebar",
+            "attributes": [
+              {
+                "global_id": "01030401",
+                "name": "Ramu Agri Industries Ltd",
+                "brand_url": "01030401_0.png",
+                "image_urls": [
+                  "01030400_1.jpg"
+                ],
+                "left_description": "Ramu Sugar, PNG's only locally grown and manufactured sugar, is operated by Ramu Agri Industries Ltd (RAIL). The company also produces Ramu Premium Beef, Ramu Palm Oil and Ramu Ethanol.",
+                "right_description": "CALL TODAY: 675 4743299\nWEB: www.nbpol.com.pg\nEMAIL: rbeerwald@rai.com.pg\nADDRESS: Gusap Downs, PO Box 2183, Lae, 411, Papua New Guinea",
+                "custom_actions": ""
+              }
+            ]
+          }
+        ]
       },
       {
         "global_id": "01040000",

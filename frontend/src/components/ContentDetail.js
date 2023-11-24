@@ -100,13 +100,13 @@ const ContentDetail = ({ globalId}) => {
                             }
                         <span style={{paddingLeft:"5vw"}}>{content.name}</span>
                     </div>
-                    <div className='d-flex justify-content-between content-list'>
+                    <div className='content-list'>
                         <div className='content-content' style={{ borderRight: '1px solid' }}>
                             <span>{content.left_description + "\n"}</span>
                         </div>
                         <div className='content-content'>
                             <span> {content.right_description + "\n"}</span>
-                            {content.map_urls.length > 0 && content.map_urls.map((map, index) => (
+                            {content.map_urls && content.map_urls.length > 0 && content.map_urls.map((map, index) => (
                                 <button className='btn-map' onClick={() => handleMapClick(map.name ? map.name : content.name + " map", map.url)} key={index}> {map.name ? map.name : "See Map"}</button>
                             ))}
                             {content.QR && <div>
@@ -172,8 +172,11 @@ const ContentDetail = ({ globalId}) => {
 
                         </div>
                     )}
+                    <div className='content-wrapper'>&nbsp;</div>
                 </div>
+                
             )}
+            
         </>
     );
 };

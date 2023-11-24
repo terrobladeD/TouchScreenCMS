@@ -123,7 +123,6 @@
 
   .content-list {
     display: flex;
-    flex-direction: column;
     overflow-y: scroll;
     background-color: var(--clr-standard);
 
@@ -148,9 +147,7 @@
     flex-grow: 1;
     background: linear-gradient(var(--clr-standard), var(--clr-dark));
     box-shadow: inset 0 1rem 2rem rgba(0, 0, 0, 0.2),
-      /* 上部轻微阴影 */
       inset 0 -1rem 2rem rgba(0, 0, 0, 0.2);
-    /* 下部轻微阴影 */
   }
 
   .index-caption {
@@ -162,7 +159,7 @@
     text-align: center;
     text-transform: uppercase;
     background: var(--clr-dark-background);
-    padding: 1.5rem 0 1.5rem 0;
+    padding: 1rem 0 1rem 0;
     font-size: 2rem;
     letter-spacing: 0.3rem;
     color: var(--clr-white);
@@ -180,7 +177,7 @@
 
   .sidebar-caption-large {
     color: var(--clr-white);
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
   }
 
@@ -242,6 +239,7 @@
     padding: 1rem 1rem 1rem 1.5rem;
     color: var(--clr-white);
     white-space: pre-line;
+    overflow-wrap: break-word;
     flex-grow: 1;
   }
 
@@ -254,7 +252,7 @@
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
-    margin: 0 1rem 1rem 0;
+    margin: 1rem 1rem 0 0;
     padding: 0.5rem;
     width: 100%;
     border: 0.1rem solid var(--clr-white);

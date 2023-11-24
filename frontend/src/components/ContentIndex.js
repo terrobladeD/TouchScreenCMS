@@ -34,11 +34,11 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
     return (
         <>
             {globalId.substring(2, 8) !== '000000' && <div className='upper-caption'>{displayHeanName}</div>}
-            <div className='content-list'>
+            <div className='content-list' style={{flexDirection:'column'}}>
                 {displayList && displayType && displayType === "overlay" && displayList.map((item, index) => (
                     <div key={index} style={{ position: 'relative' }} onClick={() => { setGlobalId(item.global_id) }}>
                         {item.image_url &&
-                            <img style={{ width: '100%', height: '29vw' }} src={`${process.env.PUBLIC_URL}/images/general/${item.image_url}`} alt={item.name} />}
+                            <img style={{ width: '100%', height: '28vw' }} src={`${process.env.PUBLIC_URL}/images/general/${item.image_url}`} alt={item.name} />}
                         <p className='index-caption'>{item.name}</p>
                     </div>
                 ))}
@@ -56,7 +56,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                     </div>
                 ))}
             </div>
-            <div className='content-wrapper'>&nbsp;</div>
+            <div className='content-wrapper'></div>
 
 
         </>
