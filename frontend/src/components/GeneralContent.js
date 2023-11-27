@@ -37,8 +37,10 @@ const GeneralContent = () => {
                         const temp3Data = temp2Data.attributes.find(tab => tab.global_id === globalId.substring(0, 6) + "00");
                         navSideBarContent.push({ "name": temp3Data.name, "back_id": temp3Data.global_id });
                     }
+                } else if (globalId.substring(6, 8) !== '00') {
+                    const temp3Data = temp1Data.attributes.find(tab => tab.global_id === globalId.substring(0, 4) + "0000");
+                    navSideBarContent.push({ "name": temp3Data.name, "back_id": temp3Data.global_id });
                 }
-
                 setNavSideBar(navSideBarContent);
             } else {
                 setNavSideBar([])

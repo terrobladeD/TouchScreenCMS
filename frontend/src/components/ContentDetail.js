@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import AppContext from '../context/AppContext.js';
 import { Carousel } from 'react-bootstrap';
 
-const ContentDetail = ({ globalId}) => {
+const ContentDetail = ({ globalId }) => {
     const [content, setContent] = useState(null);
     const { generalData } = useContext(AppContext);
 
@@ -92,14 +92,18 @@ const ContentDetail = ({ globalId}) => {
                             />
                         }
                     </div>
-                    <div className='content-title'>
-                        {content.brand_url && <span style={{height:0}}>
-                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', maxHeight: '15vw',transform: "translateY(-7.5rem)",border:"0.3rem solid white" }} />
-                            
+                    {content.brand_url && !(content.custom_actions.includes("no-brand-picture")) ? <div className='content-title'>
+
+                        <span style={{ height: 0 }}>
+                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', height: '15vw', transform: "translateY(-7.5rem)", border: "0.3rem solid white" }} />
                         </span>
-                            }
-                        <span style={{paddingLeft:"5vw"}}>{content.name}</span>
-                    </div>
+
+                        <span style={{ paddingLeft: "5vw" }}>{content.name}</span>
+                    </div> :
+                        <div className='content-title' style={{justifyContent:'center'}}>
+                            {content.name}
+                        </div>
+                    }
                     <div className='content-list'>
                         <div className='content-content' style={{ borderRight: '1px solid' }}>
                             <span>{content.left_description + "\n"}</span>
@@ -174,9 +178,8 @@ const ContentDetail = ({ globalId}) => {
                     )}
                     <div className='content-wrapper'>&nbsp;</div>
                 </div>
-                
+
             )}
-            
         </>
     );
 };

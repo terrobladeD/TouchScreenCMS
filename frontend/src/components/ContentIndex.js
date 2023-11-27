@@ -5,8 +5,15 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
 
     const [displayList, setDisplayList] = useState([]);
     const [displayType, setDisplayType] = useState(""); //overlay or sidebar 
-    const [displayHeanName, setDisplayHeadName] = useState(""); // the name shown onn top
+    const [displayHeadName, setDisplayHeadName] = useState(""); // the name shown onn top
     const { generalData } = useContext(AppContext);
+
+    useEffect(() => {
+        const contentList = document.querySelector('.content-list');
+        if (contentList) {
+            contentList.scrollTop = 0;
+        }
+    }, [globalId]);
 
     useEffect(() => {
         // the first index
@@ -33,8 +40,8 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
 
     return (
         <>
-            {globalId.substring(2, 8) !== '000000' && <div className='upper-caption'>{displayHeanName}</div>}
-            <div className='content-list' style={{flexDirection:'column'}}>
+            {(globalId.substring(2, 8) !== '000000' || displayType === "sidebar") && <div className='upper-caption'>{displayHeadName}</div>}
+            <div className='content-list' style={{ flexDirection: 'column' }}>
                 {displayList && displayType && displayType === "overlay" && displayList.map((item, index) => (
                     <div key={index} style={{ position: 'relative' }} onClick={() => { setGlobalId(item.global_id) }}>
                         {item.image_url &&
