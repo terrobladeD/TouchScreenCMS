@@ -3,12 +3,14 @@
     "global_id": "01000000",
     "name": "services",
     "attributes_inner": "overlay",
+    "attributes_is_index": true,
     "attributes": [
       {
         "global_id": "01010000",
         "name": "essential services",
         "image_url": "01010000_1.jpg",
         "attributes_inner": "overlay",
+        "attributes_is_index": true,
         "attributes": [
           {
             "global_id": "01010100",
@@ -454,6 +456,7 @@
         "name": "car hire & transport",
         "image_url": "01020000_1.jpg",
         "attributes_inner": "overlay",
+        "attributes_is_index": true,
         "attributes": [
           {
             "global_id": "01020100",
@@ -652,6 +655,7 @@
         "name": "mining & resources",
         "image_url": "01030000_1.jpg",
         "attributes_inner": "overlay",
+        "attributes_is_index": true,
         "icon_url": "",
         "attributes": [
           {
@@ -1174,6 +1178,7 @@
     "global_id": "03000000",
     "name": "activities",
     "attributes_inner": "overlay",
+    "attributes_is_index": true,
     "attributes": [
       {
         "global_id": "03010000",
@@ -1932,18 +1937,648 @@
   {
     "global_id": "04000000",
     "name": "destinations",
-    "attributes": []
+    "attributes_inner": "overlay",
+    "attributes_is_index": false,
+    "attributes": [
+      {
+        "global_id": "04000001",
+        "name": "Port Moresby",
+        "brand_url": "04000001_1.jpg",
+        "image_urls": [
+          "04000001_1.jpg",
+          "04000001_2.jpg",
+          "04000001_3.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000001_m1.png"
+          },
+          {
+            "name": "PORT MORESEBY MAP",
+            "url": "04000001_m2.png"
+          }
+        ],
+        "left_description": "Port Moresby was once a trading port for the Motuan people who sustained their existence by sailing to villages to trade pots for food and canoe logs. Whether you’re in the Port Moresby region for a day or longer, there’s a number of interesting attractions on offer. If you’re around in mid-September on Independence Day, Port Moresby plays host to the Hiri Moale Festival.",
+        "right_description": "PROVINCE:National Capital District\nCLOSEST AIRPORT:Port Moresby International Airport (Jacksons)",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000002",
+        "name": "Lae",
+        "brand_url": "04000002_1.jpg",
+        "image_urls": [
+          "04000002_1.jpg",
+          "04000002_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000002_m1.png"
+          },
+          {
+            "name": "lae MAP",
+            "url": "04000002_m2.png"
+          }
+        ],
+        "left_description": "Lae is home to the famous Morobe Cultural Show and offers visitors plenty of things to see and do. Take a stroll through the recently restored Lae National Botanic Gardens and pay homage to the World War II soldiers buried at the Lae War Cemetery along Memorial Drive. See Agro the sixteen metre Salty Crocodile at the Rainforest Habitat and visit the Lae Market from Monday to Saturday.",
+        "right_description": "PROVINCE:Morobe\nCLOSEST AIRPORT:Nadzab Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000003",
+        "name": "Madang",
+        "brand_url": "04000003_1.jpg",
+        "image_urls": [
+          "04000003_1.jpg",
+          "04000003_2.jpg",
+          "04000003_3.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000003_m1.png"
+          },
+          {
+            "name": "Madang Map",
+            "url": "04000003_m2.png"
+          }
+        ],
+        "left_description": "Situated on the northern coast of the mainland, Madang is one of PNG’s top tourist destinations. The region is known for its sheer beauty and is perfect for planning a dive adventure. The pristine waters here are abundant in rainbow coral reefs, bommies and World War II wrecks with the oceanic currents luring both pelagic and reef fish varieties. Don’t miss the Madang Festival which occurs on the Queen’s Birthday weekend each year.",
+        "right_description": "PROVINCE:Madang\nCLOSEST AIRPORT:Madang Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000004",
+        "name": "Mount Hagen",
+        "brand_url": "04000004_1.jpg",
+        "image_urls": [
+          "04000004_1.jpg",
+          "04000004_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000004_m1.png"
+          },
+          {
+            "name": "Mount Hagen Map",
+            "url": "04000004_m2.png"
+          }
+        ],
+        "left_description": "Mount Hagen is the capital of the Western Highlands Province. The region is particularly ideal for growing Arabic coffee and offers a range of activities such as birdwatching, trekking and fishing. In August each year, Mount Hagen comes alive with the ever-popular Mount Hagen Show which showcases the rich heritage of the local culture. Be sure to check out the Hagen Market on Saturdays.",
+        "right_description": "PROVINCE:Western Highlands\nCLOSEST AIRPORT:Kagamuga Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000005",
+        "name": "Kokopo",
+        "brand_url": "04000005_1.jpg",
+        "image_urls": [
+          "04000005_1.jpg",
+          "04000005_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000005_m1.png"
+          },
+          {
+            "name": "Kokopo Map",
+            "url": "04000005_m2.png"
+          }
+        ],
+        "left_description": "Kokopo is the capital of East New Britain and lies in proximity to the original capital of Rabaul which was destroyed in the volcanic eruptions of 1994. The province offers an exciting range of activities such as birdwatching, diving, caving, fishing and trekking. Keep an ear out for the National Mask Festival and Frangipani Festival. Catch the Baining Fire Dance, a local tradition which is performed to spirited chanting and drumming.",
+        "right_description": "PROVINCE:East New Britain\nCLOSEST AIRPORT:Tokua Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000006",
+        "name": "Goroka",
+        "brand_url": "04000006_1.jpg",
+        "image_urls": [
+          "04000006_1.jpg",
+          "04000006_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000006_m1.png"
+          },
+          {
+            "name": "Goroka Map",
+            "url": "04000006_m2.png"
+          }
+        ],
+        "left_description": "Located in the Eastern Highlands, Goroka is known for its Kainantu pottery and the famous Mudmen whose ghoulish costume once struck fear into the heart of the enemy. Coffee is the financial backbone of the region and enjoyed by connoisseurs worldwide as PNG coffee is highly regarded for its excellent quality and fruity flavours. In September each year, the township plays host to the Goroka Cultural Show.",
+        "right_description": "PROVINCE:Eastern Highlands\nCLOSEST AIRPORT:Goroka Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000007",
+        "name": "Alotau",
+        "brand_url": "04000007_1.jpg",
+        "image_urls": [
+          "04000007_1.jpg",
+          "04000007_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000007_m1.png"
+          },
+          {
+            "name": "Alotau Map",
+            "url": "04000007_m2.png"
+          }
+        ],
+        "left_description": "Alotau is a small township located on the northern shore of Milne Bay. It offers the perfect gateway to exploring the pristine waters in the region. Popular activities here include diving and fishing as well as island hopping to the D’Entrecasteaux Islands or Trobriand Islands, otherwise known as the ‘Islands of Love’. If you’re in Alotau around November, witness the cultural spectacle that is the Canoe and Kundu Festival.",
+        "right_description": "PROVINCE:Milne Bay Province\nCLOSEST AIRPORT:Gurney Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000008",
+        "name": "Kimbe",
+        "brand_url": "04000008_1.jpg",
+        "image_urls": [
+          "04000008_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000008_m1.png"
+          },
+          {
+            "name": "Kimbe Map",
+            "url": "04000008_m2.png"
+          }
+        ],
+        "left_description": "Kimbe is the capital of West New Britain. Birdwatchers will be thrilled to learn that there are no less than 50 endemic species of birds in the Niugini Islands, 18 of which are found around Kimbe alone. Keep an eye out for the local megapode bird which lays its eggs in the warm volcanic earth on the island. If you enjoy diving, don’t miss the Zero wreck. If you’re a serious fisher, plan a stopover at Baia Fishing Lodge.",
+        "right_description": "PROVINCE:West New Britain\nCLOSEST AIRPORT:Hoskins Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000009",
+        "name": "Kavieng",
+        "brand_url": "04000009_1.jpg",
+        "image_urls": [
+          "04000009_1.jpg",
+          "04000009_2.jpg",
+          "04000009_3.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000009_m1.png"
+          },
+          {
+            "name": "Kavieng Map",
+            "url": "04000009_m2.png"
+          }
+        ],
+        "left_description": "Nestled in a picturesque harbour Kavieng is located at the northern tip of New Ireland, which is an enviable blend of tropical beaches and mountainous terrain. Diving spots are plentiful here with the region boasting the famed Echuca Patch. Surfing and fishing are also popular pastimes and cycling enthusiasts can embark on the Boluminski Bicycle Tour to explore more of the island. The Kavieng Market offers an authentic local shopping experience.",
+        "right_description": "PROVINCE:New Ireland Province\nCLOSEST AIRPORT:Kavieng Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000010",
+        "name": "Wewak",
+        "brand_url": "04000010_1.jpg",
+        "image_urls": [
+          "04000010_1.jpg",
+          "04000010_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000010_m1.png"
+          },
+          {
+            "name": "Wewak Map",
+            "url": "04000010_m2.png"
+          }
+        ],
+        "left_description": "Wewak is situated on the northern coast of Papua New Guinea in the East Sepik Province. If you're a surfer, grab your surfboard and head to Wewak which is known for its excellent surf breaks from October to April. On a cultural note, embark on a culture tour to discover more about the crocodile scarification ritual performed by the Chambri Tribe. Travel to Cape Wom Surrender Park which marks the spot where the Japanese surrendered in 1945.",
+        "right_description": "PROVINCE:East Sepik Province\nCLOSEST AIRPORT:Boram Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000011",
+        "name": "Lorengau",
+        "brand_url": "04000011_1.jpg",
+        "image_urls": [
+          "04000011_1.jpg",
+          "04000011_2.jpg",
+          "04000011_3.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000011_m1.png"
+          }
+        ],
+        "left_description": "Nestled on the edge of Seeadler Harbour, Lorengau is the largest township on Manus Island. It offers an ideal base from which to explore this picturesque region. Popular drawcards to Lorengau include surfing, diving, snorkelling, hiking and birdwatching. Keep an ear out for the clocker bird which chimes on certain hours in the early morning. The Manus Show held in Lorengau biennially showcases the beguiling garamut drum dance.",
+        "right_description": "PROVINCE:Manus Province\nCLOSEST AIRPORT:Momote Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000012",
+        "name": "Tufi",
+        "brand_url": "04000012_1.jpg",
+        "image_urls": [
+          "04000012_1.jpg",
+          "04000012_2.jpg",
+          "04000012_3.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000012_m1.png"
+          }
+        ],
+        "left_description": "Tufi is renowned throughout PNG for its famed dive resort. With year-round visibility, the diving here is reputed to be some of the best in the world boasting spectacular marine life and war relics. What many don’t realise is that Tufi is also a tranquil village offering the opportunity to interact with the friendly and intriguing locals. The women of Tufi are known for their unique facial tattoos which mark a rite of passage into womanhood.",
+        "right_description": "PROVINCE:Oro Province\nCLOSEST AIRPORT:Girua Airport",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "04000013",
+        "name": "Buka",
+        "brand_url": "04000013_1.jpg",
+        "image_urls": [
+          "04000013_1.jpg",
+          "04000013_2.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "PAPUA NEW guinea map",
+            "url": "04000013_m1.png"
+          },
+          {
+            "name": "Buka Map",
+            "url": "04000013_m2.png"
+          }
+        ],
+        "left_description": "Buka is a township located on Buka Island, which lies in proximity to Bougainville. The pristine waters here offer the perfect conditions for a snorkel or dive adventure with the Buka Passage providing the ideal spot to explore the marinelife. Island hop over to Bougainville for trekking, birdwatching and exploring war relics. For culture vultures, keep an eye out for the Reed Festival, a bi-annual event staged in Arawa.",
+        "right_description": "PROVINCE:Autonomous Region of Bougainville\nCLOSEST AIRPORT:Buka Airport",
+        "custom_actions": "no-brand-picture"
+      }
+    ]
   },
   {
     "global_id": "05000000",
     "name": "events",
-    "attributes": []
-  },
+    "attributes_inner": "sidebar",
+    "attributes": [
+      {
+        "global_id": "05000001",
+        "name": "SP SPORTS AWARDS",
+        "description": "March",
+        "brand_url": "05000001_1.jpg",
+        "image_urls": ["05000001_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000001_m1.png"}],
+        "left_description": "In March, Port Moresby plays host to the SP Sports Awards which recognises the outstanding achievements of Papua New Guinea’s sporting elite. Fifteen awards are handed out on the night including the Male and Female Athlete of the Year.\nFacebook: spsportsawards",
+        "right_description": "CALL TODAY: 675 302 8200\nEMAIL: info@sp.com.pg",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000002",
+        "name": "GOGODALA CANOE FESTIVAL",
+        "description": "April",
+        "brand_url": "05000002_1.jpg",
+        "image_urls": ["05000002_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000002_m1.png"}],
+        "left_description": "The Gogodala people from the Middle Fly District in the Western Province are renowned for their flamboyant and ornately crafted canoes. Once upon a time, it was customary for tribes to settle disputes by racing canoes which the festival pays homage to.",
+        "right_description": "",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000003",
+        "name": "THE MADANG FESTIVAL",
+        "description": "June",
+        "brand_url": "05000003_1.jpg",
+        "image_urls": ["05000003_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000003_m1.png"}],
+        "left_description": "Showcasing cultural groups from the Madang Province, the Madang Festival celebrates the region’s rich culture with a colourful parade, live performances, canoe racing, sporting activities and stalls.",
+        "right_description": "CALL TODAY: 675 422 3302\nEMAIL: madangfestival@gmail.com",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000004",
+        "name": "MONA FESTIVAL",
+        "description": "July",
+        "brand_url": "05000004_1.jpg",
+        "image_urls": ["05000004_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000004_m1.png"}],
+        "left_description": "Mona Festival, the largest cultural event in Bougainville, only launched in 2009. The festival is dedicated to the traditional warrior canoes called ‘Monas’. Occurring in July each year, this colourful festival is said to celebrate the cultural diversity and autonomy that inspires peace and reconciliation today.",
+        "right_description": "CALL TODAY: 675 71 626 393\nEMAIL: bougainville.travel@abg.gov.pg",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000005",
+        "name": "NATIONAL MASK FESTIVAL",
+        "description": "July",
+        "brand_url": "05000005_1.jpg",
+        "image_urls": ["05000005_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000005_m1.png"}],
+        "left_description": "In July, the National Mask Festival in Rabaul brings the variety of the Papua New Guinean masks to one single celebration. The festival usually runs for four or five days and provides visitors with a fantastic array of performances including fire-eaters, singers, drummers, and more.",
+        "right_description": "",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000006",
+        "name": "ENGA FESTIVAL",
+        "description": "August",
+        "brand_url": "05000006_1.jpg",
+        "image_urls": ["05000006_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000006_m1.png"}],
+        "left_description": "One common dialect dominates the Enga Province, which makes it a particular drawcard for those visiting PNG. The Enga Festival is a time when locals can demonstrate to outsiders just how amazing their culture is. Discover the Engans’ famous sand painting, which is unique to the area, and the fantastic sing-sing men.",
+        "right_description": "CALL TODAY: 675 7226 8610\nEMAIL: contact@engashow.com",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000007",
+        "name": "SEPIK CROCODILE FESTIVAL",
+        "description": "August",
+        "brand_url": "05000007_1.jpg",
+        "image_urls": ["05000007_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000007_m1.png"}],
+        "left_description": "The Crocodile Festival is a three day event celebrating the local tribe’s cultural connection to the crocodile with the festival showcasing canoe racing and traditional performances.",
+        "right_description": "CALL TODAY: 675 7259 6349\nEMAIL: sepikjourneys.alois240@gmail.com",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000008",
+        "name": "MOUNT HAGEN SHOW",
+        "description": "August",
+        "brand_url": "05000008_1.jpg",
+        "image_urls": ["05000008_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000008_m1.png"}],
+        "left_description": "The Mount Hagen Show highlights the rich culture of the Highlands region in a wonderful display of sing-sings. The show attracts around 50,000 visitors each year and is one of PNG’s oldest shows, launching back in 1961.",
+        "right_description": "CALL TODAY: 675 7308 1368\nEMAIL: howarigc@gmail.com",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000009",
+        "name": "DWU CULTURAL DAY",
+        "description": "August",
+        "brand_url": "05000009_1.jpg",
+        "image_urls": ["05000009_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000009_m1.png"}],
+        "left_description": "The Divine Word University Cultural Day is an annual event that sees students come together to perform and celebrate their cultural heritage.",
+        "right_description": "CALL TODAY: 675 422 2937\nEMAIL: events@dwu.ac.pg",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000010",
+        "name": "GOROKA SHOW",
+        "description": "September",
+        "brand_url": "05000010_1.jpg",
+        "image_urls": ["05000010_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000010_m1.png"}],
+        "left_description": "The Highlands region is famous for its primitive history, which included cannibalism and violent tribal wars. At the Goroka Show, descendants beat kundu drums and decorate themselves in unusual body paints and feathers to celebrate their unique heritage.",
+        "right_description": "CALL TODAY: 675 532 2644\nEMAIL: gorokashow2014@gmail.com",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000011",
+        "name": "HIRI MOALE SHOW",
+        "description": "September",
+        "brand_url": "05000011_1.jpg",
+        "image_urls": ["05000011_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000011_m1.png"}],
+        "left_description": "The Hiri Moale Show has become a premier cultural event. Like everything in PNG, the show illustrates a rich and symbolic history that reflects on age-old stories and customs. During the show, Ela Beach comes to life with stilt houses, colourful canoes and hundreds of people singing, dancing and celebrating tradition.",
+        "right_description": "CALL TODAY: 675 320 0211",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000012",
+        "name": "FRANGIPANI FESTIVAL",
+        "description": "September",
+        "brand_url": "05000012_1.jpg",
+        "image_urls": ["05000012_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000012_m1.png"}],
+        "left_description": "Occurring in September, the Frangipani Festival celebrates Independence Day. See the famous Baining Fire Dance, sing-sings, a float parade and more.",
+        "right_description": "CALL TODAY: 675 982 8697\nEMAIL: susie@rabaulhotel.com.pg",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000013",
+        "name": "MOROBE CULTURAL SHOW",
+        "description": "October",
+        "brand_url": "05000013_1.jpg",
+        "image_urls": ["05000013_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000013_m1.png"}],
+        "left_description": "The Morobe Cultural Show is probably the most famous cultural show in PNG. It is held in October each year and provides visitors with agricultural information as well as showcases the largest group of sing-sings in PNG.",
+        "right_description": "CALL TODAY: 675 472 2887\nEMAIL: info@morobeshow.org.pg",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "05000014",
+        "name": "PNG KENU AND KUNDU FESTIVAL",
+        "description": "November",
+        "brand_url": "05000014_1.jpg",
+        "image_urls": ["05000014_1.jpg"],
+        "map_urls": [{"name": "", "url": "05000014_m1.png"}],
+        "left_description": "With its rich connection to the water, the people of Milne Bay celebrate a canoe festival in November each year. Visitors will see war canoes and locally-made kundu drums in all their glory.",
+        "right_description": "CALL TODAY: 675 641 1503\nEMAIL: kenukundusponsor@kulamail.net",
+        "custom_actions": "no-brand-picture"
+      }     
+    ]
+  },  
   {
     "global_id": "06000000",
     "name": "eating out",
-    "attributes": []
-  },
+    "attributes_inner": "sidebar",
+    "attributes": [
+      {
+        "global_id": "06000001",
+        "name": "ASIA AROMAS",
+        "description": "Chinese & Thai",
+        "brand_url": "06000001_0.jpg",
+        "image_urls": ["06000001_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000001_m1.png"}],
+        "left_description": "Asia Aromas serves up a delicious blend of Thai and Chinese cuisine. Enjoy fine food, great service and spectacular views. Open Monday to Saturday, 11am to 2pm and 5pm to 10pm, and Sunday 10.30pm to 2.30pm. Price Guide: Entree: K16, Main: K30, Dessert: K12. Cards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 321 4780\nAddress: Steamships Plaza, Downtown, Port Moresby\nCuisine: Chinese & Thai\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000002",
+        "name": "CUPPA",
+        "description": "Café Cuisine",
+        "brand_url": "06000002_0.jpg",
+        "image_urls": ["06000002_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000002_m1.png"}],
+        "left_description": "Cuppa’s relaxed vibe offers the perfect place to catch up over great coffee. Enjoy refreshments such as Cuppa's big breakfasts, pasta, soup, sandwiches and more. Open 7 days, 9am to 9pm. Free wifi available.",
+        "right_description": "CALL TODAY: 675 302 8666\nAddress: Shop G48, Vision City Megamall, 4027 Waigani, National Capital, Papua New Guinea\nCuisine: Café Cuisine\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K18, Main: K32, Dessert: K12",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000005",
+        "name": "KOREAN GARDENS",
+        "description": "Korean Cuisine",
+        "brand_url": "06000005_0.jpg",
+        "image_urls": ["06000005_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000005_m1.png"}],
+        "left_description": "The traditional chef at Korean Gardens creates delicious, authentic Korean dishes. Enjoy a genuine Korean barbecue and stunning views from the restaurant. Open 7 days a week, 11.00am to 2.00pm and 5.30pm to 10.00pm.",
+        "right_description": "CALL TODAY: 675 302 8534\nAddress: Vision City Waigani\nCuisine: Korean Cuisine\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K22, Main: K48, Dessert: K12",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000006",
+        "name": "YELLOW CAPTAIN PIZZA",
+        "description": "Pizza & Pasta",
+        "brand_url": "06000006_0.jpg",
+        "image_urls": ["06000006_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000006_m1.png"}],
+        "left_description": "Yellow Captain Pizza, the pizza specialist, dishes up tasty pizzas, pasta and chicken dishes. Dine in or take away.",
+        "right_description": "CALL TODAY: 675 302 8570\nAddress: Vision City Mega Wall Waigani\nCuisine: Pizza & Pasta\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: MC, Visa\nPrice Guide: Entree: K13, Main: K45, Dessert: K12",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000007",
+        "name": "HOG'S BREATH CAFÉ",
+        "description": "Steak, Seafood, Australian",
+        "brand_url": "06000007_0.jpg",
+        "image_urls": ["06000007_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000007_m1.png"}],
+        "left_description": "There’s a Hog’s Breath Cafe in Port Moresby! Enjoy great steaks and a range of other delicious meals. Dine in or takeaway. Open daily, 11.30am to 10.00pm.",
+        "right_description": "CALL TODAY: 675 302 8550\nAddress: Vision City Waigani\nCuisine: Steak, Seafood, Australian\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: MC, Visa, JCB\nPrice Guide: Entree: K32, Main: K68, Dessert: K22",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000008",
+        "name": "BEACHSIDE BRASSERIE",
+        "description": "European Cuisine",
+        "brand_url": "06000008_0.jpg",
+        "image_urls": ["06000008_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000008_m1.png"}],
+        "left_description": "Beachside Brasserie is located within the Ela Beach Hotel and showcases unique local art. Enjoy a delicious blend of Pacific and international cuisine. Open for breakfast, lunch and dinner.",
+        "right_description": "CALL TODAY: 675 321 2100\nAddress: Ela Beach Hotel, Ela Beach Rd, Port Moresby\nCuisine: European Cuisine\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K18, Main: K30, Dessert: K22",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000010",
+        "name": "DAIKOKU",
+        "description": "Japanese Teppan-Yaki Steak House",
+        "brand_url": "06000010_0.jpg",
+        "image_urls": ["06000010_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000010_m1.png"}],
+        "left_description": "For a special place to dine, you can’t go past Daikoku. Boasting Japanese Teppan-yaki this is as much about the fabulous food as it is about the experience. The restaurant is Japanese owned so your experience is guaranteed to be an authentic one.",
+        "right_description": "CALL TODAY: 675 321 0255\nAddress: Harbour City, Downtown, Port Moresby\nCuisine: Japanese Teppan-Yaki Steak House\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa, JBC\nPrice Guide: Entree: K28, Main: K88, Dessert: K10",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000011",
+        "name": "DYNASTY SEAFOOD",
+        "description": "Chinese, Malaysian & Yum Cha",
+        "brand_url": "06000011_0.jpg",
+        "image_urls": ["06000011_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000011_m1.png"}],
+        "left_description": "Dine in at Dynasty Seafood and enjoy an extensive menu of fresh seafood blended with aromatic Asian herbs and spices. Yum Cha available every Saturday and Sunday for lunch. Open Monday to Friday 11am to 2pm, and Saturday to Sunday 10.30am to 2pm and 5.30pm to 10pm.",
+        "right_description": "CALL TODAY: 675 302 8538\nAddress: Vision City, Waigani Drive, Waigani\nCuisine: Chinese, Malaysian & Yum Cha\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: MC, Visa, JCB\nPrice Guide: Entree: K20, Main: K30, Dessert: K12",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000012",
+        "name": "FU GUI VILLAGE RESTAURANT",
+        "description": "Chinese & Malaysian",
+        "brand_url": "06000012_0.jpg",
+        "image_urls": ["06000012_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000012_m1.png"}],
+        "left_description": "Fu Gui Village Restaurant is a family style eatery. Perfect for a relaxed night out.",
+        "right_description": "CALL TODAY: 675 323 0188\nAddress: Gordons\nCuisine: Chinese & Malaysian\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K12, Main: K30, Dessert: K12",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000013",
+        "name": "FUSION BISTRO",
+        "description": "Singaporean, Malaysian & Chinese",
+        "brand_url": "06000013_0.jpg",
+        "image_urls": ["06000013_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000013_m1.png"}],
+        "left_description": "Excellent quality and service are all part of the Fusion experience. Combining Asian cuisine with a Western twist, you’re in for a fine dining treat whenever you visit Fusion.",
+        "right_description": "CALL TODAY: 675 7196 6666\nAddress: Harbour City, Downtown, Port Moresby\nCuisine: Singaporean, Malaysian & Chinese\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K20, Main: K40, Dessert: K22",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000016",
+        "name": "GRAND BRASSERIE",
+        "description": "International Contemporary Cuisine",
+        "brand_url": "06000016_0.jpg",
+        "image_urls": ["06000016_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000016_m1.png"}],
+        "left_description": "The Grand Brasserie certainly makes a statement when it comes to quality and style. Overlooking Jackson's Harbour, this is the perfect place if you're seeking a fine dining experience. Blending Asian and Pacific Rim cuisine, the food here looks as good as it tastes.",
+        "right_description": "CALL TODAY: 675 304 0170\nAddress: Grand Papua Hotel, Mary Street, Port Moresby\nCuisine: International Contemporary Cuisine\nTakeaway: No\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K30, Main: K65, Dessert: K26",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000017",
+        "name": "GREEN HAUS RESTAURANT",
+        "description": "International Contemporary Cuisine",
+        "brand_url": "06000017_0.jpg",
+        "image_urls": ["06000017_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000017_m1.png"}],
+        "left_description": "Dine in the opulence of the Green Haus Restaurant located at the Stanley Hotel & Suites. Enjoy pastries, artisan bread, and the fruity flavours of locally grown coffee. A buffet dinner finishes off the day with a sumptuous choice of cuisines. Open for breakfast, lunch, and dinner.",
+        "right_description": "CALL TODAY: 675 302 8888\nAddress: The Stanley Hotel\nCuisine: International Contemporary Cuisine\nTakeaway: No\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K40, Main: K75, Dessert: K40",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000020",
+        "name": "MAGI SEAFOOD RESTAURANT",
+        "description": "Malaysian Chinese Seafood",
+        "brand_url": "06000020_0.jpg",
+        "image_urls": ["06000020_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000020_m1.png"}],
+        "left_description": "Magi Seafood Restaurant serves up an array of delectable and aromatic seafood dishes.",
+        "right_description": "CALL TODAY: 675 323 3918\nAddress: Spring Gardens Road, Gordons\nCuisine: Malaysian Chinese Seafood\nTakeaway: Yes\nWIFI: No\nSecure Parking: No\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K10, Main: K30, Dessert: K8",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000021",
+        "name": "MR MIKES PIZZA",
+        "description": "Pizza & Wings (Takeaway)",
+        "brand_url": "06000021_0.jpg",
+        "image_urls": ["06000021_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000021_m1.png"}],
+        "left_description": "If you enjoy gourmet pizzas at great value, you can’t go past Mr Mike's Pizza. Offering a large range of thin-crust pizzas, specialty wings, poutine, and garlic bread, Mr Mike’s Pizza is open daily 10am to 10pm, and until 2am Friday and Saturday.",
+        "right_description": "CALL TODAY: 675 343 1722\nAddress: The Shady Rest Hotel, Taurama Road, Boroko\nCuisine: Pizza & Wings (Takeaway)\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: MC, Visa\nPrice Guide: Entree: K6, Main: K17",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000022",
+        "name": "PORT MORESBY NATURE PARK CAFÉ",
+        "description": "Café Cuisine",
+        "brand_url": "06000022_0.jpg",
+        "image_urls": ["06000022_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000022_m1.png"}],
+        "left_description": "For the curious and hungry visitor, Port Moresby Nature Park Café offers up a range of light refreshments and lunch options. Open daily from 8.30am to 3.30pm.",
+        "right_description": "CALL TODAY: 675 326 0248\nAddress: Goro Kaeaga Road, University\nCuisine: Café Cuisine\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K12, Main: K20, Dessert: K10",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000025",
+        "name": "TANDOOR ON THE HARBOUR",
+        "description": "Live Tandoor",
+        "brand_url": "06000025_0.jpg",
+        "image_urls": ["06000025_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000025_m1.png"}],
+        "left_description": "If aromatic cuisine and tasty flavours is your thing, then Tandoor on the Harbour is the choice for you. Specialising in Tandoor, this restaurant is known for its great curries and service. With views across the harbour, what more could you want?",
+        "right_description": "CALL TODAY: 675 7172 3889\nAddress: Pacific Palms Building, Granville, Downtown\nCuisine: Live Tandoor\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K20, Main: K50, Dessert: K15",
+        "custom_actions": "no-brand-picture"
+      },
+      {
+        "global_id": "06000026",
+        "name": "TASTY BITE",
+        "description": "Indian & Tandoor",
+        "brand_url": "06000026_0.jpg",
+        "image_urls": ["06000026_1.jpg"],
+        "map_urls": [{"name": "", "url": "06000026_m1.png"}],
+        "left_description": "Tasty Bite brings you sumptuous Indian and Tandoor cuisine made by authentic Indian chefs. The food really is tasty so you won’t leave this establishment hungry. Large seating available or choose the private room for a more intimate setting. Excellent service guaranteed.",
+        "right_description": "CALL TODAY: 675 321 2222\nAddress: Hunter Street, Port Moresby\nCuisine: Indian & Tandoor\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K20, Main: K39, Dessert: K12",
+        "custom_actions": "no-brand-picture"
+      }     
+    ]
+  },  
   {
     "global_id": "07000000",
     "name": "our hotel",

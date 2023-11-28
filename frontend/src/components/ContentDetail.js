@@ -13,15 +13,15 @@ const ContentDetail = ({ globalId }) => {
     useEffect(() => {
         if (globalId && globalId.substring(6, 8) !== "00") {
             const temp1 = generalData.find(data => data.global_id === globalId.substring(0, 2) + '000000');
-            if (temp1.attributes_inner === 'sidebar') {
+            if (temp1.attributes_inner === 'sidebar' || !temp1.attributes_is_index) {
                 setContent(temp1.attributes.find(data => data.global_id === globalId));
             } else {
                 const temp2 = temp1.attributes.find(data => data.global_id === globalId.substring(0, 4) + '0000');
-                if (temp2.attributes_inner === 'sidebar') {
+                if (temp2.attributes_inner === 'sidebar' || !temp2.attributes_is_index) {
                     setContent(temp2.attributes.find(data => data.global_id === globalId));
                 } else {
                     const temp3 = temp2.attributes.find(data => data.global_id === globalId.substring(0, 6) + '00');
-                    if (temp3.attributes_inner === 'sidebar') {
+                    if (temp3.attributes_inner === 'sidebar' || !temp3.attributes_is_index) {
                         setContent(temp3.attributes.find(data => data.global_id === globalId));
                     }
                 }

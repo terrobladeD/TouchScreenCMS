@@ -46,6 +46,8 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                     <div key={index} style={{ position: 'relative' }} onClick={() => { setGlobalId(item.global_id) }}>
                         {item.image_url &&
                             <img style={{ width: '100%', height: '28vw' }} src={`${process.env.PUBLIC_URL}/images/general/${item.image_url}`} alt={item.name} />}
+                        {item.brand_url &&
+                            <img style={{ width: '100%', height: '28vw' }} src={`${process.env.PUBLIC_URL}/images/general/${item.brand_url}`} alt={item.name} />}
                         <p className='index-caption'>{item.name}</p>
                     </div>
                 ))}

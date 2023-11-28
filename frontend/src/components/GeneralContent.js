@@ -25,9 +25,9 @@ const GeneralContent = () => {
         if (generalData && globalId) {
             setLeftSideBar(generalData.find(tab => tab.global_id === globalId.substring(0, 2) + "000000").name.toUpperCase());
 
-
+            let navSideBarContent = [];
             if (globalId.substring(2, 4) !== '00') {
-                let navSideBarContent = [];
+
                 const temp1Data = generalData.find(tab => tab.global_id === globalId.substring(0, 2) + "000000");
                 navSideBarContent.push({ "name": temp1Data.name, "back_id": temp1Data.global_id });
                 if (globalId.substring(4, 6) !== '00') {
@@ -42,8 +42,12 @@ const GeneralContent = () => {
                     navSideBarContent.push({ "name": temp3Data.name, "back_id": temp3Data.global_id });
                 }
                 setNavSideBar(navSideBarContent);
+            } else if (globalId.substring(6, 8) !== '00') {
+                const temp0Data = generalData.find(tab => tab.global_id === globalId.substring(0, 2) + "000000");
+                navSideBarContent.push({ "name": temp0Data.name, "back_id": temp0Data.global_id });
+                setNavSideBar(navSideBarContent);
             } else {
-                setNavSideBar([])
+                setNavSideBar([]);
             }
         }
 
