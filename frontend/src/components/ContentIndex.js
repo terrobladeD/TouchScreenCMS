@@ -40,7 +40,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
 
     return (
         <>
-            {(globalId.substring(2, 8) !== '000000' || displayType === "sidebar") && <div className='upper-caption'>{displayHeadName}</div>}
+            <div className='upper-caption'>{displayHeadName}</div>
             <div className='content-list' style={{ flexDirection: 'column' }}>
                 {displayList && displayType && displayType === "overlay" && displayList.map((item, index) => (
                     <div key={index} style={{ position: 'relative' }} onClick={() => { setGlobalId(item.global_id) }}>

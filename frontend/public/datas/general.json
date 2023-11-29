@@ -2234,8 +2234,15 @@
         "name": "SP SPORTS AWARDS",
         "description": "March",
         "brand_url": "05000001_1.jpg",
-        "image_urls": ["05000001_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000001_m1.png"}],
+        "image_urls": [
+          "05000001_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000001_m1.png"
+          }
+        ],
         "left_description": "In March, Port Moresby plays host to the SP Sports Awards which recognises the outstanding achievements of Papua New Guinea’s sporting elite. Fifteen awards are handed out on the night including the Male and Female Athlete of the Year.\nFacebook: spsportsawards",
         "right_description": "CALL TODAY: 675 302 8200\nEMAIL: info@sp.com.pg",
         "custom_actions": "no-brand-picture"
@@ -2245,8 +2252,15 @@
         "name": "GOGODALA CANOE FESTIVAL",
         "description": "April",
         "brand_url": "05000002_1.jpg",
-        "image_urls": ["05000002_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000002_m1.png"}],
+        "image_urls": [
+          "05000002_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000002_m1.png"
+          }
+        ],
         "left_description": "The Gogodala people from the Middle Fly District in the Western Province are renowned for their flamboyant and ornately crafted canoes. Once upon a time, it was customary for tribes to settle disputes by racing canoes which the festival pays homage to.",
         "right_description": "",
         "custom_actions": "no-brand-picture"
@@ -2256,8 +2270,15 @@
         "name": "THE MADANG FESTIVAL",
         "description": "June",
         "brand_url": "05000003_1.jpg",
-        "image_urls": ["05000003_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000003_m1.png"}],
+        "image_urls": [
+          "05000003_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000003_m1.png"
+          }
+        ],
         "left_description": "Showcasing cultural groups from the Madang Province, the Madang Festival celebrates the region’s rich culture with a colourful parade, live performances, canoe racing, sporting activities and stalls.",
         "right_description": "CALL TODAY: 675 422 3302\nEMAIL: madangfestival@gmail.com",
         "custom_actions": "no-brand-picture"
@@ -2267,8 +2288,15 @@
         "name": "MONA FESTIVAL",
         "description": "July",
         "brand_url": "05000004_1.jpg",
-        "image_urls": ["05000004_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000004_m1.png"}],
+        "image_urls": [
+          "05000004_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000004_m1.png"
+          }
+        ],
         "left_description": "Mona Festival, the largest cultural event in Bougainville, only launched in 2009. The festival is dedicated to the traditional warrior canoes called ‘Monas’. Occurring in July each year, this colourful festival is said to celebrate the cultural diversity and autonomy that inspires peace and reconciliation today.",
         "right_description": "CALL TODAY: 675 71 626 393\nEMAIL: bougainville.travel@abg.gov.pg",
         "custom_actions": "no-brand-picture"
@@ -2278,8 +2306,15 @@
         "name": "NATIONAL MASK FESTIVAL",
         "description": "July",
         "brand_url": "05000005_1.jpg",
-        "image_urls": ["05000005_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000005_m1.png"}],
+        "image_urls": [
+          "05000005_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000005_m1.png"
+          }
+        ],
         "left_description": "In July, the National Mask Festival in Rabaul brings the variety of the Papua New Guinean masks to one single celebration. The festival usually runs for four or five days and provides visitors with a fantastic array of performances including fire-eaters, singers, drummers, and more.",
         "right_description": "",
         "custom_actions": "no-brand-picture"
@@ -2289,8 +2324,15 @@
         "name": "ENGA FESTIVAL",
         "description": "August",
         "brand_url": "05000006_1.jpg",
-        "image_urls": ["05000006_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000006_m1.png"}],
+        "image_urls": [
+          "05000006_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000006_m1.png"
+          }
+        ],
         "left_description": "One common dialect dominates the Enga Province, which makes it a particular drawcard for those visiting PNG. The Enga Festival is a time when locals can demonstrate to outsiders just how amazing their culture is. Discover the Engans’ famous sand painting, which is unique to the area, and the fantastic sing-sing men.",
         "right_description": "CALL TODAY: 675 7226 8610\nEMAIL: contact@engashow.com",
         "custom_actions": "no-brand-picture"
@@ -2300,8 +2342,15 @@
         "name": "SEPIK CROCODILE FESTIVAL",
         "description": "August",
         "brand_url": "05000007_1.jpg",
-        "image_urls": ["05000007_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000007_m1.png"}],
+        "image_urls": [
+          "05000007_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000007_m1.png"
+          }
+        ],
         "left_description": "The Crocodile Festival is a three day event celebrating the local tribe’s cultural connection to the crocodile with the festival showcasing canoe racing and traditional performances.",
         "right_description": "CALL TODAY: 675 7259 6349\nEMAIL: sepikjourneys.alois240@gmail.com",
         "custom_actions": "no-brand-picture"
@@ -2311,8 +2360,15 @@
         "name": "MOUNT HAGEN SHOW",
         "description": "August",
         "brand_url": "05000008_1.jpg",
-        "image_urls": ["05000008_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000008_m1.png"}],
+        "image_urls": [
+          "05000008_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000008_m1.png"
+          }
+        ],
         "left_description": "The Mount Hagen Show highlights the rich culture of the Highlands region in a wonderful display of sing-sings. The show attracts around 50,000 visitors each year and is one of PNG’s oldest shows, launching back in 1961.",
         "right_description": "CALL TODAY: 675 7308 1368\nEMAIL: howarigc@gmail.com",
         "custom_actions": "no-brand-picture"
@@ -2322,8 +2378,15 @@
         "name": "DWU CULTURAL DAY",
         "description": "August",
         "brand_url": "05000009_1.jpg",
-        "image_urls": ["05000009_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000009_m1.png"}],
+        "image_urls": [
+          "05000009_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000009_m1.png"
+          }
+        ],
         "left_description": "The Divine Word University Cultural Day is an annual event that sees students come together to perform and celebrate their cultural heritage.",
         "right_description": "CALL TODAY: 675 422 2937\nEMAIL: events@dwu.ac.pg",
         "custom_actions": "no-brand-picture"
@@ -2333,8 +2396,15 @@
         "name": "GOROKA SHOW",
         "description": "September",
         "brand_url": "05000010_1.jpg",
-        "image_urls": ["05000010_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000010_m1.png"}],
+        "image_urls": [
+          "05000010_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000010_m1.png"
+          }
+        ],
         "left_description": "The Highlands region is famous for its primitive history, which included cannibalism and violent tribal wars. At the Goroka Show, descendants beat kundu drums and decorate themselves in unusual body paints and feathers to celebrate their unique heritage.",
         "right_description": "CALL TODAY: 675 532 2644\nEMAIL: gorokashow2014@gmail.com",
         "custom_actions": "no-brand-picture"
@@ -2344,8 +2414,15 @@
         "name": "HIRI MOALE SHOW",
         "description": "September",
         "brand_url": "05000011_1.jpg",
-        "image_urls": ["05000011_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000011_m1.png"}],
+        "image_urls": [
+          "05000011_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000011_m1.png"
+          }
+        ],
         "left_description": "The Hiri Moale Show has become a premier cultural event. Like everything in PNG, the show illustrates a rich and symbolic history that reflects on age-old stories and customs. During the show, Ela Beach comes to life with stilt houses, colourful canoes and hundreds of people singing, dancing and celebrating tradition.",
         "right_description": "CALL TODAY: 675 320 0211",
         "custom_actions": "no-brand-picture"
@@ -2355,8 +2432,15 @@
         "name": "FRANGIPANI FESTIVAL",
         "description": "September",
         "brand_url": "05000012_1.jpg",
-        "image_urls": ["05000012_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000012_m1.png"}],
+        "image_urls": [
+          "05000012_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000012_m1.png"
+          }
+        ],
         "left_description": "Occurring in September, the Frangipani Festival celebrates Independence Day. See the famous Baining Fire Dance, sing-sings, a float parade and more.",
         "right_description": "CALL TODAY: 675 982 8697\nEMAIL: susie@rabaulhotel.com.pg",
         "custom_actions": "no-brand-picture"
@@ -2366,8 +2450,15 @@
         "name": "MOROBE CULTURAL SHOW",
         "description": "October",
         "brand_url": "05000013_1.jpg",
-        "image_urls": ["05000013_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000013_m1.png"}],
+        "image_urls": [
+          "05000013_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000013_m1.png"
+          }
+        ],
         "left_description": "The Morobe Cultural Show is probably the most famous cultural show in PNG. It is held in October each year and provides visitors with agricultural information as well as showcases the largest group of sing-sings in PNG.",
         "right_description": "CALL TODAY: 675 472 2887\nEMAIL: info@morobeshow.org.pg",
         "custom_actions": "no-brand-picture"
@@ -2377,14 +2468,21 @@
         "name": "PNG KENU AND KUNDU FESTIVAL",
         "description": "November",
         "brand_url": "05000014_1.jpg",
-        "image_urls": ["05000014_1.jpg"],
-        "map_urls": [{"name": "", "url": "05000014_m1.png"}],
+        "image_urls": [
+          "05000014_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "05000014_m1.png"
+          }
+        ],
         "left_description": "With its rich connection to the water, the people of Milne Bay celebrate a canoe festival in November each year. Visitors will see war canoes and locally-made kundu drums in all their glory.",
         "right_description": "CALL TODAY: 675 641 1503\nEMAIL: kenukundusponsor@kulamail.net",
         "custom_actions": "no-brand-picture"
-      }     
+      }
     ]
-  },  
+  },
   {
     "global_id": "06000000",
     "name": "eating out",
@@ -2395,193 +2493,588 @@
         "name": "ASIA AROMAS",
         "description": "Chinese & Thai",
         "brand_url": "06000001_0.jpg",
-        "image_urls": ["06000001_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000001_m1.png"}],
-        "left_description": "Asia Aromas serves up a delicious blend of Thai and Chinese cuisine. Enjoy fine food, great service and spectacular views. Open Monday to Saturday, 11am to 2pm and 5pm to 10pm, and Sunday 10.30pm to 2.30pm. Price Guide: Entree: K16, Main: K30, Dessert: K12. Cards Accepted: Amex, MC, Visa",
-        "right_description": "CALL TODAY: 675 321 4780\nAddress: Steamships Plaza, Downtown, Port Moresby\nCuisine: Chinese & Thai\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000001_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000001_m1.png"
+          }
+        ],
+        "left_description": "Asia Aromas serves up a delicious blend of Thai and Chinese cuisine. Enjoy fine food, great service and spectacular views. \n\nOpen Monday to Saturday, 11am to 2pm and 5pm to 10pm, and Sunday 10.30pm to 2.30pm. \nPrice Guide: Entree: K16, Main: K30, Dessert: K12. \nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 321 4780\nAddress: Steamships Plaza, Downtown, Port Moresby\nCuisine: Chinese & Thai\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000002",
         "name": "CUPPA",
         "description": "Café Cuisine",
         "brand_url": "06000002_0.jpg",
-        "image_urls": ["06000002_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000002_m1.png"}],
-        "left_description": "Cuppa’s relaxed vibe offers the perfect place to catch up over great coffee. Enjoy refreshments such as Cuppa's big breakfasts, pasta, soup, sandwiches and more. Open 7 days, 9am to 9pm. Free wifi available.",
-        "right_description": "CALL TODAY: 675 302 8666\nAddress: Shop G48, Vision City Megamall, 4027 Waigani, National Capital, Papua New Guinea\nCuisine: Café Cuisine\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K18, Main: K32, Dessert: K12",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000002_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000002_m1.png"
+          }
+        ],
+        "left_description": "Cuppa’s relaxed vibe offers the perfect place to catch up over great coffee. Enjoy refreshments such as Cuppa's big breakfasts, pasta, soup, sandwiches and more.\n\nOpen 7 days, 9am to 9pm. Free wifi available.\nPrice Guide: Entree: K18, Main: K32, Dessert: K12\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 302 8666\nAddress: Shop G48, Vision City Megamall, 4027 Waigani, National Capital, Papua New Guinea\nCuisine: Café Cuisine\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
+      },
+      {
+        "global_id": "06000003",
+        "name": "KOREAN GARDENS",
+        "description": "Korean Cuisine",
+        "brand_url": "06000003_0.jpg",
+        "image_urls": [
+          "06000003_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000003_m1.png"
+          }
+        ],
+        "left_description": "The traditional chef at Korean Gardens creates delicious, authentic Korean dishes. Enjoy a genuine Korean barbecue and stunning views from the restaurant.\n\nOpen 7 days a week, 11.00am to 2.00pm and 5.30pm to 10.00pm.\nPrice Guide: Entree: K22, Main: K48, Dessert: K12\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 302 8534\nAddress: Vision City Waigani\nCuisine: Korean Cuisine\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
+      },
+      {
+        "global_id": "06000004",
+        "name": "YELLOW CAPTAIN PIZZA",
+        "description": "Pizza & Pasta",
+        "brand_url": "06000004_0.jpg",
+        "image_urls": [
+          "06000004_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000004_m1.png"
+          }
+        ],
+        "left_description": "Yellow Captain Pizza, the pizza specialist, dishes up tasty pizzas, pasta and chicken dishes. Dine in or take away.\n\nPrice Guide: Entree: K13, Main: K45, Dessert: K12\nCards Accepted: MC, Visa",
+        "right_description": "CALL TODAY: 675 302 8570\nAddress: Vision City Mega Wall Waigani\nCuisine: Pizza & Pasta\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000005",
-        "name": "KOREAN GARDENS",
-        "description": "Korean Cuisine",
+        "name": "HOG'S BREATH CAFÉ",
+        "description": "Steak, Seafood, Australian",
         "brand_url": "06000005_0.jpg",
-        "image_urls": ["06000005_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000005_m1.png"}],
-        "left_description": "The traditional chef at Korean Gardens creates delicious, authentic Korean dishes. Enjoy a genuine Korean barbecue and stunning views from the restaurant. Open 7 days a week, 11.00am to 2.00pm and 5.30pm to 10.00pm.",
-        "right_description": "CALL TODAY: 675 302 8534\nAddress: Vision City Waigani\nCuisine: Korean Cuisine\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K22, Main: K48, Dessert: K12",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000005_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000005_m1.png"
+          }
+        ],
+        "left_description": "There’s a Hog’s Breath Cafe in Port Moresby! Enjoy great steaks and a range of other delicious meals. Dine in or takeaway.\n\nOpen daily, 11.30am to 10.00pm.\nPrice Guide: Entree: K32, Main: K68, Dessert: K22\nCards Accepted: MC, Visa, JCB",
+        "right_description": "CALL TODAY: 675 302 8550\nAddress: Vision City Waigani\nCuisine: Steak, Seafood, Australian\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000006",
-        "name": "YELLOW CAPTAIN PIZZA",
-        "description": "Pizza & Pasta",
+        "name": "BEACHSIDE BRASSERIE",
+        "description": "European Cuisine",
         "brand_url": "06000006_0.jpg",
-        "image_urls": ["06000006_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000006_m1.png"}],
-        "left_description": "Yellow Captain Pizza, the pizza specialist, dishes up tasty pizzas, pasta and chicken dishes. Dine in or take away.",
-        "right_description": "CALL TODAY: 675 302 8570\nAddress: Vision City Mega Wall Waigani\nCuisine: Pizza & Pasta\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: MC, Visa\nPrice Guide: Entree: K13, Main: K45, Dessert: K12",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000006_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000006_m1.png"
+          }
+        ],
+        "left_description": "Beachside Brasserie is located within the Ela Beach Hotel and showcases unique local art. Enjoy a delicious blend of Pacific and international cuisine. Open for breakfast, lunch and dinner.\n\nPrice Guide: Entree: K18, Main: K30, Dessert: K22\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 321 2100\nAddress: Ela Beach Hotel, Ela Beach Rd, Port Moresby\nCuisine: European Cuisine\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000007",
-        "name": "HOG'S BREATH CAFÉ",
-        "description": "Steak, Seafood, Australian",
+        "name": "DAIKOKU",
+        "description": "Japanese Teppan-Yaki Steak House",
         "brand_url": "06000007_0.jpg",
-        "image_urls": ["06000007_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000007_m1.png"}],
-        "left_description": "There’s a Hog’s Breath Cafe in Port Moresby! Enjoy great steaks and a range of other delicious meals. Dine in or takeaway. Open daily, 11.30am to 10.00pm.",
-        "right_description": "CALL TODAY: 675 302 8550\nAddress: Vision City Waigani\nCuisine: Steak, Seafood, Australian\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: MC, Visa, JCB\nPrice Guide: Entree: K32, Main: K68, Dessert: K22",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000007_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000007_m1.png"
+          }
+        ],
+        "left_description": "For a special place to dine, you can’t go past Daikoku. Boasting Japanese Teppan-yaki this is as much about the fabulous food as it is about the experience. The restaurant is Japanese owned so your experience is guaranteed to be an authentic one.\n\nPrice Guide: Entree: K28, Main: K88, Dessert: K10\nCards Accepted: Amex, MC, Visa, JBC",
+        "right_description": "CALL TODAY: 675 321 0255\nAddress: Harbour City, Downtown, Port Moresby\nCuisine: Japanese Teppan-Yaki Steak House\n\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes",
+        "custom_actions": ""
       },
       {
         "global_id": "06000008",
-        "name": "BEACHSIDE BRASSERIE",
-        "description": "European Cuisine",
+        "name": "DYNASTY SEAFOOD",
+        "description": "Chinese, Malaysian & Yum Cha",
         "brand_url": "06000008_0.jpg",
-        "image_urls": ["06000008_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000008_m1.png"}],
-        "left_description": "Beachside Brasserie is located within the Ela Beach Hotel and showcases unique local art. Enjoy a delicious blend of Pacific and international cuisine. Open for breakfast, lunch and dinner.",
-        "right_description": "CALL TODAY: 675 321 2100\nAddress: Ela Beach Hotel, Ela Beach Rd, Port Moresby\nCuisine: European Cuisine\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K18, Main: K30, Dessert: K22",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000008_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000008_m1.png"
+          }
+        ],
+        "left_description": "Dine in at Dynasty Seafood and enjoy an extensive menu of fresh seafood blended with aromatic Asian herbs and spices. Yum Cha available every Saturday and Sunday for lunch. Open Monday to Friday 11am to 2pm, and Saturday to Sunday 10.30am to 2pm and 5.30pm to 10pm.\n\nPrice Guide: Entree: K20, Main: K30, Dessert: K12\nCards Accepted: MC, Visa, JCB",
+        "right_description": "CALL TODAY: 675 302 8538\nAddress: Vision City, Waigani Drive, Waigani\nCuisine: Chinese, Malaysian & Yum Cha\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
+      },
+      {
+        "global_id": "06000009",
+        "name": "FU GUI VILLAGE RESTAURANT",
+        "description": "Chinese & Malaysian",
+        "brand_url": "06000009_0.jpg",
+        "image_urls": [
+          "06000009_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000009_m1.png"
+          }
+        ],
+        "left_description": "Fu Gui Village Restaurant is a family style eatery. Perfect for a relaxed night out.\n\nPrice Guide: Entree: K12, Main: K30, Dessert: K12\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 323 0188\nAddress: Gordons\nCuisine: Chinese & Malaysian\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000010",
-        "name": "DAIKOKU",
-        "description": "Japanese Teppan-Yaki Steak House",
+        "name": "FUSION BISTRO",
+        "description": "Singaporean, Malaysian & Chinese",
         "brand_url": "06000010_0.jpg",
-        "image_urls": ["06000010_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000010_m1.png"}],
-        "left_description": "For a special place to dine, you can’t go past Daikoku. Boasting Japanese Teppan-yaki this is as much about the fabulous food as it is about the experience. The restaurant is Japanese owned so your experience is guaranteed to be an authentic one.",
-        "right_description": "CALL TODAY: 675 321 0255\nAddress: Harbour City, Downtown, Port Moresby\nCuisine: Japanese Teppan-Yaki Steak House\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa, JBC\nPrice Guide: Entree: K28, Main: K88, Dessert: K10",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000010_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000010_m1.png"
+          }
+        ],
+        "left_description": "Excellent quality and service are all part of the Fusion experience. Combining Asian cuisine with a Western twist, you’re in for a fine dining treat whenever you visit Fusion.\n\nPrice Guide: Entree: K20, Main: K40, Dessert: K22\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 7196 6666\nAddress: Harbour City, Downtown, Port Moresby\nCuisine: Singaporean, Malaysian & Chinese\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000011",
-        "name": "DYNASTY SEAFOOD",
-        "description": "Chinese, Malaysian & Yum Cha",
+        "name": "GRAND BRASSERIE",
+        "description": "International Contemporary Cuisine",
         "brand_url": "06000011_0.jpg",
-        "image_urls": ["06000011_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000011_m1.png"}],
-        "left_description": "Dine in at Dynasty Seafood and enjoy an extensive menu of fresh seafood blended with aromatic Asian herbs and spices. Yum Cha available every Saturday and Sunday for lunch. Open Monday to Friday 11am to 2pm, and Saturday to Sunday 10.30am to 2pm and 5.30pm to 10pm.",
-        "right_description": "CALL TODAY: 675 302 8538\nAddress: Vision City, Waigani Drive, Waigani\nCuisine: Chinese, Malaysian & Yum Cha\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: MC, Visa, JCB\nPrice Guide: Entree: K20, Main: K30, Dessert: K12",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000011_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000011_m1.png"
+          }
+        ],
+        "left_description": "The Grand Brasserie certainly makes a statement when it comes to quality and style. Overlooking Jackson's Harbour, this is the perfect place if you're seeking a fine dining experience. Blending Asian and Pacific Rim cuisine, the food here looks as good as it tastes.\n\nPrice Guide: Entree: K30, Main: K65, Dessert: K26\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 304 0170\nAddress: Grand Papua Hotel, Mary Street, Port Moresby\nCuisine: International Contemporary Cuisine\n\nTakeaway: No\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes",
+        "custom_actions": ""
       },
       {
         "global_id": "06000012",
-        "name": "FU GUI VILLAGE RESTAURANT",
-        "description": "Chinese & Malaysian",
+        "name": "GREEN HAUS RESTAURANT",
+        "description": "International Contemporary Cuisine",
         "brand_url": "06000012_0.jpg",
-        "image_urls": ["06000012_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000012_m1.png"}],
-        "left_description": "Fu Gui Village Restaurant is a family style eatery. Perfect for a relaxed night out.",
-        "right_description": "CALL TODAY: 675 323 0188\nAddress: Gordons\nCuisine: Chinese & Malaysian\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K12, Main: K30, Dessert: K12",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000012_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000012_m1.png"
+          }
+        ],
+        "left_description": "Dine in the opulence of the Green Haus Restaurant located at the Stanley Hotel & Suites. Enjoy pastries, artisan bread, and the fruity flavours of locally grown coffee. A buffet dinner finishes off the day with a sumptuous choice of cuisines. Open for breakfast, lunch, and dinner.\n\nPrice Guide: Entree: K40, Main: K75, Dessert: K40\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 302 8888\nAddress: The Stanley Hotel\nCuisine: International Contemporary Cuisine\n\nTakeaway: No\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes",
+        "custom_actions": ""
       },
       {
         "global_id": "06000013",
-        "name": "FUSION BISTRO",
-        "description": "Singaporean, Malaysian & Chinese",
+        "name": "MAGI SEAFOOD RESTAURANT",
+        "description": "Malaysian Chinese Seafood",
         "brand_url": "06000013_0.jpg",
-        "image_urls": ["06000013_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000013_m1.png"}],
-        "left_description": "Excellent quality and service are all part of the Fusion experience. Combining Asian cuisine with a Western twist, you’re in for a fine dining treat whenever you visit Fusion.",
-        "right_description": "CALL TODAY: 675 7196 6666\nAddress: Harbour City, Downtown, Port Moresby\nCuisine: Singaporean, Malaysian & Chinese\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K20, Main: K40, Dessert: K22",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000013_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000013_m1.png"
+          }
+        ],
+        "left_description": "Magi Seafood Restaurant serves up an array of delectable and aromatic seafood dishes.\n\nPrice Guide: Entree: K10, Main: K30, Dessert: K8\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 323 3918\nAddress: Spring Gardens Road, Gordons\nCuisine: Malaysian Chinese Seafood\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: No\nCourtesy Transport: No",
+        "custom_actions": ""
+      },
+      {
+        "global_id": "06000014",
+        "name": "MR MIKES PIZZA",
+        "description": "Pizza & Wings (Takeaway)",
+        "brand_url": "06000014_0.jpg",
+        "image_urls": [
+          "06000014_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000014_m1.png"
+          }
+        ],
+        "left_description": "If you enjoy gourmet pizzas at great value, you can’t go past Mr Mike's Pizza. Offering a large range of thin-crust pizzas, specialty wings, poutine, and garlic bread.\n\nMr Mike’s Pizza is open daily 10am to 10pm, and until 2am Friday and Saturday.\nPrice Guide: Entree: K6, Main: K17\nCards Accepted: MC, Visa",
+        "right_description": "CALL TODAY: 675 343 1722\nAddress: The Shady Rest Hotel, Taurama Road, Boroko\nCuisine: Pizza & Wings (Takeaway)\n\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes",
+        "custom_actions": ""
+      },
+      {
+        "global_id": "06000015",
+        "name": "PORT MORESBY NATURE PARK CAFÉ",
+        "description": "Café Cuisine",
+        "brand_url": "06000015_0.jpg",
+        "image_urls": [
+          "06000015_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000015_m1.png"
+          }
+        ],
+        "left_description": "For the curious and hungry visitor, Port Moresby Nature Park Café offers up a range of light refreshments and lunch options.\n\nOpen daily from 8.30am to 3.30pm.\nPrice Guide: Entree: K12, Main: K20, Dessert: K10\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 326 0248\nAddress: Goro Kaeaga Road, University\nCuisine: Café Cuisine\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: Yes",
+        "custom_actions": ""
       },
       {
         "global_id": "06000016",
-        "name": "GRAND BRASSERIE",
-        "description": "International Contemporary Cuisine",
+        "name": "TANDOOR ON THE HARBOUR",
+        "description": "Live Tandoor",
         "brand_url": "06000016_0.jpg",
-        "image_urls": ["06000016_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000016_m1.png"}],
-        "left_description": "The Grand Brasserie certainly makes a statement when it comes to quality and style. Overlooking Jackson's Harbour, this is the perfect place if you're seeking a fine dining experience. Blending Asian and Pacific Rim cuisine, the food here looks as good as it tastes.",
-        "right_description": "CALL TODAY: 675 304 0170\nAddress: Grand Papua Hotel, Mary Street, Port Moresby\nCuisine: International Contemporary Cuisine\nTakeaway: No\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K30, Main: K65, Dessert: K26",
-        "custom_actions": "no-brand-picture"
+        "image_urls": [
+          "06000016_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000016_m1.png"
+          }
+        ],
+        "left_description": "If aromatic cuisine and tasty flavours is your thing, then Tandoor on the Harbour is the choice for you. Specialising in Tandoor, this restaurant is known for its great curries and service. With views across the harbour, what more could you want?\n\nPrice Guide: Entree: K20, Main: K50, Dessert: K15\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 7172 3889\nAddress: Pacific Palms Building, Granville, Downtown\nCuisine: Live Tandoor\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No",
+        "custom_actions": ""
       },
       {
         "global_id": "06000017",
-        "name": "GREEN HAUS RESTAURANT",
-        "description": "International Contemporary Cuisine",
-        "brand_url": "06000017_0.jpg",
-        "image_urls": ["06000017_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000017_m1.png"}],
-        "left_description": "Dine in the opulence of the Green Haus Restaurant located at the Stanley Hotel & Suites. Enjoy pastries, artisan bread, and the fruity flavours of locally grown coffee. A buffet dinner finishes off the day with a sumptuous choice of cuisines. Open for breakfast, lunch, and dinner.",
-        "right_description": "CALL TODAY: 675 302 8888\nAddress: The Stanley Hotel\nCuisine: International Contemporary Cuisine\nTakeaway: No\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K40, Main: K75, Dessert: K40",
-        "custom_actions": "no-brand-picture"
-      },
-      {
-        "global_id": "06000020",
-        "name": "MAGI SEAFOOD RESTAURANT",
-        "description": "Malaysian Chinese Seafood",
-        "brand_url": "06000020_0.jpg",
-        "image_urls": ["06000020_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000020_m1.png"}],
-        "left_description": "Magi Seafood Restaurant serves up an array of delectable and aromatic seafood dishes.",
-        "right_description": "CALL TODAY: 675 323 3918\nAddress: Spring Gardens Road, Gordons\nCuisine: Malaysian Chinese Seafood\nTakeaway: Yes\nWIFI: No\nSecure Parking: No\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K10, Main: K30, Dessert: K8",
-        "custom_actions": "no-brand-picture"
-      },
-      {
-        "global_id": "06000021",
-        "name": "MR MIKES PIZZA",
-        "description": "Pizza & Wings (Takeaway)",
-        "brand_url": "06000021_0.jpg",
-        "image_urls": ["06000021_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000021_m1.png"}],
-        "left_description": "If you enjoy gourmet pizzas at great value, you can’t go past Mr Mike's Pizza. Offering a large range of thin-crust pizzas, specialty wings, poutine, and garlic bread, Mr Mike’s Pizza is open daily 10am to 10pm, and until 2am Friday and Saturday.",
-        "right_description": "CALL TODAY: 675 343 1722\nAddress: The Shady Rest Hotel, Taurama Road, Boroko\nCuisine: Pizza & Wings (Takeaway)\nTakeaway: Yes\nWIFI: Yes\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: MC, Visa\nPrice Guide: Entree: K6, Main: K17",
-        "custom_actions": "no-brand-picture"
-      },
-      {
-        "global_id": "06000022",
-        "name": "PORT MORESBY NATURE PARK CAFÉ",
-        "description": "Café Cuisine",
-        "brand_url": "06000022_0.jpg",
-        "image_urls": ["06000022_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000022_m1.png"}],
-        "left_description": "For the curious and hungry visitor, Port Moresby Nature Park Café offers up a range of light refreshments and lunch options. Open daily from 8.30am to 3.30pm.",
-        "right_description": "CALL TODAY: 675 326 0248\nAddress: Goro Kaeaga Road, University\nCuisine: Café Cuisine\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K12, Main: K20, Dessert: K10",
-        "custom_actions": "no-brand-picture"
-      },
-      {
-        "global_id": "06000025",
-        "name": "TANDOOR ON THE HARBOUR",
-        "description": "Live Tandoor",
-        "brand_url": "06000025_0.jpg",
-        "image_urls": ["06000025_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000025_m1.png"}],
-        "left_description": "If aromatic cuisine and tasty flavours is your thing, then Tandoor on the Harbour is the choice for you. Specialising in Tandoor, this restaurant is known for its great curries and service. With views across the harbour, what more could you want?",
-        "right_description": "CALL TODAY: 675 7172 3889\nAddress: Pacific Palms Building, Granville, Downtown\nCuisine: Live Tandoor\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: No\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K20, Main: K50, Dessert: K15",
-        "custom_actions": "no-brand-picture"
-      },
-      {
-        "global_id": "06000026",
         "name": "TASTY BITE",
         "description": "Indian & Tandoor",
-        "brand_url": "06000026_0.jpg",
-        "image_urls": ["06000026_1.jpg"],
-        "map_urls": [{"name": "", "url": "06000026_m1.png"}],
-        "left_description": "Tasty Bite brings you sumptuous Indian and Tandoor cuisine made by authentic Indian chefs. The food really is tasty so you won’t leave this establishment hungry. Large seating available or choose the private room for a more intimate setting. Excellent service guaranteed.",
-        "right_description": "CALL TODAY: 675 321 2222\nAddress: Hunter Street, Port Moresby\nCuisine: Indian & Tandoor\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: Yes\nCards Accepted: Amex, MC, Visa\nPrice Guide: Entree: K20, Main: K39, Dessert: K12",
-        "custom_actions": "no-brand-picture"
-      }     
+        "brand_url": "06000017_0.jpg",
+        "image_urls": [
+          "06000017_1.jpg"
+        ],
+        "map_urls": [
+          {
+            "name": "",
+            "url": "06000017_m1.png"
+          }
+        ],
+        "left_description": "Tasty Bite brings you sumptuous Indian and Tandoor cuisine made by authentic Indian chefs. The food really is tasty so you won’t leave this establishment hungry. Large seating available or choose the private room for a more intimate setting. Excellent service guaranteed.\n\nPrice Guide: Entree: K20, Main: K39, Dessert: K12\nCards Accepted: Amex, MC, Visa",
+        "right_description": "CALL TODAY: 675 321 2222\nAddress: Hunter Street, Port Moresby\nCuisine: Indian & Tandoor\n\nTakeaway: Yes\nWIFI: No\nSecure Parking: Yes\nCourtesy Transport: Yes",
+        "custom_actions": ""
+      }
     ]
-  },  
+  },
   {
     "global_id": "07000000",
     "name": "our hotel",
-    "attributes": []
+    "attributes_inner": "overlay",
+    "attributes_is_index": true,
+    "attributes": [
+      {
+        "global_id": "07010000",
+        "name": "Rooms & Suites",
+        "image_url": "07010000_1.jpg",
+        "attributes_inner": "sidebar",
+        "attributes": [
+          {
+            "global_id": "07010001",
+            "name": "King Deluxe Room",
+            "brand_url": "07010001_1.jpg",
+            "image_urls": [
+              "07010001_1.jpg",
+              "07010001_2.jpg",
+              "07010001_3.jpg"
+            ],
+            "left_description": "34 sqm, high floor, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish king room located on a high floor of the hotel. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nBrew yourself a fresh cup of coffee using the coffee maker. Other amenities include black-out drapes and a laptop safe. Special touches include luxury bath amenities.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Sleeps 3\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010002",
+            "name": "Double Executive Room",
+            "brand_url": "07010002_1.jpg",
+            "image_urls": [
+              "07010002_1.jpg",
+              "07010002_2.jpg",
+              "07010002_3.jpg"
+            ],
+            "left_description": "34 sqm, executive lounge access, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish room located on a high floor of the hotel. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 4\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010003",
+            "name": "2 Double Beds Guest Room",
+            "brand_url": "07010003_1.jpg",
+            "image_urls": [
+              "07010003_1.jpg",
+              "07010003_2.jpg",
+              "07010003_3.jpg",
+              "07010003_4.jpg",
+              "07010003_5.jpg"
+            ],
+            "left_description": "34 sqm, floor-to-ceiling windows, WiFi, HDTV, lounge chair, stylish, well-appointed bathroom.\n\nRelax and enjoy your stay in this stylish guest room with two double beds and floor-to-ceiling windows allowing plenty of natural light. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nRoom Highlights\n• Sleeps 4\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nComfort Amenities\n• Sleeps 4\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Convenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010004",
+            "name": "2 Double Beds Deluxe Room",
+            "brand_url": "07010004_1.jpg",
+            "image_urls": [
+              "07010004_1.jpg",
+              "07010004_2.jpg",
+              "07010004_3.jpg",
+              "07010004_4.jpg",
+              "07010004_5.jpg"
+            ],
+            "left_description": "34 sqm, high floor, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nRelax and enjoy your stay in this stylish deluxe room with two double beds and floor-to-ceiling windows allowing plenty of natural light. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nRoom Highlights\n• Sleeps 4\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nComfort Amenities\n• Sleeps 4\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Convenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010005",
+            "name": "King Executive Room",
+            "brand_url": "07010005_1.jpg",
+            "image_urls": [
+              "07010005_1.jpg",
+              "07010005_2.jpg",
+              "07010005_3.jpg",
+              "07010005_4.jpg",
+              "07010005_5.jpg",
+              "07010005_6.jpg"
+            ],
+            "left_description": "Located on the top two floors of the Hotel with executive lounge access, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish king room located on the top floors of the hotel. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010006",
+            "name": "King Guest Room",
+            "brand_url": "07010006_1.jpg",
+            "image_urls": [
+              "07010006_1.jpg",
+              "07010006_2.jpg",
+              "07010006_3.jpg"
+            ],
+            "left_description": "34 sqm, floor-to-ceiling windows, WiFi, HDTV, lounge chair, stylish, well-appointed bathroom, laptop safe.\n\nRelax and enjoy your stay in this stylish guest room with one king bed and floor-to-ceiling windows, allowing for plenty of natural light. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Sleeps 3\n• Mini refrigerator\n• Hand-held shower\n• Portable shower chairs\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010006",
+            "name": "King Accessible Room",
+            "brand_url": "07010007_1.jpg",
+            "image_urls": [
+              "07010007_1.jpg",
+              "07010007_2.jpg",
+              "07010007_3.jpg",
+              "07010007_4.jpg"
+            ],
+            "left_description": "34 sqm, Wheelchair accessible, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nThis stylish king room has wheelchair accessible features including handrails/seating in the bathroom. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nBrew yourself a fresh cup of coffee using the coffee maker. Other amenities include black-out drapes and a laptop safe. Special touches include luxury bath amenities.\n\nAny corresponding photo may not reflect the specific accessible room type or room type feature.\n\nComfort Amenities\n• Sleeps 2\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Sleeps 2\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010008",
+            "name": "King Executive Suite",
+            "brand_url": "07010008_1.jpg",
+            "image_urls": [
+              "07010008_1.jpg",
+              "07010008_2.jpg",
+              "07010008_3.jpg",
+              "07010008_4.jpg"
+            ],
+            "left_description": "Located on the top two floors of the Hotel with executive lounge access, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish king room located on the top floors of the hotel. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010009",
+            "name": "King Chairman Suite",
+            "brand_url": "07010009_1.jpg",
+            "image_urls": [
+              "07010009_1.jpg",
+              "07010009_2.jpg",
+              "07010009_3.jpg",
+              "07010009_4.jpg",
+              "07010009_5.jpg"
+            ],
+            "left_description": "119 sqm, top floor, living/dining room, Executive Lounge access & benefits.\n\nAdmire fabulous views from the top floor in the elegant Chairman Suite. This suite boasts a range of spaces including a separate living room, dining table for 6, private king bedroom, and additional guest toilet. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks.\n\nStay connected with WiFi or unwind on the chaise longue or sofa and watch the 65-inch HDTV. Brew yourself a fresh cup of coffee using the coffee maker. Other amenities include black-out drapes and a laptop safe. Special touches include luxury bath amenities.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+            "right_description": "Room Highlights\n• Sleeps 3\n• Dining table\n• Separate toilet area\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010010",
+            "name": "Two Bedroom Residence",
+            "brand_url": "07010010_1.jpg",
+            "image_urls": [
+              "07010010_1.jpg",
+              "07010010_2.jpg",
+              "07010010_3.jpg",
+              "07010010_4.jpg"
+            ],
+            "left_description": "1 king bedroom with ensuite, 1 twin bedroom with adjoining bathroom.\n\nWalk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+            "right_description": "Room Highlights\n• Sleeps 4",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010011",
+            "name": "Two Bedroom Family Residence",
+            "brand_url": "07010011_1.jpg",
+            "image_urls": [
+              "07010011_1.jpg",
+              "07010011_2.jpg",
+              "07010011_3.jpg",
+              "07010011_4.jpg",
+              "07010011_5.jpg"
+            ],
+            "left_description": "1 king bedroom with ensuite, 1 twin bedroom with adjoining bathroom.\n\nWalk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+            "right_description": "Room Highlights\n• Sleeps 4",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010012",
+            "name": "King One Bedroom Residence",
+            "brand_url": "07010012_1.jpg",
+            "image_urls": [
+              "07010012_1.jpg",
+              "07010012_2.jpg",
+              "07010012_3.jpg"
+            ],
+            "left_description": "1 king bedroom with adjoining bathroom, walk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+            "right_description": "Room Highlights\n• Sleeps 2",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010013",
+            "name": "Two Bedroom Corner Residence",
+            "brand_url": "07010013_1.jpg",
+            "image_urls": [
+              "07010013_1.jpg",
+              "07010013_2.jpg",
+              "07010013_3.jpg",
+              "07010013_4.jpg"
+            ],
+            "left_description": "1 king bedroom with ensuite featuring separate bath and walk-in shower, 1 queen bedroom with adjoining bathroom, furnished balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+            "right_description": "Room Highlights\n• Sleeps 4",
+            "custom_actions": "no-brand-picture"
+          },
+          {
+            "global_id": "07010014",
+            "name": "King Studio Residence",
+            "brand_url": "07010014_1.jpg",
+            "image_urls": [
+              "07010014_1.jpg",
+              "07010014_2.jpg"
+            ],
+            "left_description": "1 king bedroom with adjoining bathroom, walk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+            "right_description": "Room Highlights\n• Sleeps 2",
+            "custom_actions": "no-brand-picture"
+          }
+        ]
+      },
+      {
+        "global_id": "07020000",
+        "name": "Dining",
+        "image_url": "07020000_1.jpg",
+        "attributes_inner": "sidebar",
+        "attributes": [
+          {
+            "global_id": "07020001",
+            "name": "Halo",
+            "brand_url": "07020001_1.jpg",
+            "image_urls": ["07020001_1.jpg", "07020001_2.jpg", "07020001_3.jpg", "07020001_4.jpg", "07020001_5.jpg"],
+            "left_description": "Hours\nMonday – Sunday\n7:00 am – 4:00 pm\n",
+            "right_description": "Overlooking the Amphitheatre and gardens, Halo is the perfect venue for a beverage and a quick bite on the go. Select your favourite coffee, choose from a range of teas and refresh with a tasty juice or cool beverage as you enjoy a selection of sandwiches, wraps, salads and sweet and savoury treats. The café captures the essence of the hotel’s architectural design as well as the lush vegetation with a relaxed atmosphere.\n",
+            "custom_actions": ""
+          },
+          {
+            "global_id": "07020002",
+            "name": "Host",
+            "brand_url": "07020002_1.jpg",
+            "image_urls": ["07020002_1.jpg", "07020002_2.jpg", "07020002_3.jpg", "07020002_4.jpg", "07020002_5.jpg"],
+            "left_description": "",
+            "right_description": "Host offers a wide selection of freshly brewed coffee's, choices of tea flavours and an evolving array of freshly made sweet and savoury delicacies and deli items. The deli designed as a 'grab & go' style is perfect while on the run, working through lunch or taking to your room, while the bistro offers all day breakfast, lunch and dinner in a relaxed space that in the evening transforms into a perfect place to dine, unwind and socialise.\n",
+            "custom_actions": ""
+          },
+          {
+            "global_id": "07020003",
+            "name": "Mumu",
+            "brand_url": "07020003_1.jpg",
+            "image_urls": ["07020003_1.jpg", "07020003_2.jpg", "07020003_3.jpg", "07020003_4.jpg", "07020003_5.jpg"],
+            "left_description": "Hours\nMonday – Saturday\n5:00 pm – 10:30 pm\n",
+            "right_description": "Named after a traditional method of cooking, 'Mumu' which encompasses both the earthen oven and its layered feast, often prepared as part of a celebration throughout Papua New Guinea, the restaurant offers a unique culinary experience. Enjoy fine wines, beers and spirits with delicious dishes prepared in the open kitchen and served from our Mumu pit - the significant traditional feature of the restaurant, while dining exclusively indoors or outdoors in our over-water bungalows offering a tropical experience.\n",
+            "custom_actions": ""
+          },
+          {
+            "global_id": "07020004",
+            "name": "Summit",
+            "brand_url": "07020004_1.jpg",
+            "image_urls": ["07020004_1.jpg", "07020004_2.jpg", "07020004_3.jpg", "07020004_4.jpg", "07020004_5.jpg"],
+            "left_description": "Wednesday – Thursday:\n4:00 pm – 10:00 pm\nFriday:\n4:00 pm – 12:00 am\nSaturday:\n3:00 pm – 12:00 am\n",
+            "right_description": "Summit Bar, on the top level of the hotel is the pinnacle of any night out in Port Moresby. Designed as a place to escape the day and reflect back on it in style, Summit is the height of sophistication. Join us for music that will elevate your day, food with new levels of flavour and excitement and of course signature cocktails, international wines and premium quality spirits served by attentive staff. Formal casual attire.\n",
+            "custom_actions": ""
+          },
+          {
+            "global_id": "07020005",
+            "name": "Feast",
+            "brand_url": "07020005_1.jpg",
+            "image_urls": ["07020005_1.jpg", "07020005_2.jpg", "07020005_3.jpg", "07020005_4.jpg", "07020005_5.jpg"],
+            "left_description": "Hours\nMonday – Sunday\n6:00 am – 10:30 pm\n",
+            "right_description": "Feast features all day dining options for breakfast, lunch and dinner, plus promotional offers. A range of local and international cuisine is offered to suit every palette. Enjoy an extensive range of wines from our wine room, beers, and spirits to complement your dining experience. Private dining for up to 30 is available, plus plenty of seating options for single diners.\n",
+            "custom_actions": ""
+          },
+          {
+            "global_id": "07020006",
+            "name": "Copper",
+            "brand_url": "07020006_1.jpg",
+            "image_urls": ["07020006_1.jpg", "07020006_2.jpg", "07020006_3.jpg", "07020006_4.jpg", "07020006_5.jpg"],
+            "left_description": "Hours\nMonday – Sunday\n6:00 am – 10:00 pm\n",
+            "right_description": "A prominent feature of the hotel, Copper is the perfect venue for a quick meal, coffee recharge or a relaxing drink. \n\nEnjoy café style dining, a full bar, beer on tap plus a variety of specialty coffees, hot and cold drinks, and juices. \n\nCopper offers deli-style food options throughout the day, sweet treats and a bar and lounge style à la carte menu. \n\nA sports lounge is also available, where the latest sports action can be enjoyed in style and comfort with table service.\n",
+            "custom_actions": ""
+          }
+        ]
+      },
+      {
+        "global_id": "07030000",
+        "name": "Conference & Events Facilities",
+        "image_url": "07030000_1.jpg",
+        "attributes_inner": "sidebar",
+        "attributes": []
+      }
+    ]
   }
 ]
