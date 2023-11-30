@@ -1,11 +1,13 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect, useCallback,useRef  } from 'react';
 const AppContext = createContext();
 
+const TIMER_RESET = 60;// reset time if not respond default should be 1min
 export const AppProvider = ({ children }) => {
     const [selectedService, setSelectedService] = useState(null);
     const [flightsData, setFlightsData] = useState(null);
     const [newsData, setNewsData] = useState(null);
     const [weatherData, setWeatherData] = useState(null);
+    const [globalId, setGlobalId] = useState("");
     const [lastUpdated, setLastUpdated] = useState({
         flights: null,
         news: null,
@@ -53,7 +55,7 @@ export const AppProvider = ({ children }) => {
                 }
             };
             try {
-                const response = await fetch('http://127.0.0.1:5000/flights');
+                const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/flights`);
                 if (!response.ok) throw new Error('Network response was not ok for flights');
                 const flightsData = await response.json();
                 updateData(flightsData);
@@ -68,7 +70,7 @@ export const AppProvider = ({ children }) => {
         // Fetch News Data
         const fetchNewsData = async () => {
             try {
-                const response = await fetch('http://127.0.0.1:5000/news');
+                const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/news`);
                 if (!response.ok) throw new Error('Network response was not ok for news');
                 const newsData = await response.json();
                 setNewsData(newsData);
@@ -76,14 +78,14 @@ export const AppProvider = ({ children }) => {
                 // Add any specific handling for news data here
             } catch (error) {
                 console.error('Fetch error for news:', error);
-                setTimeout(fetchNewsData, 60000); // Retry after 1 minute
+                setTimeout(fetchNewsData, TIMER_RESET*1000);
             }
         };
 
         // Fetch Weather Data
         const fetchWeatherData = async () => {
             try {
-                const response = await fetch('http://127.0.0.1:5000/weather');
+                const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/weather`);
                 if (!response.ok) throw new Error('Network response was not ok for weather');
                 const weatherData = await response.json();
                 setWeatherData(weatherData);
@@ -107,8 +109,35 @@ export const AppProvider = ({ children }) => {
         }
     }, [lastUpdated]);
 
+    // Timer to refresh every 60s
+    const timerId = useRef(null); 
+    const refreshPage = useCallback(() => {
+        setSelectedService(null)
+    }, [setSelectedService]);
+    const resetTimer = useCallback(() => {
+        if (timerId.current) {
+            clearTimeout(timerId.current);
+        }
+        if (selectedService !== null) {
+            timerId.current = setTimeout(refreshPage, 60000);
+        }
+    }, [selectedService, refreshPage]);
+
+    useEffect(() => {
+        resetTimer();
+
+        const handleUserActivity = () => resetTimer();
+        window.addEventListener('mousemove', handleUserActivity);
+
+        return () => {
+            clearTimeout(timerId.current);
+            window.removeEventListener('mousemove', handleUserActivity);
+        };
+    }, [resetTimer]);
+
+
     return (
-        <AppContext.Provider value={{ generalData, flightsData, newsData, weatherData, selectedService, setSelectedService }}>
+        <AppContext.Provider value={{ generalData, flightsData, newsData, weatherData, selectedService, setSelectedService, globalId, setGlobalId }}>
             {children}
         </AppContext.Provider>
     );

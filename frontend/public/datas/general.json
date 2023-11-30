@@ -15,8 +15,7 @@
           {
             "global_id": "01010100",
             "name": "banks",
-            "image_url": "placeholder.jpg",
-            "icon_url": "menu_icon.png",
+            "image_url": "01010100_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -78,7 +77,7 @@
           {
             "global_id": "01010200",
             "name": "embassies & high commisions",
-            "image_url": "placeholder.jpg",
+            "image_url": "01010200_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -341,7 +340,7 @@
           {
             "global_id": "01010300",
             "name": "medical services",
-            "image_url": "placeholder.jpg",
+            "image_url": "01010300_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -390,7 +389,7 @@
           {
             "global_id": "01010400",
             "name": "security",
-            "image_url": "placeholder.jpg",
+            "image_url": "01010400_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -467,7 +466,7 @@
           {
             "global_id": "01020100",
             "name": "Air Transport Services (Passenger)",
-            "image_url": "placeholder.jpg",
+            "image_url": "01020100_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -541,7 +540,7 @@
           {
             "global_id": "01020200",
             "name": "Freight Services",
-            "image_url": "placeholder.jpg",
+            "image_url": "01020200_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -593,7 +592,7 @@
           {
             "global_id": "01020300",
             "name": "Vehicle Hire",
-            "image_url": "placeholder.jpg",
+            "image_url": "01020300_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -667,7 +666,7 @@
           {
             "global_id": "01030100",
             "name": "Mining",
-            "image_url": "placeholder.jpg",
+            "image_url": "01030100_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -777,7 +776,7 @@
           {
             "global_id": "01030200",
             "name": "Official Departments",
-            "image_url": "placeholder.jpg",
+            "image_url": "01030200_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -862,7 +861,7 @@
           {
             "global_id": "01030300",
             "name": "Petroleum & Gas",
-            "image_url": "placeholder.jpg",
+            "image_url": "01030300_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {
@@ -892,7 +891,7 @@
           {
             "global_id": "01030400",
             "name": "Agriculture",
-            "image_url": "placeholder.jpg",
+            "image_url": "01030400_1.jpg",
             "attributes_inner": "sidebar",
             "attributes": [
               {

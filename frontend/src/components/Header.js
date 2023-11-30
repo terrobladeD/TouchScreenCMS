@@ -16,7 +16,7 @@ const Header = () => {
     ]);
     const [currentTimeDisplay, setCurrentTimeDisplay] = useState('dateTime');
     const [currentFlightDisplay, setCurrentFlightDisplay] = useState("");
-    const { selectedService, setSelectedService, weatherData, flightsData } = useContext(AppContext);
+    const { selectedService, setSelectedService, weatherData, flightsData,setGlobalId } = useContext(AppContext);
 
     useEffect(() => {
         if (weatherData && weatherData.length) {
@@ -33,6 +33,7 @@ const Header = () => {
 
     const handleServiceClick = service => {
         setSelectedService(service.name);
+        setGlobalId(service.globalId)
 
         // Reorder services to put the clicked service in the middle
         const index = services.findIndex(s => s.name === service.name);
@@ -64,6 +65,7 @@ const Header = () => {
             ]
         );
         setSelectedService(null);
+        setGlobalId(null);
     }
 
     useEffect(() => {

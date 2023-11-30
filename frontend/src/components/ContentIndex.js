@@ -44,7 +44,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
 
     }, [generalData, globalId])
 
-    const handleMapShow = () =>{
+    const handleMapShow = () => {
         setShowMap(true);
     }
     const hideMap = () => {
@@ -86,7 +86,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                 {displayHeadName}
                 {displayMap &&
                     <img src={`${process.env.PUBLIC_URL}/images/main/map_icon.png`} alt='map_icon'
-                        style={{ width: '4rem', height: '4rem',position:'absolute', right:"2rem" }} onClick={handleMapShow}/>}
+                        style={{ width: '4rem', height: '4rem', position: 'absolute', right: "2rem" }} onClick={handleMapShow} />}
 
             </div>
             <div className='content-list' style={{ flexDirection: 'column' }}>
@@ -115,55 +115,55 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
             </div>
             <div className='content-wrapper'></div>
             {showMap && (
-                        <div
-                            style={{
-                                position: 'fixed',
-                                top: 0,
-                                left: 0,
-                                right: 0,
-                                bottom: 0,
-                                width: '100vw',
-                                height: '100vh',
-                                backgroundColor: 'rgba(0, 0, 0, 0.5)',
-                                zIndex: 100
-                            }}
-                            onClick={() => hideMap()}
-                        >
-                            <div>
-                                <div className='map-header'>
-                                    <span>&nbsp;</span>
-                                    <span>{displayHeadName + " MAP"}</span>
-                                    <span>X</span>
-                                </div>
-                                <div className='map-content' style={{
-                                    overflow: 'hidden',
+                <div
+                    style={{
+                        position: 'fixed',
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        width: '100vw',
+                        height: '100vh',
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                        zIndex: 100
+                    }}
+                    onClick={() => hideMap()}
+                >
+                    <div>
+                        <div className='map-header'>
+                            <span>&nbsp;</span>
+                            <span>{displayHeadName + " MAP"}</span>
+                            <span>X</span>
+                        </div>
+                        <div className='map-content' style={{
+                            overflow: 'hidden',
+                            width: '100vw',
+                            height: '78.3vw',
+                        }}>
+                            <img
+                                src={displayMap}
+                                alt="Map"
+                                style={{
                                     width: '100vw',
                                     height: '78.3vw',
-                                }}>
-                                    <img
-                                        src={displayMap}
-                                        alt="Map"
-                                        style={{
-                                            width: '100vw',
-                                            height: '78.3vw',
-                                            maxHeight: '78.3vw',
-                                            margin: 'auto',
-                                            top: '0',
-                                            zIndex: 200,
-                                        }}
-                                        onTouchStart={handlePress} // touchscreen press
-                                        onTouchEnd={handlePressRelease} // touchscreen back
-                                        onClick={(e) => e.stopPropagation()}
-                                    />
-                                </div>
-                                <div className='map-footer'>
-                                    <span>Long Press the Map to Enlarge</span>
-                                    <span>Click Outside to Exit</span>
-                                </div>
-                            </div>
-
+                                    maxHeight: '78.3vw',
+                                    margin: 'auto',
+                                    top: '0',
+                                    zIndex: 200,
+                                }}
+                                onTouchStart={handlePress} // touchscreen press
+                                onTouchEnd={handlePressRelease} // touchscreen back
+                                onClick={(e) => e.stopPropagation()}
+                            />
                         </div>
-                    )}
+                        <div className='map-footer'>
+                            <span>Long Press the Map to Enlarge</span>
+                            <span>Click Outside to Exit</span>
+                        </div>
+                    </div>
+
+                </div>
+            )}
 
         </>
     )
