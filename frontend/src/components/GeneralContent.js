@@ -76,7 +76,7 @@ const GeneralContent = () => {
             </div>}
             <div className='right-sidebar'>
                 {globalId.substring(6, 8) !== "00" ?
-                    <ContentDetail globalId={globalId} /> :
+                    <ContentDetail globalId={globalId} setGlobalId={setGlobalId} /> :
                     <ContentIndex globalId={globalId} setGlobalId={setGlobalId} />}
             </div>
 

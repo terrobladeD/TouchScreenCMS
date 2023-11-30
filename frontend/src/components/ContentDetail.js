@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import AppContext from '../context/AppContext.js';
 import { Carousel } from 'react-bootstrap';
 
-const ContentDetail = ({ globalId }) => {
+const ContentDetail = ({ globalId, setGlobalId }) => {
     const [content, setContent] = useState(null);
     const { generalData } = useContext(AppContext);
 
@@ -39,6 +39,10 @@ const ContentDetail = ({ globalId }) => {
         setShowMap(false);
     };
 
+    const backMap = () => {
+        setGlobalId(globalId.substring(0, 6) + "00");
+    }
+
     const handlePress = (e) => {
         let clientX, clientY;
         const imgElement = e.target;
@@ -69,7 +73,7 @@ const ContentDetail = ({ globalId }) => {
 
     return (
         <>
-            {content && (
+            {content && !content.custom_actions.includes("map-only") && (
                 <div className='d-flex flex-column h-100'>
                     <div className='content-image'>
                         {content.image_urls.length > 1 ?
@@ -95,12 +99,12 @@ const ContentDetail = ({ globalId }) => {
                     {content.brand_url && !(content.custom_actions.includes("no-brand-picture")) ? <div className='content-title'>
 
                         <span style={{ height: 0 }}>
-                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', height: '15vw', transform: "translateY(-7.5rem)", border: "0.3rem solid white" }} />
+                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', height: '15vw', transform: "translateY(-7.5rem)", border: "0.3rem solid white", objectFit: 'cover' }} />
                         </span>
 
                         <span style={{ paddingLeft: "5vw" }}>{content.name}</span>
                     </div> :
-                        <div className='content-title' style={{justifyContent:'center'}}>
+                        <div className='content-title' style={{ justifyContent: 'center' }}>
                             {content.name}
                         </div>
                     }
@@ -176,6 +180,60 @@ const ContentDetail = ({ globalId }) => {
 
                         </div>
                     )}
+                    <div className='content-wrapper'>&nbsp;</div>
+                </div>
+
+            )}
+            {content && content.custom_actions.includes("map-only") && (
+                <div className='d-flex flex-column h-100'>
+                    <div
+                        style={{
+                            position: 'fixed',
+                            top: 0,
+                            left: 0,
+                            right: 0,
+                            bottom: 0,
+                            width: '100vw',
+                            height: '100vh',
+                            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                            zIndex: 100
+                        }}
+                        onClick={() => backMap()}
+                    >
+                        <div>
+                            <div className='map-header'>
+                                <span>&nbsp;</span>
+                                <span>{content.map_urls[0].name}</span>
+                                <span>X</span>
+                            </div>
+                            <div className='map-content' style={{
+                                overflow: 'hidden',
+                                width: '100vw',
+                                height: '78.3vw',
+                            }}>
+                                <img
+                                    src={`${process.env.PUBLIC_URL}/images/general/${content.map_urls[0].url}`}
+                                    alt="Map"
+                                    style={{
+                                        width: '100vw',
+                                        height: '78.3vw',
+                                        maxHeight: '78.3vw',
+                                        margin: 'auto',
+                                        top: '0',
+                                        zIndex: 200,
+                                    }}
+                                    onTouchStart={handlePress} // touchscreen press
+                                    onTouchEnd={handlePressRelease} // touchscreen back
+                                    onClick={(e) => e.stopPropagation()}
+                                />
+                            </div>
+                            <div className='map-footer'>
+                                <span>Long Press the Map to Enlarge</span>
+                                <span>Click Outside to Exit</span>
+                            </div>
+                        </div>
+
+                    </div>
                     <div className='content-wrapper'>&nbsp;</div>
                 </div>
 

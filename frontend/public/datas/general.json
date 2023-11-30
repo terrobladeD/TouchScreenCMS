@@ -1036,11 +1036,11 @@
         "brand_url": "02000001_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Port Moresby Map",
             "url": "02000001_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000002",
@@ -1049,11 +1049,11 @@
         "brand_url": "02000002_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Lae Map",
             "url": "02000002_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000003",
@@ -1062,11 +1062,11 @@
         "brand_url": "02000003_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Madang Map",
             "url": "02000003_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000004",
@@ -1075,11 +1075,11 @@
         "brand_url": "02000004_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Mount Hagen Map",
             "url": "02000004_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000005",
@@ -1088,11 +1088,11 @@
         "brand_url": "02000005_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Kokopo Map",
             "url": "02000005_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000006",
@@ -1101,11 +1101,11 @@
         "brand_url": "02000006_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Goroka Map",
             "url": "02000006_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000007",
@@ -1114,11 +1114,11 @@
         "brand_url": "02000007_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Alotau Map",
             "url": "02000007_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000008",
@@ -1127,11 +1127,11 @@
         "brand_url": "02000008_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Kimbe Map",
             "url": "02000008_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000009",
@@ -1140,11 +1140,11 @@
         "brand_url": "02000009_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Kavieng Map",
             "url": "02000009_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000010",
@@ -1153,11 +1153,11 @@
         "brand_url": "02000010_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Wewak Map",
             "url": "02000010_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       },
       {
         "global_id": "02000011",
@@ -1166,11 +1166,11 @@
         "brand_url": "02000011_m1.png",
         "map_urls": [
           {
-            "name": "",
+            "name": "Buka Map",
             "url": "02000011_m1.png"
           }
         ],
-        "custom_actions": "map only"
+        "custom_actions": "map-only"
       }
     ]
   },
@@ -1185,6 +1185,12 @@
         "name": "Diving",
         "image_url": "03010000_1.jpg",
         "attributes_inner": "sidebar",
+        "map_urls": [
+          {
+            "name": "",
+            "url": "03010000_m1.png"
+          }
+        ],
         "attributes": [
           {
             "global_id": "03010001",
@@ -1312,6 +1318,12 @@
         "name": "Surfing",
         "image_url": "03020000_1.jpg",
         "attributes_inner": "sidebar",
+        "map_urls": [
+          {
+            "name": "",
+            "url": "03020000_m1.png"
+          }
+        ],
         "attributes": [
           {
             "global_id": "03020001",
@@ -1410,6 +1422,12 @@
         "name": "Fishing",
         "image_url": "03030000_1.jpg",
         "attributes_inner": "sidebar",
+        "map_urls": [
+          {
+            "name": "",
+            "url": "03030000_m1.png"
+          }
+        ],
         "attributes": [
           {
             "global_id": "03030001",
@@ -1530,6 +1548,12 @@
         "name": "Trekking",
         "image_url": "03040000_1.jpg",
         "attributes_inner": "sidebar",
+        "map_urls": [
+          {
+            "name": "",
+            "url": "03040000_m1.png"
+          }
+        ],
         "attributes": [
           {
             "global_id": "03040001",
@@ -1646,6 +1670,12 @@
         "name": "Birdwatching",
         "image_url": "03050000_1.jpg",
         "attributes_inner": "sidebar",
+        "map_urls": [
+          {
+            "name": "",
+            "url": "03050000_m1.png"
+          }
+        ],
         "attributes": [
           {
             "global_id": "03050001",
@@ -1890,6 +1920,12 @@
         "name": "Attractions",
         "image_url": "03070000_1.jpg",
         "attributes_inner": "sidebar",
+        "map_urls": [
+          {
+            "name": "",
+            "url": "03070000_m1.png"
+          }
+        ],
         "attributes": [
           {
             "global_id": "03070001",
@@ -3015,55 +3051,93 @@
           {
             "global_id": "07020001",
             "name": "Halo",
-            "brand_url": "07020001_1.jpg",
-            "image_urls": ["07020001_1.jpg", "07020001_2.jpg", "07020001_3.jpg", "07020001_4.jpg", "07020001_5.jpg"],
-            "left_description": "Hours\nMonday – Sunday\n7:00 am – 4:00 pm\n",
-            "right_description": "Overlooking the Amphitheatre and gardens, Halo is the perfect venue for a beverage and a quick bite on the go. Select your favourite coffee, choose from a range of teas and refresh with a tasty juice or cool beverage as you enjoy a selection of sandwiches, wraps, salads and sweet and savoury treats. The café captures the essence of the hotel’s architectural design as well as the lush vegetation with a relaxed atmosphere.\n",
+            "brand_url": "07020001_0.jpg",
+            "image_urls": [
+              "07020001_1.jpg",
+              "07020001_2.jpg",
+              "07020001_3.jpg"
+            ],
+            "right_description": "Hours\nMonday – Sunday\n7:00 am – 4:00 pm\n",
+            "left_description": "Overlooking the Amphitheatre and gardens, Halo is the perfect venue for a beverage and a quick bite on the go. Select your favourite coffee, choose from a range of teas and refresh with a tasty juice or cool beverage as you enjoy a selection of sandwiches, wraps, salads and sweet and savoury treats. The café captures the essence of the hotel’s architectural design as well as the lush vegetation with a relaxed atmosphere.\n",
             "custom_actions": ""
           },
           {
             "global_id": "07020002",
             "name": "Host",
-            "brand_url": "07020002_1.jpg",
-            "image_urls": ["07020002_1.jpg", "07020002_2.jpg", "07020002_3.jpg", "07020002_4.jpg", "07020002_5.jpg"],
-            "left_description": "",
-            "right_description": "Host offers a wide selection of freshly brewed coffee's, choices of tea flavours and an evolving array of freshly made sweet and savoury delicacies and deli items. The deli designed as a 'grab & go' style is perfect while on the run, working through lunch or taking to your room, while the bistro offers all day breakfast, lunch and dinner in a relaxed space that in the evening transforms into a perfect place to dine, unwind and socialise.\n",
+            "brand_url": "07020002_0.jpg",
+            "image_urls": [
+              "07020002_1.jpg"
+            ],
+            "right_description": "",
+            "left_description": "Host offers a wide selection of freshly brewed coffee's, choices of tea flavours and an evolving array of freshly made sweet and savoury delicacies and deli items. The deli designed as a 'grab & go' style is perfect while on the run, working through lunch or taking to your room, while the bistro offers all day breakfast, lunch and dinner in a relaxed space that in the evening transforms into a perfect place to dine, unwind and socialise.\n",
             "custom_actions": ""
           },
           {
             "global_id": "07020003",
             "name": "Mumu",
-            "brand_url": "07020003_1.jpg",
-            "image_urls": ["07020003_1.jpg", "07020003_2.jpg", "07020003_3.jpg", "07020003_4.jpg", "07020003_5.jpg"],
-            "left_description": "Hours\nMonday – Saturday\n5:00 pm – 10:30 pm\n",
-            "right_description": "Named after a traditional method of cooking, 'Mumu' which encompasses both the earthen oven and its layered feast, often prepared as part of a celebration throughout Papua New Guinea, the restaurant offers a unique culinary experience. Enjoy fine wines, beers and spirits with delicious dishes prepared in the open kitchen and served from our Mumu pit - the significant traditional feature of the restaurant, while dining exclusively indoors or outdoors in our over-water bungalows offering a tropical experience.\n",
+            "brand_url": "07020003_0.jpg",
+            "image_urls": [
+              "07020003_1.jpg",
+              "07020003_2.jpg",
+              "07020003_3.jpg",
+              "07020003_4.jpg",
+              "07020003_5.jpg",
+              "07020003_6.jpg",
+              "07020003_7.jpg"
+            ],
+            "right_description": "Hours\nMonday – Saturday\n5:00 pm – 10:30 pm\n",
+            "left_description": "Named after a traditional method of cooking, 'Mumu' which encompasses both the earthen oven and its layered feast, often prepared as part of a celebration throughout Papua New Guinea, the restaurant offers a unique culinary experience. Enjoy fine wines, beers and spirits with delicious dishes prepared in the open kitchen and served from our Mumu pit - the significant traditional feature of the restaurant, while dining exclusively indoors or outdoors in our over-water bungalows offering a tropical experience.\n",
             "custom_actions": ""
           },
           {
             "global_id": "07020004",
             "name": "Summit",
             "brand_url": "07020004_1.jpg",
-            "image_urls": ["07020004_1.jpg", "07020004_2.jpg", "07020004_3.jpg", "07020004_4.jpg", "07020004_5.jpg"],
-            "left_description": "Wednesday – Thursday:\n4:00 pm – 10:00 pm\nFriday:\n4:00 pm – 12:00 am\nSaturday:\n3:00 pm – 12:00 am\n",
-            "right_description": "Summit Bar, on the top level of the hotel is the pinnacle of any night out in Port Moresby. Designed as a place to escape the day and reflect back on it in style, Summit is the height of sophistication. Join us for music that will elevate your day, food with new levels of flavour and excitement and of course signature cocktails, international wines and premium quality spirits served by attentive staff. Formal casual attire.\n",
+            "image_urls": [
+              "07020004_1.jpg",
+              "07020004_2.jpg",
+              "07020004_3.jpg",
+              "07020004_4.jpg",
+              "07020004_5.jpg"
+            ],
+            "right_description": "Wednesday – Thursday:\n4:00 pm – 10:00 pm\nFriday:\n4:00 pm – 12:00 am\nSaturday:\n3:00 pm – 12:00 am\n",
+            "left_description": "Summit Bar, on the top level of the hotel is the pinnacle of any night out in Port Moresby. Designed as a place to escape the day and reflect back on it in style, Summit is the height of sophistication. Join us for music that will elevate your day, food with new levels of flavour and excitement and of course signature cocktails, international wines and premium quality spirits served by attentive staff. Formal casual attire.\n",
             "custom_actions": ""
           },
           {
             "global_id": "07020005",
             "name": "Feast",
-            "brand_url": "07020005_1.jpg",
-            "image_urls": ["07020005_1.jpg", "07020005_2.jpg", "07020005_3.jpg", "07020005_4.jpg", "07020005_5.jpg"],
-            "left_description": "Hours\nMonday – Sunday\n6:00 am – 10:30 pm\n",
-            "right_description": "Feast features all day dining options for breakfast, lunch and dinner, plus promotional offers. A range of local and international cuisine is offered to suit every palette. Enjoy an extensive range of wines from our wine room, beers, and spirits to complement your dining experience. Private dining for up to 30 is available, plus plenty of seating options for single diners.\n",
+            "brand_url": "07020005_0.jpg",
+            "image_urls": [
+              "07020005_1.jpg",
+              "07020005_2.jpg",
+              "07020005_3.jpg",
+              "07020005_4.jpg",
+              "07020005_5.jpg",
+              "07020005_6.jpg",
+              "07020005_7.jpg",
+              "07020005_8.jpg",
+              "07020005_9.jpg"
+            ],
+            "right_description": "Hours\nMonday – Sunday\n6:00 am – 10:30 pm\n",
+            "left_description": "Feast features all day dining options for breakfast, lunch and dinner, plus promotional offers. A range of local and international cuisine is offered to suit every palette. Enjoy an extensive range of wines from our wine room, beers, and spirits to complement your dining experience. Private dining for up to 30 is available, plus plenty of seating options for single diners.\n",
             "custom_actions": ""
           },
           {
             "global_id": "07020006",
             "name": "Copper",
-            "brand_url": "07020006_1.jpg",
-            "image_urls": ["07020006_1.jpg", "07020006_2.jpg", "07020006_3.jpg", "07020006_4.jpg", "07020006_5.jpg"],
-            "left_description": "Hours\nMonday – Sunday\n6:00 am – 10:00 pm\n",
-            "right_description": "A prominent feature of the hotel, Copper is the perfect venue for a quick meal, coffee recharge or a relaxing drink. \n\nEnjoy café style dining, a full bar, beer on tap plus a variety of specialty coffees, hot and cold drinks, and juices. \n\nCopper offers deli-style food options throughout the day, sweet treats and a bar and lounge style à la carte menu. \n\nA sports lounge is also available, where the latest sports action can be enjoyed in style and comfort with table service.\n",
+            "brand_url": "07020006_0.jpg",
+            "image_urls": [
+              "07020006_1.jpg",
+              "07020006_2.jpg",
+              "07020006_3.jpg",
+              "07020006_4.jpg",
+              "07020006_5.jpg",
+              "07020006_6.jpg",
+              "07020006_7.jpg"
+            ],
+            "right_description": "Hours\nMonday – Sunday\n6:00 am – 10:00 pm\n",
+            "left_description": "A prominent feature of the hotel, Copper is the perfect venue for a quick meal, coffee recharge or a relaxing drink. \n\nEnjoy café style dining, a full bar, beer on tap plus a variety of specialty coffees, hot and cold drinks, and juices. \n\nCopper offers deli-style food options throughout the day, sweet treats and a bar and lounge style à la carte menu. \n\nA sports lounge is also available, where the latest sports action can be enjoyed in style and comfort with table service.\n",
             "custom_actions": ""
           }
         ]
@@ -3073,7 +3147,25 @@
         "name": "Conference & Events Facilities",
         "image_url": "07030000_1.jpg",
         "attributes_inner": "sidebar",
-        "attributes": []
+        "attributes": [
+          {
+            "global_id": "07030001",
+            "name": "Meeting Facilities",
+            "brand_url": "07030001_1.jpg",
+            "image_urls": [
+              "07030001_1.jpg",
+              "07030001_2.jpg",
+              "07030001_3.jpg",
+              "07030001_4.jpg",
+              "07030001_5.jpg",
+              "07030001_6.jpg",
+              "07030001_7.jpg"
+            ],
+            "right_description": "Total event space: 2,273 sqm.\n\nLargest room setup: 896 sqm.\n\nMeeting rooms: 12\n\nGuest rooms: 202",
+            "left_description": "Our hotel is directly connected to the Kutubu Convention Center.\n\nWe have a column-free banquet hall and an outdoor amphitheater.\n\nModern A/V equipment - including video conferencing and an integrated Bose sound system - is available.",
+            "custom_actions": "no-brand-picture"
+          }
+        ]
       }
     ]
   }
