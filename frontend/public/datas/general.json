@@ -431,6 +431,12 @@
                 "image_urls": [
                   "01010400_1.jpg"
                 ],
+                "map_urls": [
+                  {
+                    "name": "",
+                    "url": "01010403_m1.png"
+                  }
+                ],
                 "left_description": "G4S is an international security solutions organisation which offers a range of security services and systems.",
                 "right_description": "CALL TODAY: 675 305 8300\nWEB: www.g4s.com.pg\nEMAIL: ENQUIRIES@PG.G4S.COM",
                 "custom_actions": ""
