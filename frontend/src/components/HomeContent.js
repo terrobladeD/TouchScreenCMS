@@ -109,11 +109,11 @@ const HomeContent = () => {
 
     return (
         <div className="main-content" >
-            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '5.5vw', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={() => { setSelectedService("News") }}>
+            <div className="header-nav-icon-selected align-items-center justify-content-center flip-animation" style={{ overflow: 'hidden', height: '3.4375rem', fontSize: '2rem', color: 'white' }} key={currentNewsDisplay} onClick={() => { setSelectedService("News") }}>
                 &nbsp;&nbsp;NEWS: {currentNewsDisplay}
             </div>
             {/* Image Carousel */}
-            <div className="carousel" style={{ height: '17vw', overflow: 'hidden' }}>
+            <div className="carousel" style={{ height: '10.625rem', overflow: 'hidden' }}>
                 {imageSources.map((img, index) => (
                     <img key={index} style={getSlideStyles(index)}
                         src={`${process.env.PUBLIC_URL}/images/main/${img}`}

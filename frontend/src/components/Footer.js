@@ -11,35 +11,23 @@ const nameIdMap = [{ name: 'SERVICES', icon: 'services_icon.png', globalId: '010
 
 
 const Footer = () => {
-
-    const images = [
-        { img_url: 'advertisement_1.jpg', link_id: '01020101' },
-        { img_url: 'advertisement_2.jpg', link_id: '06000001' },
-        { img_url: 'advertisement_3.jpg', link_id: '01040001' },
-        { img_url: 'advertisement_4.jpg', link_id: '01020302' },
-        { img_url: 'advertisement_5.jpg', link_id: '01040010' },
-        { img_url: 'advertisement_6.jpg', link_id: '01040009' },
-        { img_url: 'advertisement_7.jpg' },
-        { img_url: 'advertisement_8.jpg', link_id: '03070001' },
-        { img_url: 'advertisement_9.jpg', link_id: '01040003' },
-    ];
-    // const { images, setImages } = useState([]);
+    const [ images, setImages ] = useState([]);
     const { setGlobalId, setSelectedService } = useContext(AppContext);
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // useEffect(() => {
-    //     fetch(`${process.env.PUBLIC_URL}/datas/advertiesment.json`)
-    //         .then(response => {
-    //             if (!response.ok) {
-    //                 throw new Error('Network response was not ok');
-    //             }
-    //             return response.json();
-    //         })
-    //         .then(data => {
-    //             setImages(data);
-    //         })
-    // }, [setImages]);
+    useEffect(() => {
+        fetch(`${process.env.PUBLIC_URL}/datas/advertisement.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                setImages(data);
+            })
+    }, []);
 
     useEffect(() => {
         let timer
@@ -59,7 +47,7 @@ const Footer = () => {
     }
 
     return (
-        <footer style={{ height: '32vw' }}>
+        <footer>
             <div className="carousel" style={{ width: '100%', height: "100%" }}>
                 {images && images.map((image, index) => (
                     <div

@@ -9,6 +9,13 @@
   --clr-black: rgb(18, 18, 18);
 }
 
+@media screen and (min-aspect-ratio: 9/16) {
+  :root {
+    max-width: 56.25vh;
+    font-size: 0.9vh;
+  }
+}
+
 #root {
   height: 100vh;
 }
@@ -168,8 +175,8 @@
 
   .sidebar-view {
     width: 100%;
-    height: 13.8vw;
-    gap: 10vw;
+    height: 8.625rem;
+    gap: 6.25rem;
     display: flex;
     align-items: center;
     border-bottom: 0.1rem solid var(--clr-white);
@@ -188,12 +195,12 @@
 
   .single-image {
     width: 100%;
-    height: 39.2vw;
+    height: 24.5rem;
   }
 
   .content-image {
     width: 100%;
-    height: 39.2vw;
+    height: 24.5rem;
   }
 
   .carousel,
@@ -282,12 +289,12 @@
 }
 
 footer {
-  height: 32vw;
+  height: 20rem;
 
   .carousel {
     position: relative;
     width: 100%;
-    height: 32vw;
+    height: 20rem;
     overflow: hidden;
   }
 

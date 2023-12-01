@@ -93,9 +93,9 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                 {displayList && displayType && displayType === "overlay" && displayList.map((item, index) => (
                     <div key={index} style={{ position: 'relative' }} onClick={() => { setGlobalId(item.global_id) }}>
                         {item.image_url &&
-                            <img style={{ width: '100%', height: '28vw' }} src={`${process.env.PUBLIC_URL}/images/general/${item.image_url}`} alt={item.name} />}
+                            <img style={{ width: '100%', height: '17.5rem' }} src={`${process.env.PUBLIC_URL}/images/general/${item.image_url}`} alt={item.name} />}
                         {item.brand_url &&
-                            <img style={{ width: '100%', height: '28vw' }} src={`${process.env.PUBLIC_URL}/images/general/${item.brand_url}`} alt={item.name} />}
+                            <img style={{ width: '100%', height: '17.5rem' }} src={`${process.env.PUBLIC_URL}/images/general/${item.brand_url}`} alt={item.name} />}
                         <p className='index-caption'>{item.name}</p>
                     </div>
                 ))}
@@ -103,7 +103,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                 {displayList && displayType && displayType === "sidebar" && displayList.map((item, index) => (
                     <div key={index} onClick={() => { setGlobalId(item.global_id) }} className='sidebar-view'>
                         {item.brand_url &&
-                            <img src={`${process.env.PUBLIC_URL}/images/general/${item.brand_url}`} alt={item.name} style={{ width: '20.8vw', height: "13.8vw" }} />}
+                            <img src={`${process.env.PUBLIC_URL}/images/general/${item.brand_url}`} alt={item.name} style={{ width: '13rem', height: "8.625rem" }} />}
                         <span>
                             <span className='sidebar-caption-large'>{item.name}</span>
                             <br />
@@ -122,7 +122,7 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                         left: 0,
                         right: 0,
                         bottom: 0,
-                        width: '100vw',
+                        width: '62.5rem',
                         height: '100vh',
                         backgroundColor: 'rgba(0, 0, 0, 0.5)',
                         zIndex: 100
@@ -137,16 +137,16 @@ const ContentIndex = ({ globalId, setGlobalId }) => {
                         </div>
                         <div className='map-content' style={{
                             overflow: 'hidden',
-                            width: '100vw',
-                            height: '78.3vw',
+                            width: '62.5rem',
+                            height: '48.94rem',
                         }}>
                             <img
                                 src={displayMap}
                                 alt="Map"
                                 style={{
-                                    width: '100vw',
-                                    height: '78.3vw',
-                                    maxHeight: '78.3vw',
+                                    width: '62.5rem',
+                                    height: '48.94rem',
+                                    maxHeight: '48.94rem',
                                     margin: 'auto',
                                     top: '0',
                                     zIndex: 200,

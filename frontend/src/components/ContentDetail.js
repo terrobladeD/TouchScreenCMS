@@ -99,10 +99,10 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
                     {content.brand_url && !(content.custom_actions.includes("no-brand-picture")) ? <div className='content-title'>
 
                         <span style={{ height: 0 }}>
-                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '20vw', height: '15vw', transform: "translateY(-7.5rem)", border: "0.3rem solid white", objectFit: 'cover' }} />
+                            <img src={`${process.env.PUBLIC_URL}/images/general/${content.brand_url}`} alt={content} style={{ width: '12.5rem', height: '9.375rem', transform: "translateY(-7.5rem)", border: "0.3rem solid white", objectFit: 'cover' }} />
                         </span>
 
-                        <span style={{ paddingLeft: "5vw" }}>{content.name}</span>
+                        <span style={{ paddingLeft: "3.125rem" }}>{content.name}</span>
                     </div> :
                         <div className='content-title' style={{ justifyContent: 'center' }}>
                             {content.name}
@@ -138,7 +138,7 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                width: '100vw',
+                                width: '62.5rem',
                                 height: '100vh',
                                 backgroundColor: 'rgba(0, 0, 0, 0.5)',
                                 zIndex: 100
@@ -153,16 +153,16 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
                                 </div>
                                 <div className='map-content' style={{
                                     overflow: 'hidden',
-                                    width: '100vw',
-                                    height: '78.3vw',
+                                    width: '62.5rem',
+                                    height: '48.94rem',
                                 }}>
                                     <img
                                         src={mapUrl}
                                         alt="Map"
                                         style={{
-                                            width: '100vw',
-                                            height: '78.3vw',
-                                            maxHeight: '78.3vw',
+                                            width: '62.5rem',
+                                            height: '48.94rem',
+                                            maxHeight: '48.94rem',
                                             margin: 'auto',
                                             top: '0',
                                             zIndex: 200,
@@ -193,7 +193,7 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
                             left: 0,
                             right: 0,
                             bottom: 0,
-                            width: '100vw',
+                            width: '62.5rem',
                             height: '100vh',
                             backgroundColor: 'rgba(0, 0, 0, 0.5)',
                             zIndex: 100
@@ -208,16 +208,16 @@ const ContentDetail = ({ globalId, setGlobalId }) => {
                             </div>
                             <div className='map-content' style={{
                                 overflow: 'hidden',
-                                width: '100vw',
-                                height: '78.3vw',
+                                width: '62.5rem',
+                                height: '48.94rem',
                             }}>
                                 <img
                                     src={`${process.env.PUBLIC_URL}/images/general/${content.map_urls[0].url}`}
                                     alt="Map"
                                     style={{
-                                        width: '100vw',
-                                        height: '78.3vw',
-                                        maxHeight: '78.3vw',
+                                        width: '62.5rem',
+                                        height: '48.94rem',
+                                        maxHeight: '48.94rem',
                                         margin: 'auto',
                                         top: '0',
                                         zIndex: 200,

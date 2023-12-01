@@ -143,15 +143,15 @@ const Header = () => {
     }, [flightsData])
 
     return (
-        <header style={{ height: !selectedService ? '66.7vw' : '52.7vw' }}>
+        <header style={{ height: !selectedService ? '41.6875rem' : '32.9375rem' }}>
             {!selectedService &&
-                <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/touch_and_explore_banner.jpg)`, backgroundSize: 'cover', height: '14vw' }}>
+                <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/touch_and_explore_banner.jpg)`, backgroundSize: 'cover', height: '8.75rem' }}>
                 </div>}
 
-            <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/hotel_logo.png)`, backgroundSize: 'cover', height: '29.3vw' }}
+            <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main/hotel_logo.png)`, backgroundSize: 'cover', height: '18.3125rem' }}
                 onClick={() => handleServiceReset()}>
             </div>
-            <div className="flex-column w-100" style={{ height: '23.3vw', color: 'white' }}>
+            <div className="flex-column w-100" style={{ height: '14.5625rem', color: 'white' }}>
                 <div className="d-flex justify-content-around w-100 align-items-center" style={{ height: '26%', fontSize: '2rem' }}>
                     <span className="d-flex flex-column align-items-center justify-content-center header-nav-icon" style={{ height: '100%', width: '100%' }}
                         onClick={() => {setSelectedService("Flights") }}>

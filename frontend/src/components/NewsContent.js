@@ -1,11 +1,19 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
-
 import AppContext from '../context/AppContext.js';
 
 const NewsContent = () => {
-
     const { newsData } = useContext(AppContext);
+    const [isSlowConnection, setIsSlowConnection] = useState(false);
+
+    useEffect(() => {
+        const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+        if (connection) {
+            if (connection.downlink < 1.5) { // lower 1.5mbps will be considered low
+                setIsSlowConnection(true);
+            }
+        }
+    }, []);
 
     return (
         <div className='main-content' style={{ overflow: 'scroll' }}>
@@ -16,7 +24,11 @@ const NewsContent = () => {
                         <p style={{ margin: '0' }}>{newsItem.text}</p>
                     </Col>
                     <Col md={5}>
-                        <img src={newsItem.img} alt="News" style={{ width: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                        {isSlowConnection ? (
+                            <div style={{ width: '100%', maxHeight: '100%', backgroundColor: '#ccc' }}>Image not loaded due to slow connection</div>
+                        ) : (
+                            <img src={newsItem.img} alt="News" style={{ width: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                        )}
                     </Col>
                 </Row>
             )) : <p>Loading news...</p>}
