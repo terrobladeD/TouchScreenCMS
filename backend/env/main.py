@@ -16,8 +16,6 @@ try:
 except Exception as e:
     print(e)
 
-
-
 app = FastAPI()
 
 app.include_router(attribute_router, prefix="/attributes", tags=["attributes"])

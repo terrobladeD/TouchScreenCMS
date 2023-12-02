@@ -1,4 +1,4 @@
-# 这个文件包含API的路由。
+
 from fastapi import APIRouter, HTTPException, Body
 from schemas.schemas import AttributeCreate, AttributeUpdate, AttributeResponse
 from CRUD.Attributes import Attibutes_crud_instance
