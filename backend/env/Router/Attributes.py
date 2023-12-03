@@ -6,7 +6,7 @@ from models import touchscreencms
 
 router = APIRouter()
 
-@router.post("/", response_model=AttributeResponse)
+@router.post("/CreatNewAttributes", response_model=AttributeResponse)
 def create_attribute(attribute: AttributeCreate = Body(...)):
     new_id = Attibutes_crud_instance.create("basic_collection", attribute.dict(by_alias=True))
     return {**attribute.dict(), "id": new_id}
@@ -17,6 +17,12 @@ def read_attribute(id: str):
     if db_attribute:
         return {**db_attribute, "id": str(db_attribute["_id"])}
     raise HTTPException(status_code=404, detail="Attribute not found")
+
+@router.get("/GetAllItems/", response_model=list[AttributeResponse])
+def get_all_items():
+    attributes = Attibutes_crud_instance.get_all_items("basic_collection")
+    return attributes
+
 
 @router.put("/{id}", response_model=AttributeResponse)
 def update_attribute(id: str, attribute: AttributeUpdate):

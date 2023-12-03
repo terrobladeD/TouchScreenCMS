@@ -19,3 +19,7 @@ except Exception as e:
 app = FastAPI()
 
 app.include_router(attribute_router, prefix="/attributes", tags=["attributes"])
+
+@app.get("/")
+def read_root():
+    return "Welcome to TouchScreenCMS - Backend"

@@ -12,6 +12,10 @@ class Attibutes_crud:
     def create(self, collection_name: str, data: dict):
         collection = self.db[collection_name]
         return str(collection.insert_one(data).inserted_id)
+    
+    def get_all_items(self, collection_name: str) ->list[dict]:
+         collection = self.db[collection_name]
+         return list(collection.find())
 
     def read(self, collection_name: str, item_id: str):
         collection = self.db[collection_name]

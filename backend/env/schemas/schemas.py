@@ -12,6 +12,5 @@ class AttributeUpdate(BaseModel):
     
 
 class AttributeResponse(Attribute):
-    id: str  
+    id: Optional[str] = None  
 
-# 如果有更多的层级，可以根据需要添加更多的schemas。
