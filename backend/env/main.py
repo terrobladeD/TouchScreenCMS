@@ -1,10 +1,13 @@
 from fastapi import FastAPI
-from fastapi import FastAPI
 from Router.Attributes import router as attribute_router
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+import os
+from dotenv import load_dotenv
 
-uri = "mongodb+srv://TouchScreenCMS:fQWyb9RIxHSgAXIq@touchscreencms.qry45tc.mongodb.net/?retryWrites=true&w=majority"
+load_dotenv()
+
+uri = os.getenv('MONGO_URI_VERSION1')
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))

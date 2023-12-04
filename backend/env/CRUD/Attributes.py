@@ -1,12 +1,17 @@
-# 这个文件包含用于与数据库交互的CRUD操作。
+
 from bson import ObjectId
 from pymongo import MongoClient
+import os
+from dotenv import load_dotenv
 
+load_dotenv() 
+
+uri = os.getenv('MONGO_URI_VERSION1')
 
 class Attibutes_crud:
     
     def __init__(self):
-            self.client = MongoClient('mongodb+srv://TouchScreenCMS:fQWyb9RIxHSgAXIq@touchscreencms.qry45tc.mongodb.net/?retryWrites=true&w=majority')
+            self.client = MongoClient(uri)
             self.db = self.client['General']
 
     def create(self, collection_name: str, data: dict):
@@ -29,5 +34,5 @@ class Attibutes_crud:
         collection = self.db[collection_name]
         return collection.delete_one({'_id': ObjectId(item_id)})
 
-# 实例化数据库操作类
+
 Attibutes_crud_instance= Attibutes_crud()
