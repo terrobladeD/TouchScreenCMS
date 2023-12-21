@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13d55284-4e1d-471e-b8d8-db410f3c809c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datas/backend-mockup/advertisement.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datas/backend-mockup/hotel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datas/general.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/datas/general.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/datas/hotel.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/datas/hotel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/advertisement/advertisement_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010101_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010102_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010103_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010201_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010202_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010203_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010204_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010205_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010206_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010207_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010208_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010209_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010210_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010211_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010212_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010213_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010214_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010215_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010303_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010402_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/01010403_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/03010000_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/03020000_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/03030000_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/03040000_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/03050000_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/03070000_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000001_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000001_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000002_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000002_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000003_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000003_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000004_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000004_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000005_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000005_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000006_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000006_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000007_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000007_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000008_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000008_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000009_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000009_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000010_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000010_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000011_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000012_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000013_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/04000013_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000001_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000002_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000003_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000004_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000005_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000006_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000007_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000008_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000009_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000010_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000011_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000012_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000013_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/05000014_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000001_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000002_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000003_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000004_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000005_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000006_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000007_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000008_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000009_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000010_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000011_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000012_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000012_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000012_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000012_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000013_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000014_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000015_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000016_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/06000017_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010000_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010000_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010001_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010001_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010001_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010002_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010002_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010002_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010002_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010002_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010002_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010003_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010003_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010003_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010003_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010004_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010004_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010004_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010004_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010004_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010004_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010004_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010005_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010005_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010005_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010005_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010005_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010005_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010006_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07010006_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010006_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010006_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010007_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010007_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010007_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010007_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010008_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010009_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010009_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010009_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010009_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010009_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010010_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010010_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010010_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010010_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010011_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010011_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010011_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010011_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010011_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010012_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010012_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010012_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010013_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010013_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010013_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010013_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010014_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07010014_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020000_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07020000_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020001_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020002_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020002_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020002_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020002_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020003_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020004_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020005_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07020006_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030000_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/07030000_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030001_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030002_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030002_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030003_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030003_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030004_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030005_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030007_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/07030008_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/banner_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/banner_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/banner_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/banner_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/banners_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/banners_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/general/hotel_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/general/hotel_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/updatefile01.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/updatefile01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/accomodation_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/activities_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/back_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/btn1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/btn2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/btn3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/btn4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/destionations_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/eating_out_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/events_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/hotel_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/map_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/maps_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/menu_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/services_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/images/main/touch_and_explore_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/ContentDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/ContentIndex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/FlightsContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/GeneralContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/HomeContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/NewsContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/components/NewsDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/context/AppContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/context/Themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/pages/MainPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_web/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/datas/advertisement.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/datas/general.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/datas/hotel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/advertisement/advertisement_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010100_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010101_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010102_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010103_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010200_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010201_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010202_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010203_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010204_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010205_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010206_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010207_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010208_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010209_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010210_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010211_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010212_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010213_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010214_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010215_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010300_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010301_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010302_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010303_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010400_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010401_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010402_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010403_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01010404_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020100_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020101_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020102_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020103_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020104_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020105_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020106_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020200_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020201_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020202_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020203_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020204_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020300_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020301_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020302_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020303_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020304_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01020305_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030100_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030101_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030102_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030103_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030104_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030105_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030106_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030107_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030108_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030109_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030200_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030201_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030202_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030203_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030204_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030205_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030206_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030207_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030300_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030301_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030302_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030400_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01030401_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040001_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040002_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040003_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040004_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040005_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040006_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040007_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040008_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040009_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/01040010_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000001_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000002_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000003_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000004_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000005_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000006_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000007_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000008_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000009_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000010_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/02000011_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03010000_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03020000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03020000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03020000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03020000_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03020000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03030000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03030000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03030000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03030000_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03030000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03030000_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03040000_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03050000_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03060000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03060000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03060000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03060000_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03060000_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03070000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03070000_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/03070000_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000002_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000003_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000003_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000004_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000006_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000007_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000007_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000008_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000009_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000009_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000009_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000010_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000010_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000011_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000011_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000011_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000012_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000012_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000012_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000013_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/04000013_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000007_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000008_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000009_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000010_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000011_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000012_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000013_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/05000014_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000001_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000002_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000003_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000004_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000005_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000006_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000007_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000007_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000008_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000008_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000009_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000009_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000010_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000010_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000011_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000011_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000012_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000012_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000013_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000013_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000014_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000014_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000015_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000015_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000016_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000016_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000017_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/general/06000017_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010002_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010002_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010002_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010002_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010003_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010003_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010004_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010004_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010004_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010004_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010005_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010005_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010005_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010005_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010006_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010006_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010007_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010007_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010007_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010007_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010008_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010008_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010008_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010008_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010009_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010009_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010009_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010009_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010009_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010010_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010010_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010010_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010010_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010011_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010011_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010011_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010011_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010011_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010012_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010012_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010012_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010013_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010013_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010013_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010013_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010014_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07010014_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020001_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020002_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020002_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020003_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020004_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020005_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07020006_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030000_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/07030001_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/images/hotel/hotel_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/updatefile01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v5.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v6.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script/videos/v7.mp4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2ZkSWxKcEGxzyjoM5vnNFaqGDq8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Python.updatefile01 (1)">
+    <configuration name="updatefile01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\blade\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../script" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../script/updatefile01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="updatefile01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="frontend_offline" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/updatefile01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.updatefile01 (1)" />
+        <item itemvalue="Python.updatefile01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13d55284-4e1d-471e-b8d8-db410f3c809c" name="Changes" comment="" />
+      <created>1702964620055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702964620055</updated>
+      <workItem from="1702964621314" duration="3459000" />
+      <workItem from="1703023352598" duration="4837000" />
+      <workItem from="1703109726618" duration="1855000" />
+      <workItem from="1703117244847" duration="28000" />
+      <workItem from="1703117282246" duration="1266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/frontend_offline$updatefile01__1_.coverage" NAME="updatefile01 (1) Coverage Results" MODIFIED="1703117922661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../script" />
+    <SUITE FILE_PATH="coverage/frontend_offline$updatefile01.coverage" NAME="updatefile01 Coverage Results" MODIFIED="1703026772889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

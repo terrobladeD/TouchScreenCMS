@@ -1,0 +1,1980 @@
+[
+  {
+    "_id": "",
+    "name": "Hilton Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "image_url": "07010000_1.jpg",
+          "attributes_inner": "sidebar",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "King Deluxe Room",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg",
+                "07010001_2.jpg",
+                "07010001_3.jpg"
+              ],
+              "left_description": "34 sqm, high floor, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish king room located on a high floor of the hotel. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nBrew yourself a fresh cup of coffee using the coffee maker. Other amenities include black-out drapes and a laptop safe. Special touches include luxury bath amenities.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Sleeps 3\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "Double Executive Room",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg",
+                "07010002_2.jpg",
+                "07010002_3.jpg"
+              ],
+              "left_description": "34 sqm, executive lounge access, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish room located on a high floor of the hotel. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 4\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "2 Double Beds Guest Room",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg",
+                "07010003_2.jpg",
+                "07010003_3.jpg",
+                "07010003_4.jpg",
+                "07010003_5.jpg"
+              ],
+              "left_description": "34 sqm, floor-to-ceiling windows, WiFi, HDTV, lounge chair, stylish, well-appointed bathroom.012elax and enjoy your stay in this stylish guest room with two double beds and floor-to-ceiling windows allowing plenty of natural light. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nRoom Highlights\n• Sleeps 4\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nComfort Amenities\n• Sleeps 4\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Convenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "2 Double Beds Deluxe Room",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg",
+                "07010004_2.jpg",
+                "07010004_3.jpg",
+                "07010004_4.jpg",
+                "07010004_5.jpg"
+              ],
+              "left_description": "34 sqm, high floor, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nRelax and enjoy your stay in this stylish deluxe room with two double beds and floor-to-ceiling windows allowing plenty of natural light. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nRoom Highlights\n• Sleeps 4\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nComfort Amenities\n• Sleeps 4\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Convenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "King Executive Room",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg",
+                "07010005_2.jpg",
+                "07010005_3.jpg",
+                "07010005_4.jpg",
+                "07010005_5.jpg",
+                "07010005_6.jpg"
+              ],
+              "left_description": "Located on the top two floors of the Hotel with executive lounge access, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish king room located on the top floors of the hotel. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "King Guest Room",
+              "brand_url": "07010006_1.jpg",
+              "image_urls": [
+                "07010006_1.jpg",
+                "07010006_2.jpg",
+                "07010006_3.jpg"
+              ],
+              "left_description": "34 sqm, floor-to-ceiling windows, WiFi, HDTV, lounge chair, stylish, well-appointed bathroom, laptop safe.\n\nRelax and enjoy your stay in this stylish guest room with one king bed and floor-to-ceiling windows, allowing for plenty of natural light. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Sleeps 3\n• Mini refrigerator\n• Hand-held shower\n• Portable shower chairs\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "King Accessible Room",
+              "brand_url": "07010007_1.jpg",
+              "image_urls": [
+                "07010007_1.jpg",
+                "07010007_2.jpg",
+                "07010007_3.jpg",
+                "07010007_4.jpg"
+              ],
+              "left_description": "34 sqm, Wheelchair accessible, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nThis stylish king room has wheelchair accessible features including handrails/seating in the bathroom. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nBrew yourself a fresh cup of coffee using the coffee maker. Other amenities include black-out drapes and a laptop safe. Special touches include luxury bath amenities.\n\nAny corresponding photo may not reflect the specific accessible room type or room type feature.\n\nComfort Amenities\n• Sleeps 2\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Sleeps 2\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n• Iron/ironing board\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010008",
+              "name": "King Executive Suite",
+              "brand_url": "07010008_1.jpg",
+              "image_urls": [
+                "07010008_1.jpg",
+                "07010008_2.jpg",
+                "07010008_3.jpg",
+                "07010008_4.jpg"
+              ],
+              "left_description": "Located on the top two floors of the Hotel with executive lounge access, great views, floor-to-ceiling windows, WiFi, HDTV, lounge chair, coffee maker.\n\nAdmire great views from the floor-to-ceiling windows of this stylish king room located on the top floors of the hotel. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks. Stay connected with WiFi or unwind on the lounge chair and watch the multi-channel HDTV.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Hairdryer\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010009",
+              "name": "King Chairman Suite",
+              "brand_url": "07010009_1.jpg",
+              "image_urls": [
+                "07010009_1.jpg",
+                "07010009_2.jpg",
+                "07010009_3.jpg",
+                "07010009_4.jpg",
+                "07010009_5.jpg"
+              ],
+              "left_description": "119 sqm, top floor, living/dining room, Executive Lounge access & benefits.\n\nAdmire fabulous views from the top floor in the elegant Chairman Suite. This suite boasts a range of spaces including a separate living room, dining table for 6, private king bedroom, and additional guest toilet. During your stay enjoy exclusive access to the Executive Lounge with a range of benefits including complimentary breakfast plus evening drinks and snacks.\n\nStay connected with WiFi or unwind on the chaise longue or sofa and watch the 65-inch HDTV. Brew yourself a fresh cup of coffee using the coffee maker. Other amenities include black-out drapes and a laptop safe. Special touches include luxury bath amenities.\n\nComfort Amenities\n• Sleeps 3\n• Chaise lounge\n• LCD TV\n• 50-inch HDTV\n• Bathrobe\n• Bath slippers\n• Connecting rooms\n• Radio alarm clock\n• Air conditioning\n• Black-Out Curtains\n• Complimentary Pillow Menu\n• Duvet Covers\n• Ergonomic Desk Chair\n• Feather Pillows Non Allergenic\n• HD Channels\n• Hilton Serenity Bed\n• Thermostat (adjustable)\n• Widescreen Television\n• Work Desk with Adjustable Lamp",
+              "right_description": "Room Highlights\n• Sleeps 3\n• Dining table\n• Separate toilet area\n• Mini refrigerator\n• Hand-held shower\n• Chaise lounge\n• LCD TV\n\nConvenience Amenities\n• Mini refrigerator\n• Hand-held shower\n• Coffee maker\n• Hairdryer\n• Iron/ironing board\n• Bathroom amenities\n• Complimentary Remote Printing\n• Desk Level Electric Plugs\n• Desk Level Phone Jacks\n• Evening Room Service Available\n• High Speed Internet Access\n• Internet access in guest room\n• Newspaper 7 days/week\n• Remote-Controlled Television\n• Tea/Coffee Making Facilities\n• Telephone - Two Lines\n• Telephone - Voice Mail\n• Telephone-with Speaker phone\n\nConfidence Amenities\n• Alarms - Audible\n• Automatic Door Closer\n• Double Locking Doors\n• Electronic Locks\n• Electronic Smoke Detector\n• Safe\n• Secondary Locking Device",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010010",
+              "name": "Two Bedroom Residence",
+              "brand_url": "07010010_1.jpg",
+              "image_urls": [
+                "07010010_1.jpg",
+                "07010010_2.jpg",
+                "07010010_3.jpg",
+                "07010010_4.jpg"
+              ],
+              "left_description": "1 king bedroom with ensuite, 1 twin bedroom with adjoining bathroom.\n\nWalk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+              "right_description": "Room Highlights\n• Sleeps 4",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010011",
+              "name": "Two Bedroom Family Residence",
+              "brand_url": "07010011_1.jpg",
+              "image_urls": [
+                "07010011_1.jpg",
+                "07010011_2.jpg",
+                "07010011_3.jpg",
+                "07010011_4.jpg",
+                "07010011_5.jpg"
+              ],
+              "left_description": "1 king bedroom with ensuite, 1 twin bedroom with adjoining bathroom.\n\nWalk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+              "right_description": "Room Highlights\n• Sleeps 4",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010012",
+              "name": "King One Bedroom Residence",
+              "brand_url": "07010012_1.jpg",
+              "image_urls": [
+                "07010012_1.jpg",
+                "07010012_2.jpg",
+                "07010012_3.jpg"
+              ],
+              "left_description": "1 king bedroom with adjoining bathroom, walk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+              "right_description": "Room Highlights\n• Sleeps 2",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010013",
+              "name": "Two Bedroom Corner Residence",
+              "brand_url": "07010013_1.jpg",
+              "image_urls": [
+                "07010013_1.jpg",
+                "07010013_2.jpg",
+                "07010013_3.jpg",
+                "07010013_4.jpg"
+              ],
+              "left_description": "1 king bedroom with ensuite featuring separate bath and walk-in shower, 1 queen bedroom with adjoining bathroom, furnished balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+              "right_description": "Room Highlights\n• Sleeps 4",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010014",
+              "name": "King Studio Residence",
+              "brand_url": "07010014_1.jpg",
+              "image_urls": [
+                "07010014_1.jpg",
+                "07010014_2.jpg"
+              ],
+              "left_description": "1 king bedroom with adjoining bathroom, walk out balcony with mountain or city view, floor to ceiling windows, open plan living, fully equipped kitchen, dining table and chairs.\n\nLiving area, 2 x HDTV's, separate laundry with washing machine and dryer, Iron, Ironing board, in-room safe, coffee pod machine, hair dryer, Wifi.",
+              "right_description": "Room Highlights\n• Sleeps 2",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "image_url": "07020000_1.jpg",
+          "attributes_inner": "sidebar",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Halo",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg",
+                "07020001_3.jpg"
+              ],
+              "right_description": "Hours\nMonday – Sunday\n7:00 am – 4:00 pm\n",
+              "left_description": "Overlooking the Amphitheatre and gardens, Halo is the perfect venue for a beverage and a quick bite on the go. Select your favourite coffee, choose from a range of teas and refresh with a tasty juice or cool beverage as you enjoy a selection of sandwiches, wraps, salads and sweet and savoury treats. The café captures the essence of the hotel’s architectural design as well as the lush vegetation with a relaxed atmosphere.\n",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "Host",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg"
+              ],
+              "right_description": "",
+              "left_description": "Host offers a wide selection of freshly brewed coffee's, choices of tea flavours and an evolving array of freshly made sweet and savoury delicacies and deli items. The deli designed as a 'grab & go' style is perfect while on the run, working through lunch or taking to your room, while the bistro offers all day breakfast, lunch and dinner in a relaxed space that in the evening transforms into a perfect place to dine, unwind and socialise.\n",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020003",
+              "name": "Mumu",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_1.jpg",
+                "07020003_2.jpg",
+                "07020003_3.jpg",
+                "07020003_4.jpg",
+                "07020003_5.jpg",
+                "07020003_6.jpg",
+                "07020003_7.jpg"
+              ],
+              "right_description": "Hours\nMonday – Saturday\n5:00 pm – 10:30 pm\n",
+              "left_description": "Named after a traditional method of cooking, 'Mumu' which encompasses both the earthen oven and its layered feast, often prepared as part of a celebration throughout Papua New Guinea, the restaurant offers a unique culinary experience. Enjoy fine wines, beers and spirits with delicious dishes prepared in the open kitchen and served from our Mumu pit - the significant traditional feature of the restaurant, while dining exclusively indoors or outdoors in our over-water bungalows offering a tropical experience.\n",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020004",
+              "name": "Summit",
+              "brand_url": "07020004_1.jpg",
+              "image_urls": [
+                "07020004_1.jpg",
+                "07020004_2.jpg",
+                "07020004_3.jpg",
+                "07020004_4.jpg",
+                "07020004_5.jpg"
+              ],
+              "right_description": "Wednesday – Thursday:\n4:00 pm – 10:00 pm\nFriday:\n4:00 pm – 12:00 am\nSaturday:\n3:00 pm – 12:00 am\n",
+              "left_description": "Summit Bar, on the top level of the hotel is the pinnacle of any night out in Port Moresby. Designed as a place to escape the day and reflect back on it in style, Summit is the height of sophistication. Join us for music that will elevate your day, food with new levels of flavour and excitement and of course signature cocktails, international wines and premium quality spirits served by attentive staff. Formal casual attire.\n",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020005",
+              "name": "Feast",
+              "brand_url": "07020005_0.jpg",
+              "image_urls": [
+                "07020005_1.jpg",
+                "07020005_2.jpg",
+                "07020005_3.jpg",
+                "07020005_4.jpg",
+                "07020005_5.jpg",
+                "07020005_6.jpg",
+                "07020005_7.jpg",
+                "07020005_8.jpg",
+                "07020005_9.jpg"
+              ],
+              "right_description": "Hours\nMonday – Sunday\n6:00 am – 10:30 pm\n",
+              "left_description": "Feast features all day dining options for breakfast, lunch and dinner, plus promotional offers. A range of local and international cuisine is offered to suit every palette. Enjoy an extensive range of wines from our wine room, beers, and spirits to complement your dining experience. Private dining for up to 30 is available, plus plenty of seating options for single diners.\n",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020006",
+              "name": "Copper",
+              "brand_url": "07020006_0.jpg",
+              "image_urls": [
+                "07020006_1.jpg",
+                "07020006_2.jpg",
+                "07020006_3.jpg",
+                "07020006_4.jpg",
+                "07020006_5.jpg",
+                "07020006_6.jpg",
+                "07020006_7.jpg"
+              ],
+              "right_description": "Hours\nMonday – Sunday\n6:00 am – 10:00 pm\n",
+              "left_description": "A prominent feature of the hotel, Copper is the perfect venue for a quick meal, coffee recharge or a relaxing drink. \n\nEnjoy café style dining, a full bar, beer on tap plus a variety of specialty coffees, hot and cold drinks, and juices. \n\nCopper offers deli-style food options throughout the day, sweet treats and a bar and lounge style à la carte menu. \n\nA sports lounge is also available, where the latest sports action can be enjoyed in style and comfort with table service.\n",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "image_url": "07030000_1.jpg",
+          "attributes_inner": "sidebar",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Meeting Facilities",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg",
+                "07030001_2.jpg",
+                "07030001_3.jpg",
+                "07030001_4.jpg",
+                "07030001_5.jpg",
+                "07030001_6.jpg",
+                "07030001_7.jpg"
+              ],
+              "right_description": "Total event space: 2,273 sqm.\n\nLargest room setup: 896 sqm.\n\nMeeting rooms: 12\n\nGuest rooms: 202",
+              "left_description": "Our hotel is directly connected to the Kutubu Convention Center.\n\nWe have a column-free banquet hall and an outdoor amphitheater.\n\nModern A/V equipment - including video conferencing and an integrated Bose sound system - is available.",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Crown Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "STANDARD QUEEN SINGLE / TWIN",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg"
+              ],
+              "left_description": "We have rooms convenient for travelers transiting for a day or two and also twin shares for groups or family to share on a weekend getaway.\n\nNUMBER OF BEDS\n\n•  1x Queen sized bed for Standard Queen Single\n\n•  2x Queen sized bed for Standard Queen Twin Share",
+              "right_description": "FEATURES\n\n•\tComplimentary Wifi\n\n•\tSeaside view or Habourside view\n\n•\tCoffee station / Mini refrigerator / Microwave / Glassware\n\n•\tIn-room safe\n\n•\t24 hours maintenance / room service / house keeping\n\n•\tComplimentary airport shuttle\n\n•\tComplimentary access to gym & pool &  club lounge\n\n•\tComplimentary Breakfast at Rapala Fine Dining restaurant\n\n•\tEnsuite bathroom\n\n•\tSofa / Dining Area / Lounge / Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "EXECUTIVE KING SINGLE / TWIN",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg"
+              ],
+              "left_description": "For a business traveler to a VIP guest, we have executive rooms which give you access to our luxurious club lounge for you to get work done or have private meetings with your business partners.\n\nNUMBER OF BEDS\n\n•  1x King sized bed for Executive King Single\n\n•  2x King sized bed for Executive King Twin Share",
+              "right_description": "FEATURES\n\n•\tComplimentary Wifi\n\n•\tSeaside view or Habourside view\n\n•\tCoffee station & Mini refrigerator\n\n•\tIn-room safe\n\n•\t24 hours maintenance\n\n•\t24 hours room service\n\n•\t24 hours house keeping\n\n•\tComplimentary airport shuttle\n\n•\tComplimentary access to gym & pool",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "DELUXE SUITE",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg"
+              ],
+              "left_description": "Suitable for a VIP guest with access to our luxurious club lounge and enough space for relaxation.\n\nNUMBER OF BEDS\n\n•  1x King sized bed",
+              "right_description": "FEATURES\n\n•\tComplimentary Wifi\n\n•\tSeaside view or Habourside view\n\n•\tCoffee station\n\n•\tIn-room safe\n\n•\tMini refrigerator\n\n•\t24 hours maintenance\n\n•\t24 hours room service\n\n•\t24 hours house keeping\n\n•\tComplimentary airport shuttle\n\n•\tComplimentary access to gym & pool\n\n•\tEnsuite bathroom\n\n•\tCable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "JUNIOR SUITE",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg"
+              ],
+              "left_description": "Spacious for a couple or family on a long term stay or vacation.\n\nNUMBER OF BEDS\n\n•  1x King sized bed",
+              "right_description": "FEATURES\n\n•\tComplimentary Wifi\n\n•\tSeaside view or Habourside view\n\n•\tCoffee station / Mini refrigerator / Microwave / Glassware\n\n•\tIn-room safe\n\n•\t24 hours maintenance / room service / house keeping\n\n•\tComplimentary airport shuttle\n\n•\tComplimentary access to gym & pool\n\n•\tEnsuite bathroom\n\n•\tSofa / Dining Area / Lounge / Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "JUNIOR PRESIDENTIAL SUITE",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg"
+              ],
+              "left_description": "For families who are after something special for their holiday break. Entertainment on hand with separate rooms for the kids.\n\nNUMBER OF BEDS\n\n•  1x King sized bed",
+              "right_description": "•\tCoffee station / Coffee Maker / Mini refrigerator / Microwave / Glassware / Dishwasher / Cutleries\n\n•\tIn-room safe / Separate vanity area\n\n•\t24 hours maintenance / room service / house keeping\n\n•\tComplimentary airport shuttle / access to gym & pool &  club lounge\n\n•\tComplimentary Breakfast at Rapala Fine Dining restaurant\n\n•\tSofa / Private study desk / Private Meeting Room / Living Room / Full Kitchenette / Cable TV with 24 channels / Guest Power Room",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "PRESIDENTIAL SUITE",
+              "brand_url": "07010006_1.jpg",
+              "image_urls": [
+                "07010006_1.jpg"
+              ],
+              "left_description": "The suite has been designed with luxury in mind to fit a king.\n\nNUMBER OF BEDS\n\n•  1x King sized bed\n\nFEATURES\n\n•\tComplimentary Wifi / Ensuite bathroom\n\n•\tSeaside view or Habourside view",
+              "right_description": "FEATURES\n\n•\tComplimentary Wifi\n\n•\tSeaside view or Habourside view\n\n•\tCoffee station\n\n•\tIn-room safe\n\n•\tMini refrigerator\n\n•\t24 hours maintenance\n\n•\t24 hours room service\n\n•\t24 hours house keeping\n\n•\tComplimentary airport shuttle\n\n•\tComplimentary access to gym & pool\n\n•\tEnsuite bathroom\n\n•\tCable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "HERITAGE BAR & LOUNGE",
+              "brand_url": "070200001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg"
+              ],
+              "left_description": "The perfect place to wind down with your favorite drink or meet up with friends and business associates. Offering a wide range of local and international beers, wines and spirits, Heritage bar is the ideal meeting place before dinner in one of our restaurants on level 1.",
+              "right_description": "",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "RAPALA RESTAURANT",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg",
+                "07020002_2.jpg",
+                "07020002_3.jpg"
+              ],
+              "left_description": "Port Moresby’s best fine dining experience. Open Monday to Saturday from 6:30pm to 10:00pm. Relax in an elegant environment complemented by friendly service and an extensive wine list. Reservations are recommended. Dial extension 3021 for more information or bookings.\n\nOpen breakfast, lunch and dinner from 6am to 10pm.",
+              "right_description": "",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020003",
+              "name": "THE CAFÉ",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_1.jpg"
+              ],
+              "left_description": "Bright, informal, relaxed surroundings open for breakfast, lunch and dinner seven days a week. The café offers daily themed Buffets or select something different from our International a la Carte menu. It is fast, fresh, and sumptuous. Please dial extension 3022 for further information and bookings.\n\nOpen breakfast, lunch and dinner from 6am to 10pm.",
+              "right_description": "",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020004",
+              "name": "PONDO TAVERN",
+              "brand_url": "070200004_1.jpg",
+              "image_urls": [
+                "07020004_1.jpg"
+              ],
+              "left_description": "Located on lower ground level, Pondo Tavern features live entertainment, gaming facilities and a lively, fun bar to meet for a drink. The Deck at Pondo Tavern is Crown Hotel’s alfresco dining experience offering an extensive menu including pizzas, burgers, grills and focaccias.",
+              "right_description": "",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Ballrooms",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg"
+              ],
+              "left_description": "Our Ballrooms are located on the first floor with a square meter of 415 in total and three meeting rooms located on the second floor. Crown Hotel team takes great pride in holding a HASSP (Hazard Analysis Critical Control Point) food safety system certification. This ensures that we are always delivering high quality products whilst complying with NCDC.",
+              "right_description": "",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030002",
+              "name": "Crown Meetings Team",
+              "brand_url": "070300002_1.jpg",
+              "image_urls": [
+                "07030002_1.jpg"
+              ],
+              "left_description": "Our Crown Meetings Team will help you host seminars for 20 or conferences for 400. We’ll tailor our 7 versatile meeting rooms to your banquet, training session or product launch. Our hotel makes business a pleasure and social events a success.",
+              "right_description": "",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Gateway Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "070100001",
+              "name": "DELUXE QUEEN ROOM",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg",
+                "07010001_2.jpg"
+              ],
+              "left_description": "Deluxe rooms contain one Queen Bed. Children up to 12 years of age stay free when sharing with an adult utilising existing bedding.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Cable/Satellite TV\n•  WiFi Internet Access\n•  Tea/coffee making facilities\n•  Opening windows\n•  Shower\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "070100002",
+              "name": "PREMIER KING & SINGLE ROOM",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg",
+                "07010002_2.jpg"
+              ],
+              "left_description": "Premier rooms contain One Queen and One Single Bed. Children up to 12 years of age stay free when sharing with an adult utilising existing bedding.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Most rooms have balconies – please ensure you request a balcony room.\n•  Cable/Satellite TV\n•  WiFi Internet Access\n•  In-room safe\n•  Tea/coffee making facilities\n•  Opening windows\n•  Bath with Shower overhead\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "EXECUTIVE KING ROOM",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg"
+              ],
+              "left_description": "Executive Rooms contain one Queen Bed. Children up to 12 years of age stay free when sharing with an adult utilising existing bedding.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Cable/Satellite TV\n•  WiFi Internet Access\n•  In-room safe\n•  Tea/coffee making facilities\n•  Opening windows\n•  Shower\n•  Hairdryer\n•  Executive rooms feature ample work space",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "PREMIER KING SUITE",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg",
+                "07010004_2.jpg"
+              ],
+              "left_description": "Premier rooms contain One Queen and One Single Bed. Children up to 12 years of age stay free when sharing with an adult utilising existing bedding.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Most rooms have balconies – please ensure you request a balcony room.\n•  Cable/Satellite TV\n•  WiFi Internet Access\n•  In-room safe\n•  Tea/coffee making facilities\n•  Opening windows\n•  Bath with Shower overhead\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "STUDIO APARTMENT",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg"
+              ],
+              "left_description": "Studio Apartments are fully furnished with a sizable work area for maximum productivity. Separate security-controlled entrance, ample parking, access to swimming pool, tennis courts, and gym. Everything you need is ready to move into; just unpack your bags and you are set.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Most rooms have balconies – please ensure you request a balcony room.\n•  Cable/Satellite TV\n•  Datec WiFi Internet Access\n•  In-room safe\n•  Full Kitchen (including Cookware, Crockery, Cutlery, and Glassware)\n•  Laundry (Washing Machine and Dryer)\n•  Opening windows\n•  Shower\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "ONE BEDROOM APARTMENT",
+              "brand_url": "07010006_1.jpg",
+              "image_urls": [
+                "07010006_1.jpg"
+              ],
+              "left_description": "One bedroom Apartments are fully furnished with a sizable work area for maximum productivity. Separate security-controlled entrance, ample parking, access to swimming pool, tennis courts, and gym. Everything you need is ready to move into; just unpack your bags and you are set.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Most rooms have balconies – please ensure you request a balcony room.\n•  Cable/Satellite TV\n•  WiFi Internet Access\n•  In-room safe\n•  Tea/coffee making facilities\n•  Opening windows\n•  Bath with Shower overhead\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010007",
+              "name": "TWO BEDROOM APARTMENT",
+              "brand_url": "07010007_1.jpg",
+              "image_urls": [
+                "07010007_1.jpg"
+              ],
+              "left_description": "Two bedroom Apartments are fully furnished with a sizable work area for maximum productivity. Separate security-controlled entrance, ample parking, access to swimming pool, tennis courts, and gym. Everything you need is ready to move into; just unpack your bags and you are set.",
+              "right_description": "ROOM FACILITIES\n\n•  Individually controlled Air conditioning (HVAC Units)\n•  Most rooms have balconies – please ensure you request a balcony room.\n•  Cable/Satellite TV\n•  Datec WiFi Internet Access\n•  In-room safe\n•  Full Kitchen (including Cookware, Crockery, Cutlery, and Glassware)\n•  Laundry (Washing Machine and Dryer)\n•  Opening windows\n•  Shower\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "The White Orchid",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg",
+                "07020001_3.jpg"
+              ],
+              "left_description": "The Wild Orchid Restaurant offers buffet service. Full Buffet Breakfast is available daily, experience a range of exciting dishes from around the globe our buffets change nightly featuring different cuisine styles.",
+              "right_description": "Breakfast: 6.00am – 10.00am\n\nDinner: 6.00pm – 10.00pm",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "Jackson’s Bar Restaurant & Gaming",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg",
+                "07020002_2.jpg",
+                "07020002_3.jpg"
+              ],
+              "left_description": "Jackson’s Bar Restaurant & Gaming open daily from 10am-11pm the ultimate Dining & Entertainment Venue dine in Jackson’s Restaurant – enjoy gourmet Stone-Fired Pizza’s Char-Grilled Meats and Delicious Pasta! Enjoy a drink with friends on Jackson’s RoofTop Bar overlooking the airfield or play the pokie machines in the Gaming Room.",
+              "right_description": "Open: 10am – 11pm Daily",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "070200003",
+              "name": "Sizzler’s Family Restaurant",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_1.jpg",
+                "07020003_2.jpg",
+                "07020003_3.jpg"
+              ],
+              "left_description": "Sizzler’s Family Restaurant. Steak – Seafood – Salad.",
+              "right_description": "Lunch: Monday-Friday 11am-3pm.\n\nDinner: Monday-Friday 5pm-10pm\n\nSaturday & Sunday all day dining 11am – 10pm",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020004",
+              "name": "Enzo’s Express Takeaway",
+              "brand_url": "07020004_0.jpg",
+              "image_urls": [
+                "07020004_1.jpg",
+                "07020004_2.jpg",
+                "07020004_3.jpg",
+                "07020004_4.jpg",
+                "07020004_5.jpg"
+              ],
+              "left_description": "Home of PNG’s Finest Pizza! Enzo’s Pizzas Pies Sausage Rolls Sandwiches Burgers and Hot Dishes.Drop in and grab a coffee on the way to work or pick up dinner on the way home!",
+              "right_description": "Open: Daily 7am-10pm",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Conferences",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg",
+                "07030001_2.jpg",
+                "07030001_3.jpg",
+                "07030001_4.jpg",
+                "07030001_5.jpg",
+                "07030001_6.jpg"
+              ],
+              "left_description": "Planning a meeting conference or gala event in Port Moresby, Gateway Hotel & Apartments have the facilities and the experienced team to ensure your event is a success. We pride ourselves at meeting your event requirements whatever it is you are planning we have the resources to guarantee success.",
+              "right_description": "Whether it is for 3 or 800 people; a Boardroom Meeting Seminar Training Conference Exhibition Cocktail Party Wedding no event is too small or too large. Our experienced team will be there to assist every step of the way.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "070300002",
+              "name": "Swimming Pool",
+              "brand_url": "07030002_1.jpg",
+              "image_urls": [
+                "07030002_1.jpg",
+                "07030002_2.jpg",
+                "07030002_3.jpg"
+              ],
+              "left_description": "The pool is open from 5.00am to 9.00pm daily.",
+              "right_description": "There is no lifeguard in attendance, so children under 14 years must be supervised by an adult at all times.",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Ela Beach Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "DELUXE QUEEN ROOM",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg"
+              ],
+              "left_description": "Deluxe rooms contain one Queen bed. Children up to 12 years of age stay free when sharing with an adult utilizing existing bedding.",
+              "right_description": "ROOM FACILITIES\n\n•  Hairdryer\n•  Tea/Coffee making\n•  Shower\n•  Satellite/Cable TV\n•  Air conditioning\n•  In-room safe deposit box\n•  Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "PREMIER KING ROOM",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg"
+              ],
+              "left_description": "Premier rooms contain one King bed (bed can be 1 King or 2 Single). Children up to 12 years of age stay free when sharing with an adult utilizing existing bedding.",
+              "right_description": "ROOM FACILITIES\n\n•  Hairdryer\n•  Shower\n•  Satellite/Cable TV\n•  Air-conditioning\n•  Free WiFi\n•  In-room safe deposit box\n•  Tea/Coffee making",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "PREMIER 1 BEDROOM KITCHENETTE",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg"
+              ],
+              "left_description": "Premier 1BRM Suites feature ample work space and one Queen Bed. These suites overlook the swimming pool.",
+              "right_description": "ROOM FACILITIES\n\n•  Shower\n•  Satellite/Cable TV\n•  Air-conditioning\n•  Free WiFi\n•  In-room Safe deposit box\n•  Hairdryer\n•  Tea/Coffee making",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "PREMIER KING SUITE",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg"
+              ],
+              "left_description": "Premier Suites feature ample work space and one King Bed (which can be split into two king singles). These suites overlook Ela Beach.",
+              "right_description": "ROOM FACILITIES\n\n•  Tea/Coffee making\n•  Dryer\n•  Hairdryer\n•  Satellite/Cable TV\n•  Balcony\n•  In-room safe deposit box\n•  Air-conditioning\n•  Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "PREMIER TOWER SUITE",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg"
+              ],
+              "left_description": "Tower Suite rooms contain one Queen Bed. Children up to 12 years of age stay free when sharing with an adult utilizing existing bedding. These suites overlook Ela Beach.",
+              "right_description": "ROOM FACILITIES\n\n•  Tea/Coffee making\n•  Satellite/Cable TV\n•  Balcony\n•  In-room safe deposit box\n•  Air-conditioning\n•  Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "PREMIER 2 BEDROOM KITCHENETTE",
+              "brand_url": "07010006_1.jpg",
+              "image_urls": [
+                "07010006_1.jpg"
+              ],
+              "left_description": "Premier 2BRM Suites feature ample work space, one Queen Bed in each room, each with own ensuite bathroom and tea & coffee making facilities. Each bedroom has a Flat Screen TV with a third in the Lounge/Sitting area. These suites overlook the swimming pool.",
+              "right_description": "ROOM FACILITIES\n\n•  Tea/Coffee making\n•  Dryer\n•  Hairdryer\n•  Satellite/Cable TV\n•  In-room safe deposit box\n•  Air conditioning\n•  Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010007",
+              "name": "PREMIER TOWER 1 BR KITCHENETTE",
+              "brand_url": "07010007_1.jpg",
+              "image_urls": [
+                "07010007_1.jpg"
+              ],
+              "left_description": "Premier 1BRM Tower Suites are perfect for long stays, featuring ample work space, kitchenette, dining table, lounge, Washer/Dryer with Flat Screen TVs in lounge and Bedroom.",
+              "right_description": "ROOM FACILITIES\n\n•  Tea/Coffee making\n•  Satellite/Cable TV\n•  In-room safe deposit box\n•  Air-conditioning\n•  Free WiFi\n•  Hairdryer",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Beachside",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg",
+                "07020001_3.jpg",
+                "07020001_4.jpg",
+                "07020001_5.jpg",
+                "07020001_6.jpg"
+              ],
+              "left_description": "See our great offers in food & beverage across our new menus at Salt restaurant, Beachside Bar, Beachside Bakery, and Enzo’s Express Takeaway serving the best pizzas and other favorite takeaway options!",
+              "right_description": "",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Meetings & Conferences",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg"
+              ],
+              "left_description": "Ela Beach Hotel's close proximity to the CBD is ideal for planning meetings, conferences, or gala events in Port Moresby.",
+              "right_description": "Whether it is for 3 or 100 people; for a Boardroom Meeting, Seminar, Training Conference, Exhibition, Cocktail Party, or Wedding, our experienced team will assist every step of the way.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030002",
+              "name": "Gym",
+              "brand_url": "07030002_1.jpg",
+              "image_urls": [
+                "07030002_1.jpg"
+              ],
+              "left_description": "Enjoy a workout to start or finish the day. The gym has a range of equipment, including Treadmills, Rowing Machine, and weights.",
+              "right_description": "The Gym operating hours are 5.00am -10.00pm daily.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030003",
+              "name": "Business Centre",
+              "brand_url": "07030003_1.jpg",
+              "image_urls": [
+                "07030003_1.jpg"
+              ],
+              "left_description": "All accommodation rooms feature IDD direct dial phones, desk lamp, and chair.",
+              "right_description": " A Business Centre equipped with desktop PCs for internet access is available. Services include word processing, secretarial services, hotocopying, and faxes.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030004",
+              "name": "Swimming Pool",
+              "brand_url": "07030004_1.jpg",
+              "image_urls": [
+                "07030004_1.jpg"
+              ],
+              "left_description": "The main pool, located near the restaurant, is open from 6.00am to 7.00pm daily. Guests in the Premier Suites have access to the lap pool from 6.00am to 10.00pm.",
+              "right_description": "There is no lifeguard in attendance, so children under 14 years must be supervised by an adult at all times.",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Holiday Inn Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "ONE BEDROOM PREMIUM KING ROOM",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg",
+                "07010001_2.jpg",
+                "07010001_3.jpg",
+                "07010001_4.jpg"
+              ],
+              "left_description": "Take in views of the garden and awaken to birdsong from this one bedroom King Bed premium garden view room. Enjoy customisable technology and the mini-fidge throughout your stay for your added convenience.",
+              "right_description": "•  1x King sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "ONE BEDROOM PREMIUM ROOM",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg"
+              ],
+              "left_description": "Enjoy staying in this one bedroom premium room with a balcony. Featuring a mini-fridge and customisable technology, this non-smoking room is idea for single travellers or couples visiting for a short stay.",
+              "right_description": "•  1x King sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "ONE BEDROOM APARTMENT KING",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg",
+                "07010002_1.jpg"
+              ],
+              "left_description": "Overlooking our landscaped gardens, this one bedroom suite features a King Bed and separate living and dining areas. The kitchen includes a microwave and refrigerator for your convenience during your stay.",
+              "right_description": "• 1x King sized bed\n\nFEATURES\n\n• Complimentary Wifi\n• Seaside view or Habourside view\n• Coffee station\n• In-room safe\n• Mini refrigerator\n• 24 hours maintenance\n• 24 hours room service\n• 24 hours house keeping\n• Complimentary airport shuttle\n• Complimentary access to gym & pool\n• Ensuite bathroom\n• Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "FAMILY SUITE",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg"
+              ],
+              "left_description": "Enjoy garden views from the comfort of your suite featuring 1 King Bed and 2 Double Beds. Ideal for families, this suite has separate living, dining and kitchen areas with its own refrigerator and microwave. This non-smoking suite also features customisable technology and a balcony.",
+              "right_description": "•  1x King sized bed and\n•  2x Double sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "ONE BEDROOM APARTMENT STANDARD",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg",
+                "07010005_2.jpg",
+                "07010005_3.jpg"
+              ],
+              "left_description": "Relax in this thoughtfully furnished one bedroom suite with a balcony while separate living, dining and kitchen areas make for a convenient stay while the customisable technology provides comforts of home.",
+              "right_description": "•  1x Double sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Gekko Bar",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg"
+              ],
+              "left_description": "Conveniently located in the garden area adjacent to the swimming pool. Take advantage of the sunlight and fresh air for a casual drink or snack in a garden setting.",
+              "right_description": "Opening hours\nMonday to Sunday from 12:00pm to 11:00pm\n\nFood Service\nMonday to Sunday from 12:00pm to 9:30pm\n\nLive Entertainment\nFridays from 6:30pm to 9:30pm and Saturdays from 6:00pm to 9:00pm\n\nTrivia Night\nEvery Second Thursday of the month from 6:30PM to 9:30PM",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "Junction Beer Garden",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg",
+                "07020002_2.jpg",
+                "07020002_3.jpg",
+                "07020002_4.jpg"
+              ],
+              "left_description": "Settle in and unwind at the Beer Garden at the Junction, Port Moresby’s newest spot to quench your thirst, tuck into a tasty burger or simply sit back and enjoy the live music by local artists.",
+              "right_description": "Open Wednesday to Saturday, between 4:00pm and 10:00pm, with Happy Hour from 5:00pm - 6:30pm.\n\nOffers local and international beers, wines, and a range of cocktails.",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020003",
+              "name": "The Kopi Haus",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_0.jpg"
+              ],
+              "left_description": "Offering a wide menu selection, ideal for breakfast, lunch, dinner, or simply a snack. Enjoy all day dining in air-conditioned comfort or poolside on an open-air deck.",
+              "right_description": "Opening hours: Monday to Sunday from 6.00am to 9.30pm\n\nBreakfast Buffet: Monday to Friday from 6.00am to 10.00am, Saturday to Sunday from 10.30am\n\nLunch Buffet: Daily from 11.30am to 2.30pm\n\nDinner Buffet: Daily from 6:00pm to 9.30pm\n\nA la carte Menu: Available Breakfast, Lunch and Dinner.",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Events & Banquets",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg",
+                "07030001_2.jpg"
+              ],
+              "left_description": "If you’re after a unique and relaxed setting for your next event, look no further than the Beer Garden at the Junction.\n\nFor more information or to view the space, please email james.kurua@ihg.com.",
+              "right_description": "The Beer Garden offers local and international beers, wines, and spirits in a spacious and versatile outdoor setting, ideal for company celebrations, work team get-togethers, birthday celebrations, or sports team gatherings.",
+              "custom_actions": ""
+            }
+          ]
+        }
+      ]
+    }
+  },  {
+    "_id": "",
+    "name": "Holiday Express Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "ONE BEDROOM PREMIUM KING ROOM",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg",
+                "07010001_2.jpg",
+                "07010001_3.jpg",
+                "07010001_4.jpg"
+              ],
+              "left_description": "Take in views of the garden and awaken to birdsong from this one bedroom King Bed premium garden view room. Enjoy customisable technology and the mini-fidge throughout your stay for your added convenience.",
+              "right_description": "•  1x King sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "ONE BEDROOM PREMIUM ROOM",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg"
+              ],
+              "left_description": "Enjoy staying in this one bedroom premium room with a balcony. Featuring a mini-fridge and customisable technology, this non-smoking room is idea for single travellers or couples visiting for a short stay.",
+              "right_description": "•  1x King sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "ONE BEDROOM APARTMENT KING",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg",
+                "07010002_1.jpg"
+              ],
+              "left_description": "Overlooking our landscaped gardens, this one bedroom suite features a King Bed and separate living and dining areas. The kitchen includes a microwave and refrigerator for your convenience during your stay.",
+              "right_description": "• 1x King sized bed\n\nFEATURES\n\n• Complimentary Wifi\n• Seaside view or Habourside view\n• Coffee station\n• In-room safe\n• Mini refrigerator\n• 24 hours maintenance\n• 24 hours room service\n• 24 hours house keeping\n• Complimentary airport shuttle\n• Complimentary access to gym & pool\n• Ensuite bathroom\n• Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "FAMILY SUITE",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg"
+              ],
+              "left_description": "Enjoy garden views from the comfort of your suite featuring 1 King Bed and 2 Double Beds. Ideal for families, this suite has separate living, dining and kitchen areas with its own refrigerator and microwave. This non-smoking suite also features customisable technology and a balcony.",
+              "right_description": "•  1x King sized bed and\n•  2x Double sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "ONE BEDROOM APARTMENT STANDARD",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg",
+                "07010005_2.jpg",
+                "07010005_3.jpg"
+              ],
+              "left_description": "Relax in this thoughtfully furnished one bedroom suite with a balcony while separate living, dining and kitchen areas make for a convenient stay while the customisable technology provides comforts of home.",
+              "right_description": "•  1x Double sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Gekko Bar",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg"
+              ],
+              "left_description": "Conveniently located in the garden area adjacent to the swimming pool. Take advantage of the sunlight and fresh air for a casual drink or snack in a garden setting.",
+              "right_description": "Opening hours\nMonday to Sunday from 12:00pm to 11:00pm\n\nFood Service\nMonday to Sunday from 12:00pm to 9:30pm\n\nLive Entertainment\nFridays from 6:30pm to 9:30pm and Saturdays from 6:00pm to 9:00pm\n\nTrivia Night\nEvery Second Thursday of the month from 6:30PM to 9:30PM",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "Junction Beer Garden",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg",
+                "07020002_2.jpg",
+                "07020002_3.jpg",
+                "07020002_4.jpg"
+              ],
+              "left_description": "Settle in and unwind at the Beer Garden at the Junction, Port Moresby’s newest spot to quench your thirst, tuck into a tasty burger or simply sit back and enjoy the live music by local artists.",
+              "right_description": "Open Wednesday to Saturday, between 4:00pm and 10:00pm, with Happy Hour from 5:00pm - 6:30pm.\n\nOffers local and international beers, wines, and a range of cocktails.",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020003",
+              "name": "The Kopi Haus",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_0.jpg"
+              ],
+              "left_description": "Offering a wide menu selection, ideal for breakfast, lunch, dinner, or simply a snack. Enjoy all day dining in air-conditioned comfort or poolside on an open-air deck.",
+              "right_description": "Opening hours: Monday to Sunday from 6.00am to 9.30pm\n\nBreakfast Buffet: Monday to Friday from 6.00am to 10.00am, Saturday to Sunday from 10.30am\n\nLunch Buffet: Daily from 11.30am to 2.30pm\n\nDinner Buffet: Daily from 6:00pm to 9.30pm\n\nA la carte Menu: Available Breakfast, Lunch and Dinner.",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Events & Banquets",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg",
+                "07030001_2.jpg"
+              ],
+              "left_description": "If you’re after a unique and relaxed setting for your next event, look no further than the Beer Garden at the Junction.\n\nFor more information or to view the space, please email james.kurua@ihg.com.",
+              "right_description": "The Beer Garden offers local and international beers, wines, and spirits in a spacious and versatile outdoor setting, ideal for company celebrations, work team get-togethers, birthday celebrations, or sports team gatherings.",
+              "custom_actions": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Loloata Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "Ocean View Room",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg",
+                "07010001_2.jpg",
+                "07010001_3.jpg",
+                "07010001_4.jpg"
+              ],
+              "left_description": "Our breezy, comfortable Ocean View Room is set within our main resort building with stunning sea views and direct access to our private beach, Bootless Bay Restaurant & Bar, The Beach Club, Sea Salt Spa and our spectacular pool.",
+              "right_description": "• 12 units Available \n• 34 sqm bedroom & 11 sqm private terrace\n• Double king size bed or two twin single beds\n• Uninterrupted ocean views\n• Luxury in-room & bathroom amenities\n• Complimentary buffet breakfast\n• Complimentary Wi-Fi\n• Scheduled land & sea shuttle transfers",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "Ocean View Suite",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg",
+                "07010002_2.jpg",
+                "07010002_3.jpg",
+                "07010002_4.jpg"
+              ],
+              "left_description": "Set within tropical gardens, this modern and well-appointed suite is bright, spacious and has uninterrupted sea views. Slightly secluded, it is romantic and private yet only a short, leisurely stroll to our private beach, Bootless Bay Restaurant & Bar, The Beach Club, Sea Salt Spa and our spectacular pool.",
+              "right_description": "• 34 units Available \n• 30 sqm bedroom & 12 sqm private terrace\n• Double king size bed or two twin single beds\n• Tropical garden access\n• Luxury in-room & bathroom amenities\n• Complimentary buffet breakfast\n• Complimentary Wi-Fi\n• Scheduled land & sea shuttle transfers",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "Over Water Suite",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg",
+                "07010003_2.jpg",
+                "07010003_3.jpg"
+              ],
+              "left_description": "These spectacular suites sit right on the water - sleep to the sound of the sea or sip a coffee on your private terrace and take in the cool early morning air. Romantic and private, these suites are the epitome of luxury.",
+              "right_description": "• 19 units Available \n• Absolute oceanfront\n• 30 sqm bedroom & 30 sqm private over water deck\n• Outdoor shower (subject to availability, in 16 suites)\n• Double king size bed or two twin single beds\n• Luxury in-room & bathroom amenities\n• Complimentary buffet breakfast\n• Complimentary Wi-Fi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "Over Water 2 Bedroom Villas",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg",
+                "07010004_2.jpg",
+                "07010004_3.jpg",
+                "07010004_4.jpg",
+                "07010004_5.jpg",
+                "07010004_6.jpg"
+              ],
+              "left_description": "Our Over Water 2 Bedroom Villa offers a luxurious escape with two en-suite bedrooms, a lounge, and kitchenette, all nestled in a serene over water setting. Spacious interiors and a private deck provide ample room to relax, with easy access to our beach, restaurant, bar, spa, and pool.",
+              "right_description": "• 3 units Available \n• 2 bedrooms and 2 bathrooms\n• Absolute oceanfront\n• 81 sqm bedroom & 44 sqm private over water deck\n• Double king size bed or two twin single beds\n• Kitchenette\n• Lounge\n• Luxury in-room & bathroom amenities\n• Complimentary buffet breakfast\n• Complimentary Wi-Fi\n• Scheduled land & sea shuttle transfers",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Loloata Resort Dining",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg",
+                "07020001_3.jpg",
+                "07020001_4.jpg"
+              ],
+              "left_description": "Loloata Resort has world-class dining options that will make your stay memorable at Loloata Island perfect Bootless bay offer a variety of South pacific inspired and world cuisines, with a great focus on locally sourced produce.",
+              "right_description": "Our inspired chefs are dedicated to a “market and farm to table” food concept. With the highest of standards in every aspect; ambience, meals and drinks at Bootless bay restaurant & bar and The beach club are experiences in themselves; expect your senses and taste buds to be dazzled. In-room dining options are available 24 hours because, with rooms like these, one can easily imagine breakfast at sunrise, sundowners and tapas at sunset or a late bite under the stars - all from the privacy of you balcony or overwater deck.",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Diving",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg",
+                "07030001_2.jpg",
+                "07030001_3.jpg",
+                "07030001_4.jpg",
+                "07030001_5.jpg",
+                "07030001_6.jpg",
+                "07030001_7.jpg",
+                "07030001_8.jpg",
+                "07030001_9.jpg"
+              ],
+              "left_description": "Loloata Island Resort in Bootless Bay offers a diverse range of over 29 dive sites, catering to divers of all levels. While some may overlook this area in favor of Milne Bay or Kimbe Bay, Port Moresby's local dive scene is vibrant, supported by a large expatriate community and characterized by breathtaking offshore and sunken barrier reefs.",
+              "right_description": "Loloata Island Resort, with its long-standing reputation in the international dive community, offers convenient access to prime dive sites within 30 minutes, top-notch dive shop facilities, and an experienced team of instructors and dive guides. Guests can also take advantage of a variety of PADI Dive Courses to either learn to dive or improve their skills. Notably, Loloata is an excellent location for those hoping to spot and photograph the rare and exquisite Rhinopias.",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07030002",
+              "name": "Private Dining & Party",
+              "brand_url": "07030002_1.jpg",
+              "image_urls": [
+                "07030002_1.jpg"
+              ],
+              "left_description": "We can tailor your next event to suit your needs. Let us take care of the party planning. With multiple venue options available at Loloata Island Resort, we can tailor make your event, from 10 to 100 people.",
+              "right_description": "Why Choose Loloata? Stylish set-ups: Whether you crave a glittering ballroom or an 80s glam birthday party, we will make your event unforgettable. Multiple venues: Select from our stunning beach front area, restaurants or conference rooms. Tailored celebrations: Birthdays, engagements, conferences, bachelorette parties – we plan it all, with every moment tailored to your desires.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030003",
+              "name": "Wedding & Romance",
+              "brand_url": "07030003_1.jpg",
+              "image_urls": [
+                "07030003_1.jpg",
+                "07030003_2.jpg"
+              ],
+              "left_description": "Celebrate love at the most stylish wedding resort in Port Moresby. Loloata Island Resort caters for weddings, elopements, and vowel renewals. It's the first day of the rest of your lives together, so share the love and cherish the moment.",
+              "right_description": "With a choice of romantic venues and one of the most comprehensive wedding packages in Port Moresby, the stage is set — the red carpet rolled out to usher in the guests, coming together in celebration of love. From organizing an engagement or anniversary celebration, planning a bachelorette or bachelor party, a grand wedding reception, the after party, a glam birthday or whatever you feel like celebrating, every detail is bespoke, every moment at Loloata is planned to perfection.",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Grandpapua Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "Premier King",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg"
+              ],
+              "left_description": "The Grand Papua Hotel’s Premier Rooms sleeps two people comfortably, with either a bedding configuration of one king or two king single beds.\n\nEach room comes with 2 bottles of complimentary water per day (600ml) plus tea and coffee facilities, 32” flat screen television with 30 satellite channels, work desk with wireless & cable Internet, in-room safe, iron & ironing board, hairdryer, bathrobes and complimentary toiletries.",
+              "right_description": "ROOM FACILITIES:\n\n• Hairdryer\n• Tea/Coffee making\n• Opening windows\n• Shower\n• Satellite/Cable TV\n• Balcony\n• Ironing board\n• Air conditioning\n• In-room safe deposit box\n• Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "Ladies King",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg"
+              ],
+              "left_description": "The Ladies King rooms are located on the 9th and 10th floors with key card access only. Suitable for single female travellers or couples only.\n\nEach room comes with 2 bottles of complimentary water per day (600ml) plus tea and coffee facilities, 32” flat screen television with 30 satellite channels, work desk with wireless & cable Internet, in-room safe, iron & ironing board, hairdryer, bathrobes and complimentary toiletries.",
+              "right_description": "ROOM FACILITIES:\n\n• Hairdryer\n• Shower\n• Satellite/Cable TV\n• Ironing board\n• Air-conditioning\n• Balcony\n• Free WiFi\n• In-room safe deposit box\n• Tea/Coffee making",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "Executive King",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg"
+              ],
+              "left_description": "Executive King rooms, on floors 8-14, offer complimentary access to the 15th-floor Executive Lounge. Enjoy daily breakfast, Happy Hour, and a Business Centre.\n\nThese rooms sleep two, with options of one king or two king single beds.",
+              "right_description": "ROOM FACILITIES:\n\n• Shower\n• Satellite/Cable TV\n• Ironing board\n• Air-conditioning\n• Balcony\n• Free WiFi\n• In-room Safe deposit box\n• Hairdryer\n• Tea/Coffee making",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "Ladies Suite",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg"
+              ],
+              "left_description": "This air-conditioned suite includes a kitchen, laundry, separate living area with a desk, a 42-inch flat-screen TV and an iPod docking station. Suitable for single female travellers or couples only.",
+              "right_description": "ROOM FACILITIES:\n\n• Dishwasher\n• Tea/Coffee making\n• Dryer\n• Hairdryer\n• Full kitchen\n• Satellite/Cable TV\n• Balcony\n• Ironing board\n• Separate shower & bath\n• Microwave\n• In-room safe deposit box\n• Washing machine\n• Air-conditioning\n• Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "Executive Suite",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg"
+              ],
+              "left_description": "This air-conditioned suite features a balcony offering sea views. It includes a kitchen, laundry, separate living area with a desk, a 42-inch flat-screen TV and an iPod docking station.",
+              "right_description": "ROOM FACILITIES:\n\n• Dishwasher\n• Tea/Coffee making\n• Dryer\n• Hairdryer\n• Full kitchen\n• Satellite/Cable TV\n• Balcony\n• Ironing board\n• Separate Shower & Bath\n• Microwave\n• In-room safe deposit box\n• Washing machine\n• Air conditioning\n• Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "Premier Suite",
+              "brand_url": "07010006_1.jpg",
+              "image_urls": [
+                "07010006_1.jpg"
+              ],
+              "left_description": "This air-conditioned suite features a balcony offering sea views. It includes a kitchen, laundry, separate living area with a desk, a 42-inch flat-screen TV.",
+              "right_description": "ROOM FACILITIES:\n\n• Hairdryer\n• Tea/Coffee making\n• Opening windows\n• Shower\n• Satellite/Cable TV\n• Balcony\n• Ironing board\n• Air conditioning\n• In-room safe deposit box\n• Free WiFi",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010007",
+              "name": "Grand Junior Suite",
+              "brand_url": "07010007_1.jpg",
+              "image_urls": [
+                "07010007_1.jpg"
+              ],
+              "left_description": "This air-conditioned suite is located on the top floor. It features a balcony offering sea views, a kitchenette, and a 32-inch flat-screen TV.",
+              "right_description": "ROOM FACILITIES:\n\n• Dishwasher\n• Tea/Coffee making\n• Full kitchen\n• Satellite/Cable TV\n• Balcony\n• Ironing board\n• Separate shower & bath\n• Microwave\n• In-room safe deposit box\n• Washing machine\n• Air conditioning\n• Free WiFi\n• Hairdryer",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010008",
+              "name": "Grand Suite",
+              "brand_url": "07010008_1.jpg",
+              "image_urls": [
+                "07010008_1.jpg",
+                "07010008_2.jpg",
+                "07010008_3.jpg",
+                "07010008_4.jpg",
+                "07010008_5.jpg",
+                "07010008_6.jpg",
+                "07010008_7.jpg"
+              ],
+              "left_description": "This air-conditioned suite is located on the top floor. It features a reception area, a balcony offering sea views and a full kitchen with a dishwasher.",
+              "right_description": "ROOM FACILITIES:\n\n• Dishwasher\n• Tea/Coffee making\n• Dryer\n• Hairdryer\n• Full kitchen\n• Satellite/Cable TV\n• Balcony\n• Ironing board\n• Separate Shower & Bath\n• Microwave\n• In-room safe deposit box\n• Washing machine\n• Air conditioning\n• Free WiFi",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Grand Brasserie",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg"
+              ],
+              "left_description": "Located on the main reception level of the hotel, the Grand Brasserie is open daily for breakfast, lunch and dinner.",
+              "right_description": "Breakfast: 6am – 10am, Buffet Breakfast\n\nLunch: 12pm – 3pm\n\nDinner: 6pm – 10pm\n\nThe Grand Brasserie A la Carte dining menu features modern fresh flavours, paired with a wine list complementing the dishes.",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "Grand Bar",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg",
+                "07020002_2.jpg",
+                "07020002_3.jpg"
+              ],
+              "left_description": "The Grand Bar is the perfect place for a coffee & snack during the day and a great venue to help you unwind at the end of the day.",
+              "right_description": "With marble finishings, high ceilings, timber floors and wooden shutters opening to sea breezes from Ela Beach, guests can relax indoors or on the terrace in contemporary-colonial ambience.\n\nSit back in a designer tub chair or pull up a leather bar stool at the Grand Papua Hotel’s elegant Grand Bar. The Grand Bar also offers a private room for discreet meetings or private parties. Reservations are essential.",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020003",
+              "name": "Executive Club Lounge",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_1.jpg"
+              ],
+              "left_description": "Escape to the Grand Papua Hotel's executive club lounge, Port Moresby's largest, boasting panoramic views of the city and harbor through its floor-to-ceiling windows.",
+              "right_description": "This tranquil retreat on the 15th floor is exclusive to suite guests or those paying an additional supplement. The contemporary open-plan design, with various seating options, creates the perfect environment for informal meetings with clients, colleagues, or friends. Business travellers will appreciate the state-of-the-art facilities, including Apple Macs, printers, facsimile, stationary, and wireless Internet.",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020004",
+              "name": "Grand Cafe",
+              "brand_url": "07020004_0.jpg",
+              "image_urls": [
+                "07020004_1.jpg"
+              ],
+              "left_description": "Serving fresh, quick and convenient take away meals including wraps, sandwiches, pies, daily hot dish, pastries and cakes, beverages and our signature blend of coffee.",
+              "right_description": "Open Monday to Friday 6.30am – 5pm\n\nSaturday 6.30am – 1.30pm",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020005",
+              "name": "Poolside Terrace",
+              "brand_url": "07020005_0.jpg",
+              "image_urls": [
+                "07020005_1.jpg",
+                "07020005_2.jpg",
+                "07020005_3.jpg"
+              ],
+              "left_description": "The Poolside terrace offers alfresco dining whilst enjoying the sun, pool and jacuzzi.",
+              "right_description": "The pool & jacuzzi is open to hotel guests only.",
+              "custom_actions": ""
+            }
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Conference",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg"
+              ],
+              "left_description": "Host your next function in a venue of Grand Status. The Grand Papua Hotel offers the perfect conference venue for your next corporate event.",
+              "right_description": "We offer flexible meeting and banquet venues, and an array of supporting services that can assist you with virtually any function or event.\n\nOur experienced events team is also on standby to help you plan every detail to ensure your event is a memorable success. Our venues include three executive board rooms located on the 15th floor and six rooms spread over levels B1 & B2.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030002",
+              "name": "Grand Spa",
+              "brand_url": "07030002_1.jpg",
+              "image_urls": [
+                "07030002_1.jpg",
+                "07030002_2.jpg",
+                "07030002_3.jpg"
+              ],
+              "left_description": "The Grand Spa & Beauty Salon is Port Moresby’s most innovative and luxurious wellness centre.",
+              "right_description": "Experience the splendour of ambient glow of burning candles, soothing music and the lingering scent of essential oils among the chic design incorporating dark timber wall and floors with splashes of bright lemon swirls. The retreat is one of the finest facilities at the deluxe hotel located in the heart of Port Moresby’s CBD.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030003",
+              "name": "Gym",
+              "brand_url": "07030003_1.jpg",
+              "image_urls": [
+                "07030003_1.jpg",
+                "07030003_2.jpg",
+                "07030003_3.jpg",
+                "07030003_4.jpg"
+              ],
+              "left_description": "There is much to delight the fitness enthusiast at The Grand Papua, including state-of-the-art resistance machines, treadmills, cross trainers and comprehensive free weights.",
+              "right_description": "Work out whilst you enjoy the views overlooking Ela Beach or the latest entertainment provided by the in-machine monitors. Our change rooms bring your session to a most relaxing close with showers and even a unisex steam room.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030004",
+              "name": "Pool",
+              "brand_url": "07030004_1.jpg",
+              "image_urls": [
+                "07030004_1.jpg",
+                "07030004_2.jpg"
+              ],
+              "left_description": "As a guest you have an open invitation to practise your backstroke in the 15-metre long swimming pool, located on the main terrace of the lobby level at the Grand Papua Hotel.",
+              "right_description": "After a few laps, take a break in the Jacuzzi or just soak up the sun on one of our many sun lounges. The pool area has an atmosphere of Grand relaxation. Refreshments are served by attendants mindful of your preferences.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030005",
+              "name": "Hair Salon",
+              "brand_url": "07030005_1.jpg",
+              "image_urls": [
+                "07030005_1.jpg"
+              ],
+              "left_description": "We take pride in our work and understand that communication is the key to creating a look and style that suits you and your life style.",
+              "right_description": "Enjoy the reasonably priced services in a relaxed and friendly atmosphere away from the hustle and bustle of Port Moresby.",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "",
+    "name": "Stanely Hotel",
+    "hotel_logo": "hotel_logo.jpg",
+    "hotel_slides": [
+      "banner_1.jpg",
+      "banner_2.jpg"
+    ],
+    "hotel_videos": [
+      "v1.mp4",
+      "v2.mp4",
+      "v3.mp4",
+      "v4.mp4",
+      "v5.mp4",
+      "v6.mp4",
+      "v7.mp4"
+    ],
+    "attributes": {
+      "global_id": "07000000",
+      "name": "our hotel",
+      "attributes_inner": "overlay",
+      "attributes_is_index": true,
+      "attributes": [
+        {
+          "global_id": "07010000",
+          "name": "Rooms & Suites",
+          "attributes_inner": "sidebar",
+          "image_url": "07010000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07010001",
+              "name": "Standard Twin",
+              "brand_url": "07010001_1.jpg",
+              "image_urls": [
+                "07010001_1.jpg"
+              ],
+              "left_description": "All rooms come with two Queen-sized beds, a work desk, monsoon shower and face either north with a fabulous view overlooking the pool, or south overlooking the Owen Stanley Mountain Range.",
+              "right_description": "Size: 34sqm\n\nBed: Two Queens\n\nLocation: From 5th to 8th floors\n\nOccupancy: Two adults and Two children, or Three adults",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010002",
+              "name": "Deluxe King",
+              "brand_url": "07010002_1.jpg",
+              "image_urls": [
+                "07010002_1.jpg"
+              ],
+              "left_description": "Our modern Deluxe rooms come with one King-sized bed, a work desk, a spacious bathroom with monsoon shower head and offer views of either the pool or Waigani skyline at night and the Owen Stanley Mountain Range in the morning.",
+              "right_description": "Size: 34sqm\n\nBed: One King\n\nLocation: From 9th to 12th floors\n\nOccupancy: Two adults",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010003",
+              "name": "Executive King",
+              "brand_url": "07010003_1.jpg",
+              "image_urls": [
+                "07010003_1.jpg"
+              ],
+              "left_description": "Located on high floors and the rooms come with one King-sized bed, a work desk, a spacious bathroom with monsoon shower head and offer views of either the pool or Waigini skyline at night and the Owen Stanley Mountain Range in the morning.",
+              "right_description": "Size: 34sqm\n\nBed: One King\n\nLocation: From 14th to 18th floors\n\nOccupancy: Two adults",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010004",
+              "name": "Corner Suite",
+              "brand_url": "07010004_1.jpg",
+              "image_urls": [
+                "07010004_1.jpg",
+                "07010004_2.jpg"
+              ],
+              "left_description": "The Corner Suites feature a sumptuous living experience with views of Waigani skyline and the Owen Stanley Mountains.",
+              "right_description": "Size: 68sqm\n\nBed: One Super King\n\nLocation: From 5th to 18th floors\n\nOccupancy: Two adults",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010005",
+              "name": "Junior Suite",
+              "brand_url": "07010005_1.jpg",
+              "image_urls": [
+                "07010005_1.jpg"
+              ],
+              "left_description": "Luxuriously spacious, this elegant suite in The Stanley Hotel and Suites is ideal for work or entertaining and offers top-floor views of the pool area.",
+              "right_description": "Size: 130sqm\n\nBed: One Super King and one king\n\nLocation: 20th Floor\n\nOccupancy: Two adults and One child, or Four Adults",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07010006",
+              "name": "Presidential Suite",
+              "brand_url": "07010006_1.jpg",
+              "image_urls": [
+                "07010006_1.jpg",
+                "07010006_2.jpg"
+              ],
+              "left_description": "Enjoy the grand living spaces, stunning top-floor views of the Own Stanley Mountain ranges and National Stadium from this expansive luxury suite in The Stanley Hotel & Suites.",
+              "right_description": "Size: 340sqm\n\nBed: One Super King and Two Queen\n\nLocation: 20th Floor\n\nOccupancy: Two adults and Two Children, or Four Adults",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        },
+        {
+          "global_id": "07020000",
+          "name": "Dining",
+          "attributes_inner": "sidebar",
+          "image_url": "07020000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07020001",
+              "name": "Green Haus Restaurant",
+              "brand_url": "07020001_0.jpg",
+              "image_urls": [
+                "07020001_1.jpg",
+                "07020001_2.jpg",
+                "07020001_3.jpg",
+                "07020001_4.jpg"
+              ],
+              "left_description": "Get your day off to a great start at Green Haus Restaurant, Port Moresby's premier venue for casual dining.",
+              "right_description": "Green Haus offers healthy options, live cooking stations, artisan breads, New Guinean coffee and homemade pastries as well as some traditional breakfast classics.\n\nOpen breakfast, lunch and dinner from 6am to 10pm.\n\nCUISINE: International Contemporary Cuisine\n\nPRICE GUIDE: Entree: K40, Main: K75, Dessert: K40",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020002",
+              "name": "Rain Forest Cafe",
+              "brand_url": "07020002_0.jpg",
+              "image_urls": [
+                "07020002_1.jpg"
+              ],
+              "left_description": "Flooded with natural light, The Rain Forest Cafe is an ideal meeting place for social and business interactions.",
+              "right_description": "The cafe serves up endless options to tempt your taste buds with homemade cakes, muffins, pastries, cookies and great coffee.\n\nOpen daily 6am to 6.30pm.\n\nCUISINE: Café Cuisine\n\nPRICE GUIDE: Entree: K20, Main: K45, Dessert: K20",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020003",
+              "name": "Monsoon Lounge and Bar",
+              "brand_url": "07020003_0.jpg",
+              "image_urls": [
+                "07020003_1.jpg",
+                "07020003_2.jpg",
+                "07020003_3.jpg"
+              ],
+              "left_description": "Offering relaxation and comfort along with a lively atmosphere, Monsoon Lounge is a sophisticated yet casual place for a drink with friends or just a different night out.",
+              "right_description": "Full table service, an extensive cocktail list and a delicious food menu designed from our culinary team places Monsoon among the top venues in Port Moresby.\n\nOpen daily from 3pm until late.\n\nCUISINE: Bar/Cocktail Lounge",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020004",
+              "name": "The Pool Deck",
+              "brand_url": "07020004_0.jpg",
+              "image_urls": [
+                "07020004_1.jpg"
+              ],
+              "left_description": "A casual dining experience to rival a day at the beach, The Pool Deck enables guests to recover from a long work day or simply relax in a luxurious setting.",
+              "right_description": "The Pool Bar is open weekdays 11am to 7pm and weekends 11am to 9.30pm.\n\nCUISINE: Bar/Cocktail lounge",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020005",
+              "name": "Silver Leaf",
+              "brand_url": "07020005_0.jpg",
+              "image_urls": [
+                "07020005_1.jpg",
+                "07020005_2.jpg",
+                "07020005_3.jpg",
+                "07020005_4.jpg",
+                "07020005_5.jpg"
+              ],
+              "left_description": "With lavish interiors and breathtaking views of the city, our fine dining restaurant is the place for any occasion.",
+              "right_description": "This 60 seater restaurant provides guests with an unprecedented dining experience offering simplicity, quality and consistency in all aspects of food, wine and service.\n\nOpen Monday to Saturday 6pm to 10pm and closed on Sundays.\n\nCUISINE: Fine Dining\n\nPRICE GUIDE: Entree: K50, Main: K95, Dessert: K50",
+              "custom_actions": ""
+            },
+            {
+              "global_id": "07020006",
+              "name": "MEZZ BAR",
+              "brand_url": "07020006_0.jpg",
+              "image_urls": [
+                "07020006_1.jpg"
+              ],
+              "left_description": "An elegant bar with a classy setting, hidden away above Level 19 of The Stanley Hotel and Suites.\n\nMezz Bar is the perfect place to start or finish your night. Treat yourself to an extensive selection of carefully crafted cocktails, available exclusively at Mezz Bar, along with international wines and premium whiskeys. This bar is a unique destination to visit.",
+              "right_description": "Open Monday to Saturday 4pm until late and closed on Sundays. Smart casual dress code.\n\nCUISINE: Bar\n\nWIFI: Yes\n\nPARKING: Yes\n\nCOURTESY TRANSPORT: Yes\n\nCARDS ACCEPTED: Amex, MC, Visa",
+              "custom_actions": ""
+            }            
+          ]
+        },
+        {
+          "global_id": "07030000",
+          "name": "Conference & Events Facilities",
+          "attributes_inner": "sidebar",
+          "image_url": "07030000_1.jpg",
+          "attributes": [
+            {
+              "global_id": "07030001",
+              "name": "Zen Spa",
+              "brand_url": "07030001_1.jpg",
+              "image_urls": [
+                "07030001_1.jpg"
+              ],
+              "left_description": "Float away from all your cares and worries in this opulent and serene setting that promises to indulge the senses.",
+              "right_description": "The SPA has highly trained masseurs on staff who are experienced in a range of message techniques such as Swedish, deep tissue and sports massage. Combine your message with a spa treatment to complete your pampering and relaxation.\n\nLocated: on Level 3\nOpen: 10AM-10PM",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030002",
+              "name": "Fitness Centre",
+              "brand_url": "07030002_1.jpg",
+              "image_urls": [
+                "07030002_1.jpg"
+              ],
+              "left_description": "Located on the fifth level adjacent to the pool, our fitness centre offers a full range of aerobic machines, free weights, and cable weight equipment.",
+              "right_description": "We can write you a training program or provide a Personal Trainer if desired.\n\nLocated: on Level 5\nOpen: 5:00 AM - 10PM",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030003",
+              "name": "The Pool",
+              "brand_url": "07030003_1.jpg",
+              "image_urls": [
+                "07030003_1.jpg"
+              ],
+              "left_description": "Enjoy the hotel's 3,000 square meter pool deck area and pool boasting a 40-meter lap pool.",
+              "right_description": "Whether for leisure or fitness, this stylish outside area is the perfect place to relax and unwind. The Pool Deck has all your needs covered, from delicious fish and chips to ice cream or and iced cold beverage.\n\nLocated: on Level 5\nThis area is open from 5am until 10pm.",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030004",
+              "name": "Owen's Market",
+              "brand_url": "07030004_1.jpg",
+              "image_urls": [
+                "07030004_1.jpg"
+              ],
+              "left_description": "Did you forget to pack something? Owen's market has everything you need!",
+              "right_description": "We stock anything from fresh produce, snacks, toiletries, drinks to fresh meat, food and beverage gourmet items, in-house made delicatessen and even our famous roast chicken!",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030005",
+              "name": "Boardroom",
+              "brand_url": "07030005_1.jpg",
+              "image_urls": [
+                "07030005_1.jpg",
+                "07030005_2.jpg",
+                "07030005_3.jpg"
+              ],
+              "left_description": "The Boardroom, conveniently located in the hotel lobby next to the Business Centre, is perfectly suited for a business meeting or intimate discussions for up to 12 people.",
+              "right_description": "Please contact +675 302 8888 for more information",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030006",
+              "name": "Mt Wilhelm Rooms",
+              "brand_url": "07030006_1.jpg",
+              "image_urls": [
+                "07030006_1.jpg"
+              ],
+              "left_description": "A suite of smaller meeting rooms with direct access onto a large outdoor terrace.",
+              "right_description": "Rooms have the flexibility to accommodate a variety of configurations. The rooms can cater for meetings for 20 people or for up to 60 people.\n\nPlease contact +675 302 8888 for more information",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030007",
+              "name": "Mt Victoria Rooms",
+              "brand_url": "07030007_1.jpg",
+              "image_urls": [
+                "07030007_1.jpg"
+              ],
+              "left_description": "A suite of smaller meeting rooms featuring natural lightning.",
+              "right_description": "Rooms have the flexibility to accommodate a variety of configurations. The rooms can cater for meetings for 20 people or for up to 60 people.\n\nPlease contact +675 302 8888 for more information",
+              "custom_actions": "no-brand-picture"
+            },
+            {
+              "global_id": "07030008",
+              "name": "Kokoda Ballroom",
+              "brand_url": "07030008_1.jpg",
+              "image_urls": [
+                "07030008_1.jpg",
+                "07030008_2.jpg",
+                "07030008_3.jpg",
+                "07030008_4.jpg",
+                "07030008_5.jpg",
+                "07030008_6.jpg",
+                "07030008_7.jpg",
+                "07030008_8.jpg",
+                "07030008_9.jpg"
+              ],
+              "left_description": "The signature space of The Stanley's Meeting Spaces; a 1630 square meter room is the largest column free banquet space in Port Moresby.",
+              "right_description": "The Kokoda can be minimised to smaller zones in various configurations. Whether you are planning a grand wedding, an intimate cocktail party or an important seminar, The Stanley offers tailored packages for every occasion.\n\nPlease contact +675 302 8888 for more information",
+              "custom_actions": "no-brand-picture"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
